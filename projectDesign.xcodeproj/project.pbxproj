@@ -9,21 +9,53 @@
 /* Begin PBXBuildFile section */
 		0F1B446324398F0900148B21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1B446224398F0900148B21 /* AppDelegate.swift */; };
 		0F1B446524398F0900148B21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1B446424398F0900148B21 /* SceneDelegate.swift */; };
-		0F1B446724398F0900148B21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1B446624398F0900148B21 /* ViewController.swift */; };
 		0F1B446A24398F0900148B21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F1B446824398F0900148B21 /* Main.storyboard */; };
 		0F1B446C24398F0A00148B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F1B446B24398F0A00148B21 /* Assets.xcassets */; };
 		0F1B446F24398F0A00148B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F1B446D24398F0A00148B21 /* LaunchScreen.storyboard */; };
+		11CC839421FDC3348C6ED377 /* Pods_projectDesignTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867195A6FAEAA8C5F0BE4627 /* Pods_projectDesignTests.framework */; };
+		8B1CE63E2450F92D00E63CF9 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1CE63D2450F92D00E63CF9 /* Quiz.swift */; };
+		8B1CE6402450F94500E63CF9 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1CE63F2450F94500E63CF9 /* Question.swift */; };
+		8B1CE642245105AF00E63CF9 /* FrontPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1CE641245105AF00E63CF9 /* FrontPageViewController.swift */; };
+		8B1CE6442451062900E63CF9 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1CE6432451062900E63CF9 /* OptionsViewController.swift */; };
+		8B1CE6462451064200E63CF9 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1CE6452451064200E63CF9 /* StatisticsViewController.swift */; };
+		8B1CE6482451094C00E63CF9 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1CE6472451094C00E63CF9 /* Usuario.swift */; };
+		8BDCB5CC2450EC3B008D991A /* ViewController_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDCB5CB2450EC3B008D991A /* ViewController_test.swift */; };
+		F32C87C2F78CFBC3DEC1B96A /* Pods_projectDesign.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC06CB814EF8555E3852B2B5 /* Pods_projectDesign.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8BDCB5CE2450EC3B008D991A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F1B445724398F0900148B21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F1B445E24398F0900148B21;
+			remoteInfo = projectDesign;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		0F1B445F24398F0900148B21 /* projectDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projectDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AE24EC4B9CC83AD130C524 /* Pods-projectDesign.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectDesign.release.xcconfig"; path = "Target Support Files/Pods-projectDesign/Pods-projectDesign.release.xcconfig"; sourceTree = "<group>"; };
+		0F1B445F24398F0900148B21 /* Quimica-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quimica-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F1B446224398F0900148B21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F1B446424398F0900148B21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0F1B446624398F0900148B21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0F1B446924398F0900148B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F1B446B24398F0A00148B21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F1B446E24398F0A00148B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F1B447024398F0A00148B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76C824F8B383657F8489BEC7 /* Pods-projectDesignTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectDesignTests.debug.xcconfig"; path = "Target Support Files/Pods-projectDesignTests/Pods-projectDesignTests.debug.xcconfig"; sourceTree = "<group>"; };
+		867195A6FAEAA8C5F0BE4627 /* Pods_projectDesignTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_projectDesignTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1CE63D2450F92D00E63CF9 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		8B1CE63F2450F94500E63CF9 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		8B1CE641245105AF00E63CF9 /* FrontPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontPageViewController.swift; sourceTree = "<group>"; };
+		8B1CE6432451062900E63CF9 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		8B1CE6452451064200E63CF9 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		8B1CE6472451094C00E63CF9 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		8BDCB5C92450EC3B008D991A /* projectDesignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = projectDesignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BDCB5CB2450EC3B008D991A /* ViewController_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_test.swift; sourceTree = "<group>"; };
+		8BDCB5CD2450EC3B008D991A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A692D0E5AB686D1B2D89A367 /* Pods-projectDesign.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectDesign.debug.xcconfig"; path = "Target Support Files/Pods-projectDesign/Pods-projectDesign.debug.xcconfig"; sourceTree = "<group>"; };
+		BA769904BE0F4ED6A304C893 /* Pods-projectDesignTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectDesignTests.release.xcconfig"; path = "Target Support Files/Pods-projectDesignTests/Pods-projectDesignTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC06CB814EF8555E3852B2B5 /* Pods_projectDesign.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_projectDesign.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +63,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F32C87C2F78CFBC3DEC1B96A /* Pods_projectDesign.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BDCB5C62450EC3B008D991A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CC839421FDC3348C6ED377 /* Pods_projectDesignTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CCE6CEDECFDB8E92C192027 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A692D0E5AB686D1B2D89A367 /* Pods-projectDesign.debug.xcconfig */,
+				03AE24EC4B9CC83AD130C524 /* Pods-projectDesign.release.xcconfig */,
+				76C824F8B383657F8489BEC7 /* Pods-projectDesignTests.debug.xcconfig */,
+				BA769904BE0F4ED6A304C893 /* Pods-projectDesignTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		0F1B445624398F0900148B21 = {
 			isa = PBXGroup;
 			children = (
 				0F1B446124398F0900148B21 /* projectDesign */,
+				8BDCB5CA2450EC3B008D991A /* Testing */,
 				0F1B446024398F0900148B21 /* Products */,
+				0CCE6CEDECFDB8E92C192027 /* Pods */,
+				EB54C909196D83ED0A0660C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		0F1B446024398F0900148B21 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0F1B445F24398F0900148B21 /* projectDesign.app */,
+				0F1B445F24398F0900148B21 /* Quimica-App.app */,
+				8BDCB5C92450EC3B008D991A /* projectDesignTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +112,62 @@
 		0F1B446124398F0900148B21 /* projectDesign */ = {
 			isa = PBXGroup;
 			children = (
-				0F1B446224398F0900148B21 /* AppDelegate.swift */,
-				0F1B446424398F0900148B21 /* SceneDelegate.swift */,
-				0F1B446624398F0900148B21 /* ViewController.swift */,
-				0F1B446824398F0900148B21 /* Main.storyboard */,
+				8B1CE63C2450F86B00E63CF9 /* System */,
+				8B1CE63B2450F85C00E63CF9 /* Controllers */,
+				8B1CE63A2450F84B00E63CF9 /* Storyboards */,
 				0F1B446B24398F0A00148B21 /* Assets.xcassets */,
 				0F1B446D24398F0A00148B21 /* LaunchScreen.storyboard */,
+				0F1B446224398F0900148B21 /* AppDelegate.swift */,
 				0F1B447024398F0A00148B21 /* Info.plist */,
 			);
 			path = projectDesign;
+			sourceTree = "<group>";
+		};
+		8B1CE63A2450F84B00E63CF9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0F1B446424398F0900148B21 /* SceneDelegate.swift */,
+				0F1B446824398F0900148B21 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8B1CE63B2450F85C00E63CF9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B1CE641245105AF00E63CF9 /* FrontPageViewController.swift */,
+				8B1CE6432451062900E63CF9 /* OptionsViewController.swift */,
+				8B1CE6452451064200E63CF9 /* StatisticsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8B1CE63C2450F86B00E63CF9 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				8B1CE63D2450F92D00E63CF9 /* Quiz.swift */,
+				8B1CE6472451094C00E63CF9 /* Usuario.swift */,
+				8B1CE63F2450F94500E63CF9 /* Question.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		8BDCB5CA2450EC3B008D991A /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				8BDCB5CB2450EC3B008D991A /* ViewController_test.swift */,
+				8BDCB5CD2450EC3B008D991A /* Info.plist */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
+		EB54C909196D83ED0A0660C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC06CB814EF8555E3852B2B5 /* Pods_projectDesign.framework */,
+				867195A6FAEAA8C5F0BE4627 /* Pods_projectDesignTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +177,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F1B447324398F0A00148B21 /* Build configuration list for PBXNativeTarget "projectDesign" */;
 			buildPhases = (
+				6D54A2341A789BFB8BB345B1 /* [CP] Check Pods Manifest.lock */,
 				0F1B445B24398F0900148B21 /* Sources */,
 				0F1B445C24398F0900148B21 /* Frameworks */,
 				0F1B445D24398F0900148B21 /* Resources */,
@@ -84,8 +188,27 @@
 			);
 			name = projectDesign;
 			productName = projectDesign;
-			productReference = 0F1B445F24398F0900148B21 /* projectDesign.app */;
+			productReference = 0F1B445F24398F0900148B21 /* Quimica-App.app */;
 			productType = "com.apple.product-type.application";
+		};
+		8BDCB5C82450EC3B008D991A /* projectDesignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BDCB5D22450EC3B008D991A /* Build configuration list for PBXNativeTarget "projectDesignTests" */;
+			buildPhases = (
+				B6D95879FE933B3F202E1185 /* [CP] Check Pods Manifest.lock */,
+				8BDCB5C52450EC3B008D991A /* Sources */,
+				8BDCB5C62450EC3B008D991A /* Frameworks */,
+				8BDCB5C72450EC3B008D991A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BDCB5CF2450EC3B008D991A /* PBXTargetDependency */,
+			);
+			name = projectDesignTests;
+			productName = projectDesignTests;
+			productReference = 8BDCB5C92450EC3B008D991A /* projectDesignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -99,6 +222,10 @@
 				TargetAttributes = {
 					0F1B445E24398F0900148B21 = {
 						CreatedOnToolsVersion = 11.4;
+					};
+					8BDCB5C82450EC3B008D991A = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 0F1B445E24398F0900148B21;
 					};
 				};
 			};
@@ -116,6 +243,7 @@
 			projectRoot = "";
 			targets = (
 				0F1B445E24398F0900148B21 /* projectDesign */,
+				8BDCB5C82450EC3B008D991A /* projectDesignTests */,
 			);
 		};
 /* End PBXProject section */
@@ -131,20 +259,95 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8BDCB5C72450EC3B008D991A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D54A2341A789BFB8BB345B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-projectDesign-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6D95879FE933B3F202E1185 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-projectDesignTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0F1B445B24398F0900148B21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F1B446724398F0900148B21 /* ViewController.swift in Sources */,
+				8B1CE6482451094C00E63CF9 /* Usuario.swift in Sources */,
+				8B1CE6402450F94500E63CF9 /* Question.swift in Sources */,
 				0F1B446324398F0900148B21 /* AppDelegate.swift in Sources */,
+				8B1CE642245105AF00E63CF9 /* FrontPageViewController.swift in Sources */,
+				8B1CE6442451062900E63CF9 /* OptionsViewController.swift in Sources */,
+				8B1CE63E2450F92D00E63CF9 /* Quiz.swift in Sources */,
 				0F1B446524398F0900148B21 /* SceneDelegate.swift in Sources */,
+				8B1CE6462451064200E63CF9 /* StatisticsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BDCB5C52450EC3B008D991A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BDCB5CC2450EC3B008D991A /* ViewController_test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BDCB5CF2450EC3B008D991A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F1B445E24398F0900148B21 /* projectDesign */;
+			targetProxy = 8BDCB5CE2450EC3B008D991A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0F1B446824398F0900148B21 /* Main.storyboard */ = {
@@ -282,6 +485,7 @@
 		};
 		0F1B447424398F0A00148B21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A692D0E5AB686D1B2D89A367 /* Pods-projectDesign.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,8 +494,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = itesm.projectDesign;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "itesm.quimica-app";
+				PRODUCT_NAME = "Quimica-App";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,6 +503,7 @@
 		};
 		0F1B447524398F0A00148B21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03AE24EC4B9CC83AD130C524 /* Pods-projectDesign.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -307,10 +512,50 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = itesm.projectDesign;
+				PRODUCT_BUNDLE_IDENTIFIER = "itesm.quimica-app";
+				PRODUCT_NAME = "Quimica-App";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8BDCB5D02450EC3B008D991A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76C824F8B383657F8489BEC7 /* Pods-projectDesignTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = projectDesignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ITESM.projectDesignTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/projectDesign.app/projectDesign";
+			};
+			name = Debug;
+		};
+		8BDCB5D12450EC3B008D991A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA769904BE0F4ED6A304C893 /* Pods-projectDesignTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = projectDesignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ITESM.projectDesignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/projectDesign.app/projectDesign";
 			};
 			name = Release;
 		};
@@ -331,6 +576,15 @@
 			buildConfigurations = (
 				0F1B447424398F0A00148B21 /* Debug */,
 				0F1B447524398F0A00148B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BDCB5D22450EC3B008D991A /* Build configuration list for PBXNativeTarget "projectDesignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BDCB5D02450EC3B008D991A /* Debug */,
+				8BDCB5D12450EC3B008D991A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
