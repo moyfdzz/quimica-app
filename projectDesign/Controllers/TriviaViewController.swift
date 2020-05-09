@@ -11,7 +11,8 @@ import UIKit
 class TriviaViewController: UIViewController {
 
     var usuario : Usuario!
-    var isCorrect: Bool
+    var isCorrect: Bool!
+    var delegado: protocoloUsuario!
     @IBOutlet weak var btContinuar: UIButton!
     @IBOutlet weak var lbAvance: UILabel!
     @IBOutlet weak var tfRespuesta: UITextField!
@@ -19,12 +20,15 @@ class TriviaViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         //Style
         btContinuar.layer.cornerRadius = 10
         btContinuar.clipsToBounds = true
+        delegado = FrontPageViewController.self as! protocoloUsuario
         //Initialize is Correct
         isCorrect = false
+        lbAvance.text = "\(usuario.quiz.currentQuestion+1)/\(usuario.quiz.questions.count)"
+        let index = usuario.quiz.currentQuestion
+        lbPregunta.text = usuario.quiz.questions[index].question
     }
     
 
@@ -33,15 +37,17 @@ class TriviaViewController: UIViewController {
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     if segue.identifier == "verificar"{
-         let vistaVerificar = segue.destination as! TriviaViewController
+         let vistaVerificar = segue.destination as! VerificarViewController
             vistaVerificar.usuario = usuario
-        vistaVerificar.isCorrect = isCorrect
+            vistaVerificar.isCorrect = isCorrect
+            vistaVerificar.delegado = delegado
         }
-        
+        delegado.update(user: usuario)
     }
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        
         if tfRespuesta.text == "" {
-            let alert = UIAlertController(title: "Error", message: "Añadir un nombre de usuario.", preferredStyle: .alert)
+            let alert = UIAlertController(title: "Error", message: "Añadir un valor al campo.", preferredStyle: .alert)
             let accion = UIAlertAction(title: "OK", style: .cancel, handler: nil)
             alert.addAction(accion)
             present(alert,animated: true,completion: nil)

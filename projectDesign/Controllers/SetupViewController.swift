@@ -7,6 +7,9 @@
 //
 
 import UIKit
+protocol protocoloUsuario {
+    func update(user: Usuario)->Void
+}
 
 class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource {
     var options : [Int]!
@@ -14,6 +17,7 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
     @IBOutlet weak var btEmpezar: UIButton!
     @IBOutlet weak var scSegment: UISegmentedControl!
     var usuario : Usuario!
+    var delegado : protocoloUsuario!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,6 +62,7 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
             [Question(question: "CH3COOH", answer: "Acetic acid"), Question(question: "HCl", answer: "Hydrochloric acid")]
         }
         usuario.quiz.currentQuestion = 0
+        delegado.update(user: usuario)
     }
     
     

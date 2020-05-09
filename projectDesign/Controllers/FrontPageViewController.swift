@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FrontPageViewController: UIViewController,prococoloModificarUsuario {
+class FrontPageViewController: UIViewController,prococoloModificarUsuario,protocoloUsuario {
     
     @IBOutlet weak var btComenzar: UIButton!
     @IBOutlet weak var btEstadisticas: UIButton!
@@ -48,6 +48,9 @@ class FrontPageViewController: UIViewController,prococoloModificarUsuario {
     
     func modificar(name: String) {
         usuario.nombre = name
+    }
+    func update(user: Usuario) {
+        usuario = user
     }
     
     
@@ -94,6 +97,7 @@ class FrontPageViewController: UIViewController,prococoloModificarUsuario {
         } else if segue.identifier == "setup"{
             let vistaSetup = segue.destination as! SetupViewController
             vistaSetup.usuario = usuario
+            vistaSetup.delegado = self
         }
     }
     
