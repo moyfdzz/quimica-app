@@ -23,7 +23,7 @@ class VerificarViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        usuario = delegado.getUser()
         if isCorrect {
             lbCorregir.alpha = 0
             lbCorreccion.alpha = 0
@@ -37,26 +37,20 @@ class VerificarViewController: UIViewController {
             let index = usuario.quiz.currentQuestion
             lbCorreccion.text = usuario.quiz.questions[index].answer
         }
+
         
         lbAvance.text = "\(usuario.quiz.currentQuestion+1)/\(usuario.quiz.questions.count)"
         //Styles
         btContinuar.layer.cornerRadius = 10
         btContinuar.clipsToBounds = true
-        delegado = FrontPageViewController.self as? protocoloUsuario
     }
     
 
 
     @IBAction func regresarQuiz(_ sender: Any) {
         usuario.quiz.currentQuestion += 1;
-        delegado.update(user: usuario)
+        delegado.update(user: self.usuario)
         dismiss(animated: true, completion: nil)
-    }
-    
-    // MARK: - Navigation
-
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        delegado.update(user: usuario)
     }
     
 

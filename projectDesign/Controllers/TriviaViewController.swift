@@ -12,7 +12,9 @@ class TriviaViewController: UIViewController {
 
     var usuario : Usuario!
     var isCorrect: Bool!
+    
     var delegado: protocoloUsuario!
+    
     @IBOutlet weak var btContinuar: UIButton!
     @IBOutlet weak var lbAvance: UILabel!
     @IBOutlet weak var tfRespuesta: UITextField!
@@ -21,9 +23,9 @@ class TriviaViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //Style
+        usuario = delegado.getUser()
         btContinuar.layer.cornerRadius = 10
         btContinuar.clipsToBounds = true
-        delegado = FrontPageViewController.self as! protocoloUsuario
         //Initialize is Correct
         isCorrect = false
         lbAvance.text = "\(usuario.quiz.currentQuestion+1)/\(usuario.quiz.questions.count)"
@@ -42,6 +44,7 @@ class TriviaViewController: UIViewController {
             vistaVerificar.isCorrect = isCorrect
             vistaVerificar.delegado = delegado
         }
+        
         delegado.update(user: usuario)
     }
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {

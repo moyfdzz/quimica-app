@@ -9,6 +9,7 @@
 import UIKit
 protocol protocoloUsuario {
     func update(user: Usuario)->Void
+    func getUser() -> Usuario
 }
 
 class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource {
@@ -21,7 +22,7 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        usuario = delegado.getUser()
         // Do any additional setup after loading the view.
         btEmpezar.layer.cornerRadius = 10
         btEmpezar.clipsToBounds = true
@@ -73,8 +74,8 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
         if segue.identifier == "trivia"{
          let vistaTrivia = segue.destination as! TriviaViewController
             vistaTrivia.usuario = usuario
+            vistaTrivia.delegado = self.delegado
         }
-        
     }
 
 }

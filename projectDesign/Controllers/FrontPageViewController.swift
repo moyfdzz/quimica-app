@@ -52,7 +52,9 @@ class FrontPageViewController: UIViewController,prococoloModificarUsuario,protoc
     func update(user: Usuario) {
         usuario = user
     }
-    
+    func getUser() -> Usuario {
+        return self.usuario
+    }
     
     func dataFileUrl()-> URL {
            let url = FileManager().urls(for: .documentDirectory, in: .userDomainMask).first!
@@ -82,10 +84,11 @@ class FrontPageViewController: UIViewController,prococoloModificarUsuario,protoc
     }
     
     
-        // Mark:- Navigation
+    // Mark:- Navigation
     
     @IBAction func unwind (unwindSegue: UIStoryboardSegue) {
     }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "estadistica"{
          let vistaEstadisticas = segue.destination as! StatisticsViewController
