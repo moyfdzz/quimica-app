@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Quiz: NSObject {
+class Quiz: NSObject,Codable {
     var questions : [Question]
     var currentQuestion : Int
     var correctCount : Int
@@ -30,6 +30,17 @@ class Quiz: NSObject {
     
     func appendQuestion(question: Question){
         self.questions.append(question)
+    }
+    
+    func verify(index: Int, input: String) -> Bool{
+        let isCorrect = questions[index].answer == input
+        
+        if isCorrect {
+            self.correctCount += 1;
+        } else {
+            self.incorrectCount += 1;
+        }
+        return isCorrect
     }
     
 }

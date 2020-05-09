@@ -19,6 +19,9 @@
 		8B1CE6442451062900E63CF9 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1CE6432451062900E63CF9 /* OptionsViewController.swift */; };
 		8B1CE6462451064200E63CF9 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1CE6452451064200E63CF9 /* StatisticsViewController.swift */; };
 		8B1CE6482451094C00E63CF9 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1CE6472451094C00E63CF9 /* Usuario.swift */; };
+		8B730FE42466285C000086DA /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B730FE32466285C000086DA /* SetupViewController.swift */; };
+		8B730FE624665934000086DA /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B730FE524665934000086DA /* TriviaViewController.swift */; };
+		8B730FE824665F64000086DA /* VerificarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B730FE724665F64000086DA /* VerificarViewController.swift */; };
 		8BDCB5CC2450EC3B008D991A /* ViewController_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDCB5CB2450EC3B008D991A /* ViewController_test.swift */; };
 		F32C87C2F78CFBC3DEC1B96A /* Pods_projectDesign.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC06CB814EF8555E3852B2B5 /* Pods_projectDesign.framework */; };
 /* End PBXBuildFile section */
@@ -50,6 +53,9 @@
 		8B1CE6432451062900E63CF9 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		8B1CE6452451064200E63CF9 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
 		8B1CE6472451094C00E63CF9 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		8B730FE32466285C000086DA /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		8B730FE524665934000086DA /* TriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
+		8B730FE724665F64000086DA /* VerificarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificarViewController.swift; sourceTree = "<group>"; };
 		8BDCB5C92450EC3B008D991A /* projectDesignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = projectDesignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDCB5CB2450EC3B008D991A /* ViewController_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_test.swift; sourceTree = "<group>"; };
 		8BDCB5CD2450EC3B008D991A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -116,7 +122,6 @@
 				8B1CE63B2450F85C00E63CF9 /* Controllers */,
 				8B1CE63A2450F84B00E63CF9 /* Storyboards */,
 				0F1B446B24398F0A00148B21 /* Assets.xcassets */,
-				0F1B446D24398F0A00148B21 /* LaunchScreen.storyboard */,
 				0F1B446224398F0900148B21 /* AppDelegate.swift */,
 				0F1B447024398F0A00148B21 /* Info.plist */,
 			);
@@ -127,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				0F1B446424398F0900148B21 /* SceneDelegate.swift */,
+				0F1B446D24398F0A00148B21 /* LaunchScreen.storyboard */,
 				0F1B446824398F0900148B21 /* Main.storyboard */,
 			);
 			path = Storyboards;
@@ -138,6 +144,9 @@
 				8B1CE641245105AF00E63CF9 /* FrontPageViewController.swift */,
 				8B1CE6432451062900E63CF9 /* OptionsViewController.swift */,
 				8B1CE6452451064200E63CF9 /* StatisticsViewController.swift */,
+				8B730FE32466285C000086DA /* SetupViewController.swift */,
+				8B730FE524665934000086DA /* TriviaViewController.swift */,
+				8B730FE724665F64000086DA /* VerificarViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -325,8 +334,11 @@
 				0F1B446324398F0900148B21 /* AppDelegate.swift in Sources */,
 				8B1CE642245105AF00E63CF9 /* FrontPageViewController.swift in Sources */,
 				8B1CE6442451062900E63CF9 /* OptionsViewController.swift in Sources */,
+				8B730FE624665934000086DA /* TriviaViewController.swift in Sources */,
 				8B1CE63E2450F92D00E63CF9 /* Quiz.swift in Sources */,
 				0F1B446524398F0900148B21 /* SceneDelegate.swift in Sources */,
+				8B730FE824665F64000086DA /* VerificarViewController.swift in Sources */,
+				8B730FE42466285C000086DA /* SetupViewController.swift in Sources */,
 				8B1CE6462451064200E63CF9 /* StatisticsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

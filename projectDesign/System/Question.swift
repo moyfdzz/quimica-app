@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Question: NSObject {
+class Question: NSObject,Codable {
     
     var question : String!
     var answer : String!

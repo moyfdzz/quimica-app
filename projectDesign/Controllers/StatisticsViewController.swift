@@ -12,48 +12,28 @@ class StatisticsViewController: UIViewController {
 
 
     
-    @IBOutlet weak var tfNombreUsuario: UITextField!
     @IBOutlet weak var pvNivel: UIProgressView!
     @IBOutlet weak var lbNivel: UILabel!
     @IBOutlet weak var lbAciertos: UILabel!
     @IBOutlet weak var lbTotalPreguntas: UILabel!
-
+    @IBOutlet weak var lbUsuario: UILabel!
+    @IBOutlet weak var btMenu: UIButton!
     
-    
-    
-    @IBAction func quitaTeclado(_ sender: Any) {
-        view.endEditing(true)
-    }
     
     var usuario : Usuario!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Carga los estilos
+        btMenu.layer.cornerRadius = 10
+        btMenu.clipsToBounds = true
         //Carga los datos a mostrar en Estadísticas
-        tfNombreUsuario.text = usuario.nombre
         lbAciertos.text = String(usuario.totalAciertos)
         lbTotalPreguntas.text = String(usuario.totalPreguntas)
+        lbNivel.text = String(usuario.nivel)
         pvNivel.progress = Float(Double(usuario.nivel)/100.0)
+        lbUsuario.text = usuario.nombre
     }
     
-     
-    // MARK: - Navigation
-    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
-        if tfNombreUsuario.text == nil {
-            let alert = UIAlertController(title: "Error", message: "Añadir un nombre de usuario.", preferredStyle: .alert)
-            let accion = UIAlertAction(title: "OK", style: .cancel, handler: nil)
-            alert.addAction(accion)
-            present(alert,animated: true,completion: nil)
-            return false
-        } else{
-            return true
-    }
-    }
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let vistaInicial = segue.destination as! FrontPageViewController
-        vistaInicial.usuario = usuario
-    }
 
 }
