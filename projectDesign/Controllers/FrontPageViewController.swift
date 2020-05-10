@@ -14,7 +14,6 @@ class FrontPageViewController: UIViewController,prococoloModificarUsuario,protoc
     @IBOutlet weak var btEstadisticas: UIButton!
     @IBOutlet weak var btOpciones: UIButton!
     
-    
     var usuario : Usuario!
     var quiz : Quiz!
     var questions : [Question]!
@@ -22,6 +21,8 @@ class FrontPageViewController: UIViewController,prococoloModificarUsuario,protoc
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        MusicPlayer.shared.startBackgroundMusic()
         
         // Load Styles
         btComenzar.layer.cornerRadius = 10
