@@ -19,12 +19,12 @@
 		8B1CE6442451062900E63CF9 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1CE6432451062900E63CF9 /* OptionsViewController.swift */; };
 		8B1CE6462451064200E63CF9 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1CE6452451064200E63CF9 /* StatisticsViewController.swift */; };
 		8B1CE6482451094C00E63CF9 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1CE6472451094C00E63CF9 /* Usuario.swift */; };
+		8B3AA8072468AE9400AD39F7 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3AA8062468AE9400AD39F7 /* MusicPlayer.swift */; };
 		8B730FE42466285C000086DA /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B730FE32466285C000086DA /* SetupViewController.swift */; };
 		8B730FE624665934000086DA /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B730FE524665934000086DA /* TriviaViewController.swift */; };
 		8B730FE824665F64000086DA /* VerificarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B730FE724665F64000086DA /* VerificarViewController.swift */; };
 		8BDCB5CC2450EC3B008D991A /* ViewController_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDCB5CB2450EC3B008D991A /* ViewController_test.swift */; };
 		8F6DD15F2468A8D400B5D9E8 /* NegroJBalvin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F6DD15E2468A8D400B5D9E8 /* NegroJBalvin.mp3 */; };
-		8F6DD1612468A98500B5D9E8 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6DD1602468A98500B5D9E8 /* MusicPlayer.swift */; };
 		F32C87C2F78CFBC3DEC1B96A /* Pods_projectDesign.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC06CB814EF8555E3852B2B5 /* Pods_projectDesign.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +55,7 @@
 		8B1CE6432451062900E63CF9 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		8B1CE6452451064200E63CF9 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
 		8B1CE6472451094C00E63CF9 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		8B3AA8062468AE9400AD39F7 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
 		8B730FE32466285C000086DA /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
 		8B730FE524665934000086DA /* TriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
 		8B730FE724665F64000086DA /* VerificarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificarViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +63,6 @@
 		8BDCB5CB2450EC3B008D991A /* ViewController_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_test.swift; sourceTree = "<group>"; };
 		8BDCB5CD2450EC3B008D991A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F6DD15E2468A8D400B5D9E8 /* NegroJBalvin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NegroJBalvin.mp3; sourceTree = "<group>"; };
-		8F6DD1602468A98500B5D9E8 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MusicPlayer.swift; path = "/Users/user168655/Documents/Github/quimica-app/projectDesign/System/MusicPlayer.swift"; sourceTree = "<absolute>"; };
 		A692D0E5AB686D1B2D89A367 /* Pods-projectDesign.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectDesign.debug.xcconfig"; path = "Target Support Files/Pods-projectDesign/Pods-projectDesign.debug.xcconfig"; sourceTree = "<group>"; };
 		BA769904BE0F4ED6A304C893 /* Pods-projectDesignTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectDesignTests.release.xcconfig"; path = "Target Support Files/Pods-projectDesignTests/Pods-projectDesignTests.release.xcconfig"; sourceTree = "<group>"; };
 		EC06CB814EF8555E3852B2B5 /* Pods_projectDesign.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_projectDesign.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,7 +159,7 @@
 		8B1CE63C2450F86B00E63CF9 /* System */ = {
 			isa = PBXGroup;
 			children = (
-				8F6DD1602468A98500B5D9E8 /* MusicPlayer.swift */,
+				8B3AA8062468AE9400AD39F7 /* MusicPlayer.swift */,
 				8B1CE63D2450F92D00E63CF9 /* Quiz.swift */,
 				8B1CE6472451094C00E63CF9 /* Usuario.swift */,
 				8B1CE63F2450F94500E63CF9 /* Question.swift */,
@@ -344,9 +344,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B3AA8072468AE9400AD39F7 /* MusicPlayer.swift in Sources */,
 				8B1CE6482451094C00E63CF9 /* Usuario.swift in Sources */,
 				8B1CE6402450F94500E63CF9 /* Question.swift in Sources */,
-				8F6DD1612468A98500B5D9E8 /* MusicPlayer.swift in Sources */,
 				0F1B446324398F0900148B21 /* AppDelegate.swift in Sources */,
 				8B1CE642245105AF00E63CF9 /* FrontPageViewController.swift in Sources */,
 				8B1CE6442451062900E63CF9 /* OptionsViewController.swift in Sources */,
