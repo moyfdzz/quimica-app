@@ -47,7 +47,16 @@ class OptionsViewController: UIViewController,UIPickerViewDelegate, UIPickerView
     
     @IBAction func switchMusic(_ sender: Any) {
         //Stop or reproduce Player
-        
+        if swMusica.isOn {
+            MusicPlayer.shared.startBackgroundMusic()
+        }
+        else {
+            MusicPlayer.shared.stopBackgroundMusic()
+        }
+    }
+    
+    @IBAction func setVolume(_ sender: UISlider) {
+        MusicPlayer.shared.audioPlayer?.volume = sliderVolumen.value
     }
 
     @IBAction func quitaTeclado(_ sender: Any) {
