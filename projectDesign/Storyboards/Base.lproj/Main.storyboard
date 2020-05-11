@@ -328,7 +328,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <segue destination="IIi-Sg-3PP" kind="show" identifier="verificar" id="ANn-RV-Cye"/>
+                                    <segue destination="IIi-Sg-3PP" kind="presentation" identifier="verificar" modalPresentationStyle="fullScreen" id="ANn-RV-Cye"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -423,7 +423,7 @@
             <objects>
                 <viewController id="IIi-Sg-3PP" customClass="VerificarViewController" customModule="Quimica_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lMa-jP-tIJ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qLp-97-BZR">
