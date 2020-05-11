@@ -1,0 +1,5 @@
+{
+    "metales": [{nombre: "", formula: ""}],
+    "no-metales": [{nombre: "", formula: ""}],
+    "acidos": [{nombre: "", formula: ""}]
+}

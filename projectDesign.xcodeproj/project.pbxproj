@@ -24,7 +24,8 @@
 		8B730FE624665934000086DA /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B730FE524665934000086DA /* TriviaViewController.swift */; };
 		8B730FE824665F64000086DA /* VerificarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B730FE724665F64000086DA /* VerificarViewController.swift */; };
 		8BDCB5CC2450EC3B008D991A /* ViewController_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDCB5CB2450EC3B008D991A /* ViewController_test.swift */; };
-		8F6DD15F2468A8D400B5D9E8 /* NegroJBalvin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F6DD15E2468A8D400B5D9E8 /* NegroJBalvin.mp3 */; };
+		8F1104C62469169800E4CCE4 /* Kahoot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F1104C52469169800E4CCE4 /* Kahoot.mp3 */; };
+		8F8C426124695B2F00F9895B /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F8C426024695B2F00F9895B /* Data.json */; };
 		F32C87C2F78CFBC3DEC1B96A /* Pods_projectDesign.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC06CB814EF8555E3852B2B5 /* Pods_projectDesign.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,7 +63,8 @@
 		8BDCB5C92450EC3B008D991A /* projectDesignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = projectDesignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDCB5CB2450EC3B008D991A /* ViewController_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_test.swift; sourceTree = "<group>"; };
 		8BDCB5CD2450EC3B008D991A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F6DD15E2468A8D400B5D9E8 /* NegroJBalvin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NegroJBalvin.mp3; sourceTree = "<group>"; };
+		8F1104C52469169800E4CCE4 /* Kahoot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Kahoot.mp3; sourceTree = "<group>"; };
+		8F8C426024695B2F00F9895B /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
 		A692D0E5AB686D1B2D89A367 /* Pods-projectDesign.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectDesign.debug.xcconfig"; path = "Target Support Files/Pods-projectDesign/Pods-projectDesign.debug.xcconfig"; sourceTree = "<group>"; };
 		BA769904BE0F4ED6A304C893 /* Pods-projectDesignTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectDesignTests.release.xcconfig"; path = "Target Support Files/Pods-projectDesignTests/Pods-projectDesignTests.release.xcconfig"; sourceTree = "<group>"; };
 		EC06CB814EF8555E3852B2B5 /* Pods_projectDesign.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_projectDesign.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,7 +124,7 @@
 		0F1B446124398F0900148B21 /* projectDesign */ = {
 			isa = PBXGroup;
 			children = (
-				8F6DD15D2468A87B00B5D9E8 /* Music */,
+				8F6DD15D2468A87B00B5D9E8 /* Resources */,
 				8B1CE63C2450F86B00E63CF9 /* System */,
 				8B1CE63B2450F85C00E63CF9 /* Controllers */,
 				8B1CE63A2450F84B00E63CF9 /* Storyboards */,
@@ -176,12 +178,13 @@
 			path = Testing;
 			sourceTree = "<group>";
 		};
-		8F6DD15D2468A87B00B5D9E8 /* Music */ = {
+		8F6DD15D2468A87B00B5D9E8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8F6DD15E2468A8D400B5D9E8 /* NegroJBalvin.mp3 */,
+				8F1104C52469169800E4CCE4 /* Kahoot.mp3 */,
+				8F8C426024695B2F00F9895B /* Data.json */,
 			);
-			path = Music;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		EB54C909196D83ED0A0660C5 /* Frameworks */ = {
@@ -276,10 +279,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F8C426124695B2F00F9895B /* Data.json in Resources */,
 				0F1B446F24398F0A00148B21 /* LaunchScreen.storyboard in Resources */,
 				0F1B446C24398F0A00148B21 /* Assets.xcassets in Resources */,
 				0F1B446A24398F0900148B21 /* Main.storyboard in Resources */,
-				8F6DD15F2468A8D400B5D9E8 /* NegroJBalvin.mp3 in Resources */,
+				8F1104C62469169800E4CCE4 /* Kahoot.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -22,7 +22,12 @@ class FrontPageViewController: UIViewController,prococoloModificarUsuario,protoc
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        MusicPlayer.shared.startBackgroundMusic()
+        MusicPlayer.shared.audioPlayer?.volume = UserDefaults.standard.value(forKey: "volumen") as! Float
+        
+        if UserDefaults.standard.bool(forKey: "musica") {
+            MusicPlayer.shared.startBackgroundMusic()
+        }
+        
         
         // Load Styles
         btComenzar.layer.cornerRadius = 10
