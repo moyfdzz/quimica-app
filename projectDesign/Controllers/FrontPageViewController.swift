@@ -53,10 +53,10 @@ class FrontPageViewController: UIViewController,prococoloModificarUsuario,protoc
     }
     
     func modificar(name: String) {
-        usuario.nombre = name
+        self.usuario.nombre = name
     }
     func update(user: Usuario) {
-        usuario = user
+        self.usuario = user
     }
     func getUser() -> Usuario {
         return self.usuario
@@ -106,7 +106,7 @@ class FrontPageViewController: UIViewController,prococoloModificarUsuario,protoc
         } else if segue.identifier == "setup"{
             let vistaSetup = segue.destination as! SetupViewController
             vistaSetup.usuario = usuario
-            vistaSetup.delegado = self
+            vistaSetup.delegadoPrimeraVista = self
         }
     }
     

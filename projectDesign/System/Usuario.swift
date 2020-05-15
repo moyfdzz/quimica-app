@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Usuario: NSObject,Codable {
+class Usuario: NSObject,Codable,NSCoding {
     var nombre : String
     var totalAciertos : Int
     var totalPreguntas : Int
@@ -36,4 +36,26 @@ class Usuario: NSObject,Codable {
         }
         self.quiz = newUser.quiz
     }
+    
+    required convenience init(coder aDecoder: NSCoder) {
+        let nombre = aDecoder.decodeObject(forKey: "nombre") as! String
+        let totalAciertos = aDecoder.decodeInteger(forKey: "aciertos")
+        let totalPreguntas = aDecoder.decodeInteger(forKey: "preguntas")
+        let nivel = aDecoder.decodeInteger(forKey: "nivel")
+        let tipo = aDecoder.decodeObject(forKey: "tipo") as! String
+        let quiz = aDecoder.decodeObject(forKey: "quiz") as! Quiz
+        
+        self.init(nombre: nombre, totalAciertos: totalAciertos, totalPreguntas: totalPreguntas, nivel: nivel, tipo: tipo, quiz: quiz)
+    }
+    
+    func encode(with coder: NSCoder) {
+        coder.encode(nombre,forKey: "nombre")
+        coder.encode(totalAciertos,forKey: "aciertos")
+        coder.encode(totalAciertos,forKey: "preguntas")
+        coder.encode(nivel,forKey: "nivel")
+        coder.encode(tipo,forKey: "tipo")
+        coder.encode(quiz,forKey: "quiz")
+    }
+    
+    
 }

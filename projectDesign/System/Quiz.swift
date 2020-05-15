@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Quiz: NSObject,Codable {
+class Quiz: NSObject,Codable, NSCoding {
     var questions : [Question]
     var currentQuestion : Int
     var correctCount : Int
@@ -42,5 +42,20 @@ class Quiz: NSObject,Codable {
         }
         return isCorrect
     }
+    required convenience init(coder aDecoder: NSCoder) {
+        let questions = aDecoder.decodeObject(forKey: "questions") as! [Question]
+        let currentQuestion = aDecoder.decodeInteger(forKey: "current")
+        let correctCount = aDecoder.decodeInteger(forKey: "correcto")
+        let incorrectCount = aDecoder.decodeInteger(forKey: "incorrecto")
+        self.init(questions: questions,currentQuestion: currentQuestion,correctCount: correctCount,incorrectCount: incorrectCount)
+    }
+    
+    func encode(with coder: NSCoder) {
+        coder.encode(questions,forKey: "questions")
+        coder.encode(currentQuestion,forKey: "current")
+        coder.encode(correctCount,forKey: "correcto")
+        coder.encode(incorrectCount,forKey: "incorrecto")
+    }
+    
     
 }

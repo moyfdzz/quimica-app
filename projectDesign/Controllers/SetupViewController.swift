@@ -18,11 +18,11 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
     @IBOutlet weak var btEmpezar: UIButton!
     @IBOutlet weak var scSegment: UISegmentedControl!
     var usuario : Usuario!
-    var delegado : protocoloUsuario!
+    var delegadoPrimeraVista : protocoloUsuario!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        usuario = delegado.getUser()
+        usuario = delegadoPrimeraVista.getUser()
         // Do any additional setup after loading the view.
         btEmpezar.layer.cornerRadius = 10
         btEmpezar.clipsToBounds = true
@@ -63,7 +63,7 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
             [Question(question: "CH3COOH", answer: "Acetic acid"), Question(question: "HCl", answer: "Hydrochloric acid")]
         }
         usuario.quiz.currentQuestion = 0
-        delegado.update(user: usuario)
+        delegadoPrimeraVista.update(user: usuario)
     }
     
     
@@ -74,7 +74,7 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
         if segue.identifier == "trivia"{
          let vistaTrivia = segue.destination as! TriviaViewController
             vistaTrivia.usuario = usuario
-            vistaTrivia.delegado = self.delegado
+            vistaTrivia.delegadoPrimeraVista = delegadoPrimeraVista
         }
     }
 

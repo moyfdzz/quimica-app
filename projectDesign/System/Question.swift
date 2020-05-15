@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Question: NSObject,Codable {
+class Question: NSObject,Codable,NSCoding {
     
     var question : String!
     var answer : String!
@@ -30,4 +30,17 @@ class Question: NSObject,Codable {
             return false
         }
     }
+    
+    required convenience init(coder aDecoder: NSCoder) {
+        let question = aDecoder.decodeObject(forKey: "question") as! String
+        let answer = aDecoder.decodeObject(forKey: "answer") as! String
+        self.init(question: question, answer: answer)
+    }
+    
+    func encode(with coder: NSCoder) {
+        coder.encode(self.question,forKey: "question")
+        coder.encode(self.answer,forKey: "answer")
+    }
+    
+    
 }

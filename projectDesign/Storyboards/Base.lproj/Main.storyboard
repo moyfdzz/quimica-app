@@ -30,7 +30,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <segue destination="ubT-oE-cWA" kind="show" identifier="setup" id="rbJ-Kh-ryX"/>
+                                    <segue destination="ubT-oE-cWA" kind="presentation" identifier="setup" modalPresentationStyle="fullScreen" id="rbJ-Kh-ryX"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chem Study" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCz-a2-AS7">
@@ -117,7 +117,7 @@
             <objects>
                 <viewController id="ubT-oE-cWA" customClass="SetupViewController" customModule="Quimica_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7ay-Or-h4z">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tipo de Preguntas" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jrJ-5Z-wrA">
@@ -165,7 +165,7 @@
                                 </state>
                                 <connections>
                                     <action selector="empezarCuestionario:" destination="ubT-oE-cWA" eventType="touchUpInside" id="LJm-MP-xG4"/>
-                                    <segue destination="aM8-Cy-2et" kind="show" identifier="trivia" id="zqJ-Gn-Nq7"/>
+                                    <segue destination="aM8-Cy-2et" kind="presentation" identifier="trivia" modalPresentationStyle="fullScreen" id="zqJ-Gn-Nq7"/>
                                 </connections>
                             </button>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GpT-bV-F8R">
@@ -274,7 +274,7 @@
             <objects>
                 <viewController id="aM8-Cy-2et" customClass="TriviaViewController" customModule="Quimica_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uQP-qJ-0Il">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nitrato de Sodio" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i5E-je-JTt">
@@ -507,7 +507,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="71F-CF-nd0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2479.7101449275365" y="52.901785714285715"/>
+            <point key="canvasLocation" x="2491" y="53"/>
         </scene>
         <!--Statistics View Controller-->
         <scene sceneID="n5g-sv-aSx">
