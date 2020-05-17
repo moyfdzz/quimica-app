@@ -30,6 +30,20 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
 
     }
     
+    // Manejo de datos en JSON
+    if let path = Bundle.main.path(forResource: "Data", ofType: "json") {
+        do {
+              let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+              let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
+              if let jsonResult = jsonResult as? Dictionary<String, AnyObject>, let inorganicCompounds = jsonResult["temp"] as? [Any] {
+                print("jsonData:\(inorganicCompounds)")
+              }
+          } catch {
+               // handle error
+          }
+    }
+
+
     // MARK: -UIPickerViewDataSource
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1

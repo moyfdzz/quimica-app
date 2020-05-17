@@ -1,5 +1,6 @@
 {
     "metales": [{nombre: "", formula: ""}],
     "no-metales": [{nombre: "", formula: ""}],
-    "acidos": [{nombre: "", formula: ""}]
+    "acidos": [{nombre: "", formula: ""}],
+    "temp": [{nombre: "Copper(II) sulfide", formula: "CuS"}, {nombre: "Potassium nitride", formula: "K3N"}, {nombre: "Sodium iodide", formula: "Nal"}, {nombre: "Tin(IV) chloride", formula: "SnCl4"}, {nombre: "Potassium sulfide", formula: "K2S"}, {nombre: "Calcium iodide", formula: "Cal2"}, {nombre: "Potassium sulfate", formula: "K2SO4"}, {nombre: "Magnesium hidroxide", formula: "Mg(OH)2"}, {nombre: "Lithium sulfate", formula: "Li2SO4"}, {nombre: "Iron(III) nitrite", formula: "Fe(NO2)3"}, {nombre: "Tin(II) bromide", formula: "SnBr2"}, {nombre: "Ammonium perchlorate", formula: "NH4ClO4"}, {nombre: "Gold(I) chlorite", formula: "AuClO2"}, {nombre: "Nickel(II) phosphite", formula: "Ni3(PO3)2"}]
 }
