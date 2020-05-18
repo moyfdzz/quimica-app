@@ -29,20 +29,31 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
         options = Array(1...20)
 
     }
-    
-    // Manejo de datos en JSON
-    if let path = Bundle.main.path(forResource: "Data", ofType: "json") {
+
+    // Sacar una pregunta
+    var askedQuestions: Set = [Question]!
+    var question: Question!
+
+    func getQuestion(questions: [Question]) {
         do {
-              let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-              let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
-              if let jsonResult = jsonResult as? Dictionary<String, AnyObject>, let inorganicCompounds = jsonResult["temp"] as? [Any] {
-                print("jsonData:\(inorganicCompounds)")
-              }
-          } catch {
-               // handle error
-          }
+            question = questions.randomElement()!
+        } while askedQuestions.contains(question)
     }
 
+    // Manejo de datos en JSON
+    func extractData(category: String) {
+        if let path = Bundle.main.path(forResource: "Data", ofType: "json") {
+            do {
+                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+                let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
+                if let jsonResult = jsonResult as? Dictionary<String, AnyObject>, let questions = jsonResult[category] as? [Any] {
+                    getQuestion(questions)
+                }
+            } catch {
+                print("Unexpected error: \(error).")
+            }
+        }
+    }
 
     // MARK: -UIPickerViewDataSource
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -70,6 +81,8 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
     
     @IBAction func empezarCuestionario(_ sender: Any) {
         if scSegment.titleForSegment(at: scSegment.selectedSegmentIndex) == "Nombre" {
+            // for i in nPreguntas en UserDefaults
+            // append con func extractData(categoría en UserDefaults)
             usuario.quiz.appendQuestion(question: Question(question: "Acetic acid", answer: "CH3COOH"))
             usuario.quiz.appendQuestion(question: Question(question: "Hydrochloric acid", answer: "HCl"))
         } else {
