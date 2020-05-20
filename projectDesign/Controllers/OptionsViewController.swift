@@ -87,7 +87,6 @@ class OptionsViewController: UIViewController,UIPickerViewDelegate, UIPickerView
         defaults.set(tfUsuario.text,forKey:"nombre")
         defaults.set(pvPickerView.selectedRow(inComponent: 0) ,forKey:"tipo")
         
-        
         let vistaInicial = segue.destination as! FrontPageViewController
         let index = pvTipo.selectedRow(inComponent: 0)
         vistaInicial.usuario.tipo = tiposPreguntas[index]

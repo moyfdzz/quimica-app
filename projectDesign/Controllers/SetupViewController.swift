@@ -34,26 +34,37 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
     var askedQuestions: Set<Question> = []
     var question: Question!
 
-    func getQuestion(questions: [Question]) {
+    func getQuestion(questions: [Question]) -> Question {
         repeat {
             question = questions.randomElement()!
         } while askedQuestions.contains(question)
 
-        askedQuestions.append(question)
+        askedQuestions.insert(question)
+        
+        return question
     }
 
     // Manejo de datos en JSON
-    func extractData(category: String) {
+    func extractData(category: String) -> Question {
         if let path = Bundle.main.path(forResource: "Data", ofType: "json") {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-                let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
-                if let jsonResult = jsonResult as? Dictionary<String, AnyObject>, let questions = jsonResult[category] as? [Question] {
-                    getQuestion(questions: questions)
+                let jsonResult = try? JSONSerialization.jsonObject(with: data)
+                if let jsonResult = jsonResult as? [String: Any] {
+                    if let questions = jsonResult[category] {
+                        print(questions)
+                    }
                 }
             } catch {
                 print("Unexpected error: \(error).")
             }
+        }
+        
+        if question != nil {
+            return question
+        }
+        else {
+            return Question(question: "", answer: "")
         }
     }
 
@@ -83,20 +94,20 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
     
     @IBAction func empezarCuestionario(_ sender: Any) {
         if scSegment.titleForSegment(at: scSegment.selectedSegmentIndex) == "Nombre" {
-            for i in usuario.quiz.questions.count {
-                var q : Question! = extractData(usuario.tipo)
-                usuario.quiz.appendQuestion(question: Question(question: q["Nombre"], answer: q["Formula"]))
+            for _ in 0...usuario.quiz.questions.count {
+                let q : Question! = extractData(category: usuario.tipo)
+                usuario.quiz.appendQuestion(question: Question(question: q.question, answer: q.answer))
             }
-            usuario.quiz.questions = [Question]()
-            usuario.quiz.appendQuestion(question: Question(question: "Acetic acid", answer: "CH3COOH"))
-            usuario.quiz.appendQuestion(question: Question(question: "Hydrochloric acid", answer: "HCl"))
+            //usuario.quiz.questions = [Question]()
+            //usuario.quiz.appendQuestion(question: Question(question: "Acetic acid", answer: "CH3COOH"))
+            //usuario.quiz.appendQuestion(question: Question(question: "Hydrochloric acid", answer: "HCl"))
         } else {
-            for i in usuario.quiz.questions.count {
-                var q : Question! = extractData(usuario.tipo)
-                usuario.quiz.appendQuestion(question: Question(question: q["Formula"], answer: q["Nombre"]))
+            for _ in 0...usuario.quiz.questions.count {
+                let q : Question! = extractData(category: usuario.tipo)
+                usuario.quiz.appendQuestion(question: Question(question: q.answer, answer: q.question))
             }
-            usuario.quiz.questions =
-            [Question(question: "CH3COOH", answer: "Acetic acid"), Question(question: "HCl", answer: "Hydrochloric acid")]
+            //usuario.quiz.questions =
+            //[Question(question: "CH3COOH", answer: "Acetic acid"), Question(question: "HCl", answer: "Hydrochloric acid")]
         }
         usuario.quiz.currentQuestion = 0
         delegadoPrimeraVista.update(user: usuario)
