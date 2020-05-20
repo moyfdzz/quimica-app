@@ -10,6 +10,7 @@ import UIKit
 
 protocol prococoloModificarUsuario {
     func modificar(name: String) -> Void
+    func tipo(tipo: String) ->Void
 }
 
 class OptionsViewController: UIViewController,UIPickerViewDelegate, UIPickerViewDataSource {
@@ -86,10 +87,9 @@ class OptionsViewController: UIViewController,UIPickerViewDelegate, UIPickerView
         defaults.set(swMusica.isOn,forKey: "musica")
         defaults.set(tfUsuario.text,forKey:"nombre")
         defaults.set(pvPickerView.selectedRow(inComponent: 0) ,forKey:"tipo")
-        
         let vistaInicial = segue.destination as! FrontPageViewController
         let index = pvTipo.selectedRow(inComponent: 0)
-        vistaInicial.usuario.tipo = tiposPreguntas[index]
+        delegado.tipo(tipo: tiposPreguntas[index])
     }
     
     

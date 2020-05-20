@@ -10,6 +10,7 @@ import UIKit
 
 class FrontPageViewController: UIViewController,prococoloModificarUsuario,protocoloUsuario {
     
+    
     @IBOutlet weak var btComenzar: UIButton!
     @IBOutlet weak var btEstadisticas: UIButton!
     @IBOutlet weak var btOpciones: UIButton!
@@ -48,6 +49,10 @@ class FrontPageViewController: UIViewController,prococoloModificarUsuario,protoc
     
     func modificar(name: String) {
         self.usuario.nombre = name
+    }
+    func tipo(tipo: String) {
+        self.usuario.tipo = tipo
+        print(self.usuario.tipo)
     }
     func update(user: Usuario) {
         self.usuario = user
