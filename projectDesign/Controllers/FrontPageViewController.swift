@@ -21,14 +21,7 @@ class FrontPageViewController: UIViewController,prococoloModificarUsuario,protoc
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        MusicPlayer.shared.audioPlayer?.volume = UserDefaults.standard.value(forKey: "volumen") as! Float
-        
-        if UserDefaults.standard.bool(forKey: "musica") {
-            MusicPlayer.shared.startBackgroundMusic()
-        }
-        
-        
+        actualizaInterfaz()
         // Load Styles
         btComenzar.layer.cornerRadius = 10
         btComenzar.clipsToBounds = true
@@ -41,6 +34,7 @@ class FrontPageViewController: UIViewController,prococoloModificarUsuario,protoc
         btOpciones.clipsToBounds = true
         
         //Verificar app
+        
         let app = UIApplication.shared
          NotificationCenter.default.addObserver(self, selector: #selector(guardarInfo), name: UIApplication.didEnterBackgroundNotification, object: app)
         if FileManager.default.fileExists(atPath: dataFileUrl().path){
@@ -50,6 +44,8 @@ class FrontPageViewController: UIViewController,prococoloModificarUsuario,protoc
             quiz = Quiz(questions: questions, currentQuestion: 1, correctCount: 0, incorrectCount: 0)
             usuario = Usuario(nombre: "-", totalAciertos: 0, totalPreguntas: 0, nivel: 1, tipo: "Metal", quiz: quiz)
         }
+         
+        
     }
     
     func modificar(name: String) {
@@ -87,6 +83,20 @@ class FrontPageViewController: UIViewController,prococoloModificarUsuario,protoc
                 print("Error al cargar los datos")
                 
             }
+    }
+    func actualizaInterfaz() {
+        let defaults = UserDefaults.standard
+        
+        MusicPlayer.shared.audioPlayer?.volume = UserDefaults.standard.value(forKey: "volumen") as! Float
+        
+        if defaults.bool(forKey: "musica") {
+            MusicPlayer.shared.startBackgroundMusic()
+        }
+        
+        if let user = UserDefaults.standard.data(forKey: "usuario"),
+            let newUser = try? JSONDecoder().decode(Usuario.self, from: user) {
+            usuario = newUser
+        }
     }
     
     

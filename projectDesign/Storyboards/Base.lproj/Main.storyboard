@@ -62,7 +62,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <segue destination="elT-QD-zFZ" kind="presentation" identifier="opciones" id="WcM-vZ-Wq7"/>
+                                    <segue destination="elT-QD-zFZ" kind="presentation" identifier="opciones" modalPresentationStyle="fullScreen" id="WcM-vZ-Wq7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WRV-1q-xCm">
@@ -80,7 +80,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <segue destination="Xdx-Fi-D1z" kind="presentation" identifier="estadistica" id="bfg-J3-rxx"/>
+                                    <segue destination="Xdx-Fi-D1z" kind="presentation" identifier="estadistica" modalPresentationStyle="fullScreen" id="bfg-J3-rxx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -514,7 +514,7 @@
             <objects>
                 <viewController id="Xdx-Fi-D1z" customClass="StatisticsViewController" customModule="Quimica_App" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="guf-KV-kiY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total de preguntas: " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f8M-hs-EVw">
@@ -639,7 +639,7 @@
             <objects>
                 <viewController id="elT-QD-zFZ" customClass="OptionsViewController" customModule="Quimica_App" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bPw-AF-xMK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Musica:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXF-EP-ZVV">

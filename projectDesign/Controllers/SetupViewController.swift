@@ -31,11 +31,11 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
     }
 
     // Sacar una pregunta
-    var askedQuestions: Set = [Question]!
+    var askedQuestions: Set<Question> = []
     var question: Question!
 
     func getQuestion(questions: [Question]) {
-        do {
+        repeat {
             question = questions.randomElement()!
         } while askedQuestions.contains(question)
     }
@@ -46,8 +46,8 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
                 let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
-                if let jsonResult = jsonResult as? Dictionary<String, AnyObject>, let questions = jsonResult[category] as? [Any] {
-                    getQuestion(questions)
+                if let jsonResult = jsonResult as? Dictionary<String, AnyObject>, let questions = jsonResult[category] as? [Question] {
+                    getQuestion(questions: questions)
                 }
             } catch {
                 print("Unexpected error: \(error).")

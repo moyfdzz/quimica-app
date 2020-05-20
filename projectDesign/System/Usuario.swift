@@ -24,6 +24,7 @@ class Usuario: NSObject,Codable,NSCoding {
         self.tipo = tipo
         self.quiz = quiz
     }
+    
     func update(newUser: Usuario)->Void{
         self.nombre = newUser.nombre
         self.totalAciertos = newUser.totalAciertos
