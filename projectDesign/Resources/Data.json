@@ -1,22 +1,414 @@
 {
-    "metales":[
-       {
-          "nombre":"",
-          "formula":""
-       }
-    ],
+    "Metales":[
+		{
+			"Nombre":"Calcium Chloride",
+			"Formula":"CaCl2"
+		}, 
+		{
+			"Nombre":"Sodium Chloride",
+			"Formula":"NaCl"
+		}, 
+		{
+			"Nombre":"Calcium Carbonate",
+			"Formula":"CaCO3"
+		}, 
+		{
+			"Nombre":"Aluminium Sulfide",
+			"Formula":"Al2S3"
+		}, 
+		{
+			"Nombre":"Silver Nitrate",
+			"Formula":"AgNO3"
+		}, 
+		{
+			"Nombre":"Aluminium Oxide",
+			"Formula":"Al2O3"
+		}, 
+		{
+			"Nombre":"Magnesium Oxide",
+			"Formula":"MgO"
+		},
+		{
+			"Nombre":"Aluminium Sulfate",
+			"Formula":"Al2(SO4)3"
+		},
+		{
+			"Nombre":"Aluminium Nitrate",
+			"Formula":"Al(NO3)3"
+		},
+		{
+			"Nombre":"Aluminium Chromate",
+			"Formula":"Al2(CrO4)3"
+		}, 
+		{
+			"Nombre":"Aluminium Carbonate",
+			"Formula":"Al2(CO3)3"
+		}, 
+		{
+			"Nombre":"Aluminium Bromide",
+			"Formula":"AlBr3"
+		}, 
+		{
+			"Nombre":"Sodium Arsenite",
+			"Formula":"Na3AsO3"
+		}, 
+		{
+			"Nombre":"Magnesium Arsenite",
+			"Formula":"Mg3(AsO3)2"
+		}, 
+		{
+			"Nombre":"Calcium Arsenite",
+			"Formula":"Ca3(AsO3)2"
+		}, 
+		{
+			"Nombre":"Silicon Arsenite",
+			"Formula":"Si3(AsO3)4"
+		}, 
+		{
+			"Nombre":"Zinc Arsenite",
+			"Formula":"Zn(AsO2)2"
+		},
+		{
+			"Nombre":"Barium Phospate",
+			"Formula":"Ba3(PO4)2"
+		},
+		{
+			"Nombre":"Barium Acetate",
+			"Formula":"Ba(C2H3O2)2"
+		},
+		{
+			"Nombre":"Barium Chlorite",
+			"Formula":"Ba(ClO2)2"
+		}, 
+		{
+			"Nombre":"Barium Iodate",
+			"Formula":"Ba(IO3)2"
+		}, 
+		{
+			"Nombre":"Barium Bromate",
+			"Formula":"Ba(BrO3)2"
+		}, 
+		{
+			"Nombre":"Gallium(III) Cyanide",
+			"Formula":"Ga(CN)3"
+		}, 
+		{
+			"Nombre":"Gallium Selenide",
+			"Formula":"Ga2Se3"
+		}, 
+		{
+			"Nombre":"Gallium(II) Oxide",
+			"Formula":"GaO"
+		}, 
+		{
+			"Nombre":"Gallium Oxalate",
+			"Formula":"Ga2(C2O4)3"
+		}, 
+		{
+			"Nombre":"Gallium(III) Nitrite",
+			"Formula":"Ga(NO2)3"
+		},
+		{
+			"Nombre":"Lithium Phosphate",
+			"Formula":"Li3PO4"
+		},
+		{
+			"Nombre":"Lithium Chloride",
+			"Formula":"LiCl"
+		},
+		{
+			"Nombre":"Lithium Iodide",
+			"Formula":"LiI"
+		}, 
+		{
+			"Nombre":"Lithium Thiocyanate",
+			"Formula":"LiSCN"
+		}, 
+		{
+			"Nombre":"Lithium Fluoride",
+			"Formula":"LiF"
+		}, 
+		{
+			"Nombre":"Cesium Sulfite",
+			"Formula":"Cs2SO3"
+		}, 
+		{
+			"Nombre":"Cesium Oxide",
+			"Formula":"Cs2O"
+		}, 
+		{
+			"Nombre":"Cesium Chloride",
+			"Formula":"CsCl"
+		}, 
+		{
+			"Nombre":"Cesium Peroxide",
+			"Formula":"Cs2O2"
+		}, 
+		{
+			"Nombre":"Cesium Phosphite",
+			"Formula":"Cs3PO3"
+		},
+		{
+			"Nombre":"Iron(III) Chloride",
+			"Formula":"FeCl3"
+		},
+		{
+			"Nombre":"Iron(II) Cyanide",
+			"Formula":"Fe(CN)2"
+		},
+		{
+			"Nombre":"Iron(II) Iodate",
+			"Formula":"Fe(IO3)2"
+		}, 
+		{
+			"Nombre":"Iron(II) Phosphate",
+			"Formula":"Fe3(PO4)2"
+		}, 
+		{
+			"Nombre":"Iron(III) Oxide",
+			"Formula":"Fe2O3"
+		}, 
+		{
+			"Nombre":"Cobalt(III) Sulfate",
+			"Formula":"Co2(SO4)3"
+		}, 
+		{
+			"Nombre":"Cobalt(II) Nitrite",
+			"Formula":"Co(NO2)2"
+		}, 
+		{
+			"Nombre":"Cobalt(II) Acetate",
+			"Formula":"Co(C2H3O2)2"
+		}, 
+		{
+			"Nombre":"Cobalt(III) Bromide",
+			"Formula":"CoBr3"
+		}, 
+		{
+			"Nombre":"Cobalt(II) Nitrite",
+			"Formula":"Co(NO2)2"
+		},
+		{
+			"Nombre":"Radium Sulfate",
+			"Formula":"RaSO4"
+		},
+		{
+			"Nombre":"Radium Polonide",
+			"Formula":"RaPo"
+		},
+		{
+			"Nombre":"Radium Perchlorate",
+			"Formula":"Ra(ClO4)2"
+		} 
+	],
     "no-metales":[
        {
           "nombre":"",
           "formula":""
        }
     ],
-    "acidos":[
-       {
-          "nombre":"",
-          "formula":""
-       }
-    ],
+    "Acidos":[
+		{
+			"Nombre":"Acetic Acid",
+			"Formula":"HC2H3O2"
+		}, 
+		{
+			"Nombre":"Boric Acid",
+			"Formula":"H3BO3"
+		}, 
+		{
+			"Nombre":"Carbonic Acid",
+			"Formula":"CH2O3"
+		}, 
+		{
+			"Nombre":"Citric Acid",
+			"Formula":"H3C6H5O7"
+		}, 
+		{
+			"Nombre":"Hydrochloric Acid",
+			"Formula":"HCI"
+		}, 
+		{
+			"Nombre":"Hydrofluoric Acid",
+			"Formula":"HF"
+		}, 
+		{
+			"Nombre":"Nitric Acid",
+			"Formula":"HNO3"
+		},
+		{
+			"Nombre":"Oxalic Acid",
+			"Formula":"H2C2O4"
+		}, 
+		{
+			"Nombre":"Phosphoric Acid",
+			"Formula":"H3PO4"
+		}, 
+		{
+			"Nombre":"Sulfuric Acid",
+			"Formula":"H2SO4"
+		},
+		{
+			"Nombre":"Chloric Acid",
+			"Formula":"HCIO3"
+		}, 
+		{
+			"Nombre":"Hydrobromic Acid",
+			"Formula":"HBr"
+		}, 
+		{
+			"Nombre":"Hydroiodic Acid",
+			"Formula":"HI"
+		}, 
+		{
+			"Nombre":"Perchloric Acid",
+			"Formula":"HCIO4"
+		}, 
+		{
+			"Nombre":"Sulfurous Acid",
+			"Formula":"H2SO3"
+		}, 
+		{
+			"Nombre":"Nitrous Acid",
+			"Formula":"HNO2"
+		}, 
+		{
+			"Nombre":"Methanoic Acid",
+			"Formula":"HCO2H"
+		},
+		{
+			"Nombre":"Benzoic Acid",
+			"Formula":"C6H5COOH"
+		}, 
+		{
+			"Nombre":"Acetic Acid",
+			"Formula":"CH3COOH"
+		}, 
+		{
+			"Nombre":"Formic Acid",
+			"Formula":"HCOOH"
+		},
+		{
+			"Nombre":"Perxenic Acid",
+			"Formula":"H4XeO6"
+		}, 
+		{
+			"Nombre":"Hyposulfurous Acid",
+			"Formula":"H2SO2"
+		}, 
+		{
+			"Nombre":"Pyrosulfuric Acid",
+			"Formula":"H2S2O7"
+		}, 
+		{
+			"Nombre":"Chlorous Acid",
+			"Formula":"HClO2"
+		}, 
+		{
+			"Nombre":"Carbonous Acid",
+			"Formula":"H2CO2"
+		}, 
+		{
+			"Nombre":"Iodous Acid",
+			"Formula":"HIO2"
+		}, 
+		{
+			"Nombre":"Periodic Acid",
+			"Formula":"HIO4"
+		},
+		{
+			"Nombre":"Fluorous Acid",
+			"Formula":"HFO2"
+		}, 
+		{
+			"Nombre":"Hypofluorous Acid",
+			"Formula":"HFO"
+		}, 
+		{
+			"Nombre":"Chromous Acid",
+			"Formula":"H2CrO3"
+		},
+		{
+			"Nombre":"Selenic Acid",
+			"Formula":"H2SeO4"
+		}, 
+		{
+			"Nombre":"Hydronitric Acid",
+			"Formula":"HN3"
+		}, 
+		{
+			"Nombre":"Hyponitrous Acid",
+			"Formula":"HNO"
+		}, 
+		{
+			"Nombre":"Bromous Acid",
+			"Formula":"HBrO2"
+		}, 
+		{
+			"Nombre":"Hypobromous Acid",
+			"Formula":"HBrO"
+		}, 
+		{
+			"Nombre":"Bromic Acid",
+			"Formula":"HBrO3"
+		}, 
+		{
+			"Nombre":"Iodic Acid",
+			"Formula":"HIO3"
+		},
+		{
+			"Nombre":"Fluoric Acid",
+			"Formula":"HFO3"
+		}, 
+		{
+			"Nombre":"Perfluoric Avid",
+			"Formula":"HFO4"
+		}, 
+		{
+			"Nombre":"Chromic Acid",
+			"Formula":"H2CrO4"
+		},
+		{
+			"Nombre":"Hydroselenic Acid",
+			"Formula":"H2Se"
+		}, 
+		{
+			"Nombre":"Selenous Acid",
+			"Formula":"H2SeO3"
+		}, 
+		{
+			"Nombre":"Boric Acid",
+			"Formula":"H3BO3"
+		}, 
+		{
+			"Nombre":"Gallic Acid",
+			"Formula":"HC7H5O5"
+		}, 
+		{
+			"Nombre":"Arsenic Acid",
+			"Formula":"H3AsO4"
+		}, 
+		{
+			"Nombre":"Hydroarsenic Acid",
+			"Formula":"H3As"
+		}, 
+		{
+			"Nombre":"Cyanic Acid",
+			"Formula":"HCNO"
+		},
+		{
+			"Nombre":"Phosphorous Acid",
+			"Formula":"H3PO3"
+		}, 
+		{
+			"Nombre":"Telluric Acid",
+			"Formula":"H6TeO6"
+		}, 
+		{
+			"Nombre":"Titanic Acid",
+			"Formula":"H2TiO3"
+		}
+	],
     "temp":[
        {
           "nombre":"Copper(II) sulfide",

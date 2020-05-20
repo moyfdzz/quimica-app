@@ -38,6 +38,8 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
         repeat {
             question = questions.randomElement()!
         } while askedQuestions.contains(question)
+
+        askedQuestions.append(question)
     }
 
     // Manejo de datos en JSON
@@ -81,12 +83,18 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
     
     @IBAction func empezarCuestionario(_ sender: Any) {
         if scSegment.titleForSegment(at: scSegment.selectedSegmentIndex) == "Nombre" {
-            // for i in nPreguntas en UserDefaults
-            // append con func extractData(categoría en UserDefaults)
+            for i in usuario.quiz.questions.count {
+                var q : Question! = extractData(usuario.tipo)
+                usuario.quiz.appendQuestion(question: Question(question: q["Nombre"], answer: q["Formula"]))
+            }
             usuario.quiz.questions = [Question]()
             usuario.quiz.appendQuestion(question: Question(question: "Acetic acid", answer: "CH3COOH"))
             usuario.quiz.appendQuestion(question: Question(question: "Hydrochloric acid", answer: "HCl"))
         } else {
+            for i in usuario.quiz.questions.count {
+                var q : Question! = extractData(usuario.tipo)
+                usuario.quiz.appendQuestion(question: Question(question: q["Formula"], answer: q["Nombre"]))
+            }
             usuario.quiz.questions =
             [Question(question: "CH3COOH", answer: "Acetic acid"), Question(question: "HCl", answer: "Hydrochloric acid")]
         }
