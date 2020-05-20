@@ -43,7 +43,7 @@ class FrontPageViewController: UIViewController,prococoloModificarUsuario,protoc
         } else {
             questions = [Question(question: "CH3COOH", answer: "Acetic acid"), Question(question: "HCl", answer: "Hydrochloric acid")]
             quiz = Quiz(questions: questions, currentQuestion: 1, correctCount: 0, incorrectCount: 0)
-            usuario = Usuario(nombre: "-", totalAciertos: 0, totalPreguntas: 0, nivel: 1, tipo: "Metal", quiz: quiz)
+            usuario = Usuario(nombre: "-", totalAciertos: 0, totalPreguntas: 0, nivel: 1, tipo: "Metales", quiz: quiz)
         }
     }
     

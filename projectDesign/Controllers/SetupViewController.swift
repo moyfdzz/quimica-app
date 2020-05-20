@@ -30,44 +30,6 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
 
     }
 
-    // Sacar una pregunta
-    var askedQuestions: Set<Question> = []
-    var question: Question!
-
-    func getQuestion(questions: [Question]) -> Question {
-        repeat {
-            question = questions.randomElement()!
-        } while askedQuestions.contains(question)
-
-        askedQuestions.insert(question)
-        
-        return question
-    }
-
-    // Manejo de datos en JSON
-    func extractData(category: String) -> Question {
-        if let path = Bundle.main.path(forResource: "Data", ofType: "json") {
-            do {
-                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-                let jsonResult = try? JSONSerialization.jsonObject(with: data)
-                if let jsonResult = jsonResult as? [String: Any] {
-                    if let questions = jsonResult[category] {
-                        print(questions)
-                    }
-                }
-            } catch {
-                print("Unexpected error: \(error).")
-            }
-        }
-        
-        if question != nil {
-            return question
-        }
-        else {
-            return Question(question: "", answer: "")
-        }
-    }
-
     // MARK: -UIPickerViewDataSource
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
@@ -92,6 +54,54 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
         return label
     }
     
+    // Sacar una pregunta
+    var askedQuestions: Set<Question> = []
+    var question: Question!
+
+    func getQuestion(questions: [Question]) -> Question {
+        repeat {
+            question = questions.randomElement()!
+        } while askedQuestions.contains(question)
+
+        askedQuestions.insert(question)
+        
+        return question
+    }
+    
+    func castToArrray(questions: [NSDictionary]) -> [Question] {
+        var questionsArray: [Question]! = []
+        
+        for i in questions {
+            questionsArray.append(Question(question: i["Nombre"] as! String, answer: i["Formula"] as! String))
+        }
+        
+        return questionsArray
+    }
+    
+    // Manejo de datos en JSON
+    func extractData(category: String) -> Question {
+        if let path = Bundle.main.path(forResource: "Data", ofType: "json") {
+            do {
+                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+                let jsonResult = try? JSONSerialization.jsonObject(with: data)
+                if let jsonResult = jsonResult as? [String: Any] {
+                    if let questions = jsonResult[category] {
+                        let questionsArray: [Question]! = castToArrray(questions: questions as! [NSDictionary])
+                        question = getQuestion(questions: questionsArray)
+                    }
+                }
+            } catch {
+                print("Unexpected error: \(error).")
+            }
+        }
+        
+        if question != nil {
+            return question
+        }
+        else {
+            return Question(question: "", answer: "")
+        }
+    }
     @IBAction func empezarCuestionario(_ sender: Any) {
         if scSegment.titleForSegment(at: scSegment.selectedSegmentIndex) == "Nombre" {
             for _ in 0...usuario.quiz.questions.count {
