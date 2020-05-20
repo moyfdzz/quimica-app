@@ -21,7 +21,7 @@ class OptionsViewController: UIViewController,UIPickerViewDelegate, UIPickerView
     @IBOutlet weak var pvPickerView: UIPickerView!
     @IBOutlet weak var pvTipo: UIPickerView!
     @IBOutlet weak var btMenu: UIButton!
-    var tiposPreguntas = ["Metales","Acidos"]
+    var tiposPreguntas = ["Metales","Acidos","No Metálicos"]
     var usuario : Usuario!
     var delegado : prococoloModificarUsuario!
 
@@ -34,14 +34,11 @@ class OptionsViewController: UIViewController,UIPickerViewDelegate, UIPickerView
         
         //Load User defaults
         let defaults = UserDefaults.standard
-        
-    
         tfUsuario.text = usuario.nombre
-    
-    sliderVolumen.value = defaults.float(forKey: "volumen")
-    swMusica.isOn = defaults.bool(forKey: "musica")
-    let index = defaults.integer(forKey: "tipo")
-    pvPickerView.selectRow(index, inComponent: 0, animated: true)
+        sliderVolumen.value = defaults.float(forKey: "volumen")
+        swMusica.isOn = defaults.bool(forKey: "musica")
+        let index = defaults.integer(forKey: "tipo")
+        pvPickerView.selectRow(index, inComponent: 0, animated: true)
     }
     
     

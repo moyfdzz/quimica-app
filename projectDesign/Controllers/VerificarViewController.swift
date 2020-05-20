@@ -14,43 +14,64 @@ class VerificarViewController: UIViewController {
     var isCorrect : Bool!
     var delegadoPrimeraVista : protocoloUsuario!
     
+    @IBOutlet weak var lbAvanceFijo: UILabel!
     @IBOutlet weak var lbRetro: UILabel!
     @IBOutlet weak var lbCorregir: UILabel!
     @IBOutlet weak var lbCorreccion: UILabel!
     @IBOutlet weak var btContinuar: UIButton!
     @IBOutlet weak var lbAvance: UILabel!
+    @IBOutlet weak var lbCorrecto: UILabel!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        usuario = delegadoPrimeraVista.getUser()
-        if isCorrect {
-            lbCorregir.alpha = 0
-            lbCorreccion.alpha = 0
-            lbRetro.text = "Correcto"
-            lbRetro.textColor = UIColor.green
-        } else {
-            lbCorregir.alpha = 1
-            lbCorreccion.alpha = 1
-            lbRetro.text = "Incorrecto"
-            lbRetro.textColor = UIColor.red
-            let index = usuario.quiz.currentQuestion
-            lbCorreccion.text = usuario.quiz.questions[index].answer
-        }
-        lbAvance.text = "\(usuario.quiz.currentQuestion+1)/\(usuario.quiz.questions.count)"
+        
         //Styles
         btContinuar.layer.cornerRadius = 10
         btContinuar.clipsToBounds = true
     }
     
-
-
-    @IBAction func regresarQuiz(_ sender: Any) {
-        usuario.quiz.currentQuestion += 1;
-        delegadoPrimeraVista.update(user: self.usuario)
-        dismiss(animated: true, completion: nil)
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        usuario = delegadoPrimeraVista.getUser()
+        
+         if isCorrect {
+                   lbCorregir.alpha = 0
+                   lbCorreccion.alpha = 0
+                   lbAvanceFijo.alpha = 1
+                   lbAvanceFijo.text = "Avance"
+                   lbRetro.text = "Correcto"
+                   lbRetro.textColor = UIColor.green
+               } else {
+                   lbCorregir.alpha = 1
+                   lbCorreccion.alpha = 1
+                   lbAvanceFijo.alpha = 1
+                   lbAvanceFijo.text = "Avance"
+                   lbCorregir.text = "La respuesta correcta era: "
+                   lbRetro.text = "Incorrecto"
+                   lbRetro.textColor = UIColor.red
+                   let index = usuario.quiz.currentQuestion
+                   lbCorreccion.text = usuario.quiz.questions[index].answer
+               }
+               lbAvance.text = "\(usuario.quiz.currentQuestion+1)/\(usuario.quiz.questions.count)"
+        lbCorrecto.text = String(usuario.quiz
+            .correctCount/(usuario.quiz.currentQuestion+1)) + "%"
     }
-    
-
+        
+    @IBAction func regresarQuiz(_ sender: Any) {
+        
+        if usuario.quiz.currentQuestion == usuario.quiz.questions.count {
+        } else {
+            usuario.quiz.currentQuestion += 1;
+            delegadoPrimeraVista.update(user: usuario)
+            if usuario.quiz.currentQuestion == usuario.quiz.questions.count{
+                delegadoPrimeraVista.update(user: usuario)
+                presentingViewController?.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
+            } else {
+            dismiss(animated: true, completion: nil)
+            }
+        }
+    }
 }
+
  

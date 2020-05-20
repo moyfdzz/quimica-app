@@ -44,8 +44,6 @@ class FrontPageViewController: UIViewController,prococoloModificarUsuario,protoc
             quiz = Quiz(questions: questions, currentQuestion: 1, correctCount: 0, incorrectCount: 0)
             usuario = Usuario(nombre: "-", totalAciertos: 0, totalPreguntas: 0, nivel: 1, tipo: "Metal", quiz: quiz)
         }
-         
-        
     }
     
     func modificar(name: String) {
@@ -92,11 +90,12 @@ class FrontPageViewController: UIViewController,prococoloModificarUsuario,protoc
         if defaults.bool(forKey: "musica") {
             MusicPlayer.shared.startBackgroundMusic()
         }
-        
+        /*
         if let user = UserDefaults.standard.data(forKey: "usuario"),
             let newUser = try? JSONDecoder().decode(Usuario.self, from: user) {
             usuario = newUser
         }
+         */
     }
     
     

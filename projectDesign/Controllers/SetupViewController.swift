@@ -83,6 +83,7 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
         if scSegment.titleForSegment(at: scSegment.selectedSegmentIndex) == "Nombre" {
             // for i in nPreguntas en UserDefaults
             // append con func extractData(categoría en UserDefaults)
+            usuario.quiz.questions = [Question]()
             usuario.quiz.appendQuestion(question: Question(question: "Acetic acid", answer: "CH3COOH"))
             usuario.quiz.appendQuestion(question: Question(question: "Hydrochloric acid", answer: "HCl"))
         } else {

@@ -32,16 +32,7 @@ class Quiz: NSObject,Codable, NSCoding {
         self.questions.append(question)
     }
     
-    func verify(index: Int, input: String) -> Bool{
-        let isCorrect = questions[index].answer == input
-        
-        if isCorrect {
-            self.correctCount += 1;
-        } else {
-            self.incorrectCount += 1;
-        }
-        return isCorrect
-    }
+
     required convenience init(coder aDecoder: NSCoder) {
         let questions = aDecoder.decodeObject(forKey: "questions") as! [Question]
         let currentQuestion = aDecoder.decodeInteger(forKey: "current")
