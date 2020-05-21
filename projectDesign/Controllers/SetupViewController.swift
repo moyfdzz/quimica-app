@@ -28,7 +28,7 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
         btEmpezar.layer.cornerRadius = 10
         btEmpezar.clipsToBounds = true
         options = Array(1...20)
-
+        numberQuestions = 0
     }
 
     // MARK: -UIPickerViewDataSource
@@ -58,6 +58,7 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
     // Sacar una pregunta
     var askedQuestions: Set<Question> = []
     var question: Question!
+    var numberQuestions: Int!
 
     func getQuestion(questions: [Question]) -> Question {
         repeat {
@@ -104,25 +105,23 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
         }
     }
     @IBAction func empezarCuestionario(_ sender: Any) {
+        let index = pvPickerView.selectedRow(inComponent: 0)
+        numberQuestions = options[index] - 1
+        usuario.quiz.questions = []
+        
         if scSegment.titleForSegment(at: scSegment.selectedSegmentIndex) == "Nombre" {
-            
-            let index = pvPickerView.selectedRow(inComponent: 0)
-            let numberQuestions = options[index]
-            for _ in 0...usuario.quiz.questions.count {
+            for _ in 0...numberQuestions {
                 let q : Question! = extractData(category: usuario.tipo)
                 usuario.quiz.appendQuestion(question: Question(question: q.question, answer: q.answer))
             }
-            //usuario.quiz.questions = [Question]()
-            //usuario.quiz.appendQuestion(question: Question(question: "Acetic acid", answer: "CH3COOH"))
-            //usuario.quiz.appendQuestion(question: Question(question: "Hydrochloric acid", answer: "HCl"))
         } else {
-            for _ in 0...usuario.quiz.questions.count {
+            for _ in 0...numberQuestions {
                 let q : Question! = extractData(category: usuario.tipo)
                 usuario.quiz.appendQuestion(question: Question(question: q.answer, answer: q.question))
             }
-            //usuario.quiz.questions =
-            //[Question(question: "CH3COOH", answer: "Acetic acid"), Question(question: "HCl", answer: "Hydrochloric acid")]
         }
+        
+        numberQuestions = 0
         usuario.quiz.currentQuestion = 0
         delegadoPrimeraVista.update(user: usuario)
     }

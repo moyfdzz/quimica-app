@@ -41,7 +41,8 @@ class FrontPageViewController: UIViewController,prococoloModificarUsuario,protoc
         if FileManager.default.fileExists(atPath: dataFileUrl().path){
             obtenerInfo()
         } else {
-            questions = [Question(question: "CH3COOH", answer: "Acetic acid"), Question(question: "HCl", answer: "Hydrochloric acid")]
+            //questions = [Question(question: "CH3COOH", answer: "Acetic acid"), Question(question: "HCl", answer: "Hydrochloric acid")]
+            questions = []
             quiz = Quiz(questions: questions, currentQuestion: 1, correctCount: 0, incorrectCount: 0)
             usuario = Usuario(nombre: "-", totalAciertos: 0, totalPreguntas: 0, nivel: 1, tipo: "Metales", quiz: quiz)
         }
