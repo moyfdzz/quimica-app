@@ -34,7 +34,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chem Study" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCz-a2-AS7">
-                                <rect key="frame" x="47" y="94" width="320" height="259"/>
+                                <rect key="frame" x="78" y="94" width="289" height="259"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="259" id="rYg-24-Qcq"/>
                                 </constraints>
@@ -86,19 +86,19 @@
                         </subviews>
                         <color key="backgroundColor" red="0.45490196078431372" green="0.34901960784313724" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="YCz-a2-AS7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="47" id="55s-rH-o0G"/>
-                            <constraint firstItem="OrX-3k-tTw" firstAttribute="top" secondItem="YCz-a2-AS7" secondAttribute="bottom" constant="46" id="BY7-2n-NMF"/>
-                            <constraint firstItem="fza-eO-t92" firstAttribute="trailing" secondItem="WRV-1q-xCm" secondAttribute="trailing" id="Jsi-mX-C5P"/>
-                            <constraint firstItem="fza-eO-t92" firstAttribute="top" secondItem="WRV-1q-xCm" secondAttribute="bottom" constant="-157" id="OWT-xN-a4W"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fza-eO-t92" secondAttribute="bottom" constant="237" id="OgA-by-Fvp"/>
-                            <constraint firstItem="YCz-a2-AS7" firstAttribute="centerX" secondItem="OrX-3k-tTw" secondAttribute="centerX" id="OiJ-MS-C8h"/>
-                            <constraint firstItem="OrX-3k-tTw" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="TxP-bc-E9f"/>
-                            <constraint firstItem="fza-eO-t92" firstAttribute="leading" secondItem="OrX-3k-tTw" secondAttribute="leading" id="WO7-Aq-TvT"/>
-                            <constraint firstItem="OrX-3k-tTw" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aER-Fx-YGy"/>
-                            <constraint firstItem="YCz-a2-AS7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="e5z-ne-mfL"/>
-                            <constraint firstItem="fza-eO-t92" firstAttribute="leading" secondItem="WRV-1q-xCm" secondAttribute="leading" id="eUd-QR-RXe"/>
-                            <constraint firstItem="YCz-a2-AS7" firstAttribute="centerX" secondItem="fza-eO-t92" secondAttribute="centerX" id="hBN-Rf-gJK"/>
-                            <constraint firstItem="fza-eO-t92" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="98" id="zXU-87-Hzp"/>
+                            <constraint firstItem="fza-eO-t92" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AOK-QJ-beE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YCz-a2-AS7" secondAttribute="trailing" constant="47" id="DZg-St-e8n"/>
+                            <constraint firstItem="WRV-1q-xCm" firstAttribute="top" secondItem="fza-eO-t92" secondAttribute="bottom" constant="30" id="E8g-kT-BRy"/>
+                            <constraint firstItem="YCz-a2-AS7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="Igq-Rd-a2p"/>
+                            <constraint firstItem="fza-eO-t92" firstAttribute="trailing" secondItem="WRV-1q-xCm" secondAttribute="trailing" id="PbY-sn-aSL"/>
+                            <constraint firstItem="fza-eO-t92" firstAttribute="leading" secondItem="OrX-3k-tTw" secondAttribute="leading" id="ZL2-vg-LcA"/>
+                            <constraint firstItem="fza-eO-t92" firstAttribute="top" secondItem="OrX-3k-tTw" secondAttribute="bottom" constant="42" id="aJi-bE-eLc"/>
+                            <constraint firstItem="fza-eO-t92" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="98" id="ajW-9H-inF"/>
+                            <constraint firstItem="OrX-3k-tTw" firstAttribute="top" secondItem="YCz-a2-AS7" secondAttribute="bottom" constant="46" id="au1-9t-z2P"/>
+                            <constraint firstAttribute="bottom" secondItem="fza-eO-t92" secondAttribute="bottom" constant="271" id="fTS-i2-Lxu"/>
+                            <constraint firstItem="fza-eO-t92" firstAttribute="leading" secondItem="WRV-1q-xCm" secondAttribute="leading" id="maP-bQ-hVj"/>
+                            <constraint firstItem="fza-eO-t92" firstAttribute="trailing" secondItem="OrX-3k-tTw" secondAttribute="trailing" id="v6L-Z6-j0r"/>
+                            <constraint firstItem="YCz-a2-AS7" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="z6C-Nm-8XD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
