@@ -192,6 +192,7 @@
                     <navigationItem key="navigationItem" id="gxC-Yd-lDb"/>
                     <connections>
                         <outlet property="btEmpezar" destination="rJf-Pw-e6t" id="foy-mH-utf"/>
+                        <outlet property="pvPickerView" destination="GpT-bV-F8R" id="U0U-Or-8TP"/>
                         <outlet property="scSegment" destination="LXe-hg-8wp" id="oQM-hc-jXM"/>
                     </connections>
                 </viewController>

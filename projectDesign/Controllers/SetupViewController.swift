@@ -16,6 +16,7 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
     var options : [Int]!
 
     @IBOutlet weak var btEmpezar: UIButton!
+    @IBOutlet weak var pvPickerView: UIPickerView!
     @IBOutlet weak var scSegment: UISegmentedControl!
     var usuario : Usuario!
     var delegadoPrimeraVista : protocoloUsuario!
@@ -104,6 +105,9 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
     }
     @IBAction func empezarCuestionario(_ sender: Any) {
         if scSegment.titleForSegment(at: scSegment.selectedSegmentIndex) == "Nombre" {
+            
+            let index = pvPickerView.selectedRow(inComponent: 0)
+            let numberQuestions = options[index]
             for _ in 0...usuario.quiz.questions.count {
                 let q : Question! = extractData(category: usuario.tipo)
                 usuario.quiz.appendQuestion(question: Question(question: q.question, answer: q.answer))
