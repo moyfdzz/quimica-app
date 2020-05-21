@@ -80,7 +80,7 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
         return questionsArray
     }
     
-    // Manejo de datos en JSON
+    // Extracciòn de datos de archivo JSON
     func extractData(category: String) -> Question {
         if let path = Bundle.main.path(forResource: "Data", ofType: "json") {
             do {
