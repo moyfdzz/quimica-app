@@ -44,8 +44,15 @@ class TriviaViewController: UIViewController {
         if index >= usuario.quiz.questions.count{
             lbPregunta.text = ""
         } else {
-        lbPregunta.text = usuario.quiz.questions[index].question
+            let q = usuario.quiz.questions[index].question
+            let subs = getSuperscript(compund: q!)
+            lbPregunta.setAttributedTextWithSubscripts(text: q!, indicesOfSubscripts: subs)
         }
+        
+        
+        
+        
+        
     }
     
 
@@ -91,5 +98,15 @@ class TriviaViewController: UIViewController {
         
     }
     
+    func getSuperscript(compund: String) -> [Int]{
+        var subs = [Int]()
+        
+        for (n,c) in compund.enumerated() {
+            if( c >= "0" || c <= "9"){
+                subs.append(n)
+            }
+        }
+        return subs
+    }
 
 }

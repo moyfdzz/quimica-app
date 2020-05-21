@@ -19,6 +19,7 @@
 		8B1CE6442451062900E63CF9 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1CE6432451062900E63CF9 /* OptionsViewController.swift */; };
 		8B1CE6462451064200E63CF9 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1CE6452451064200E63CF9 /* StatisticsViewController.swift */; };
 		8B1CE6482451094C00E63CF9 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1CE6472451094C00E63CF9 /* Usuario.swift */; };
+		8B24E2FF247707DE00BFB9E3 /* Subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B24E2FE247707DE00BFB9E3 /* Subscript.swift */; };
 		8B3AA8072468AE9400AD39F7 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3AA8062468AE9400AD39F7 /* MusicPlayer.swift */; };
 		8B730FE42466285C000086DA /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B730FE32466285C000086DA /* SetupViewController.swift */; };
 		8B730FE624665934000086DA /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B730FE524665934000086DA /* TriviaViewController.swift */; };
@@ -56,6 +57,7 @@
 		8B1CE6432451062900E63CF9 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		8B1CE6452451064200E63CF9 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
 		8B1CE6472451094C00E63CF9 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		8B24E2FE247707DE00BFB9E3 /* Subscript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscript.swift; sourceTree = "<group>"; };
 		8B3AA8062468AE9400AD39F7 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
 		8B730FE32466285C000086DA /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
 		8B730FE524665934000086DA /* TriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 			children = (
 				8F1104C52469169800E4CCE4 /* Kahoot.mp3 */,
 				8F8C426024695B2F00F9895B /* Data.json */,
+				8B24E2FE247707DE00BFB9E3 /* Subscript.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -359,6 +362,7 @@
 				0F1B446524398F0900148B21 /* SceneDelegate.swift in Sources */,
 				8B730FE824665F64000086DA /* VerificarViewController.swift in Sources */,
 				8B730FE42466285C000086DA /* SetupViewController.swift in Sources */,
+				8B24E2FF247707DE00BFB9E3 /* Subscript.swift in Sources */,
 				8B1CE6462451064200E63CF9 /* StatisticsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

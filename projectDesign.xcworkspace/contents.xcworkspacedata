@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/user168655/Documents/Github/quimica-app/projectDesign/System/MusicPlayer.swift">
-   </FileRef>
-   <FileRef
       location = "group:projectDesign.xcodeproj">
    </FileRef>
    <FileRef
