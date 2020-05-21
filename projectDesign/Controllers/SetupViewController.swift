@@ -108,6 +108,8 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
         let index = pvPickerView.selectedRow(inComponent: 0)
         numberQuestions = options[index] - 1
         usuario.quiz.questions = []
+        usuario.quiz.correctCount = 0
+        usuario.quiz.incorrectCount = 0
         
         if scSegment.titleForSegment(at: scSegment.selectedSegmentIndex) == "Nombre" {
             for _ in 0...numberQuestions {

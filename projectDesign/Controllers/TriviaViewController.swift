@@ -102,10 +102,11 @@ class TriviaViewController: UIViewController {
         var subs = [Int]()
         
         for (n,c) in compund.enumerated() {
-            if( c >= "0" || c <= "9"){
+            if(c.isASCII && c.isNumber){
                 subs.append(n)
             }
         }
+        print(subs)
         return subs
     }
 

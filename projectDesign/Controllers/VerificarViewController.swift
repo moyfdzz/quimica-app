@@ -51,11 +51,12 @@ class VerificarViewController: UIViewController {
                    lbRetro.text = "Incorrecto"
                    lbRetro.textColor = UIColor.red
                    let index = usuario.quiz.currentQuestion
-                   lbCorreccion.text = usuario.quiz.questions[index].answer
+                   let q = usuario.quiz.questions[index].question
+                   let subs = getSuperscript(compund: q!)
+                   lbCorreccion.setAttributedTextWithSubscripts(text: q!, indicesOfSubscripts: subs)
                }
                lbAvance.text = "\(usuario.quiz.currentQuestion+1)/\(usuario.quiz.questions.count)"
-        lbCorrecto.text = String(usuario.quiz
-            .correctCount/(usuario.quiz.currentQuestion+1)) + "%"
+        lbCorrecto.text = String(Float (Double (usuario.quiz.correctCount) / Double ((usuario.quiz.currentQuestion+1))*100)) + "%"
     }
         
     @IBAction func regresarQuiz(_ sender: Any) {
@@ -72,6 +73,19 @@ class VerificarViewController: UIViewController {
             }
         }
     }
+    
+    func getSuperscript(compund: String) -> [Int]{
+        var subs = [Int]()
+        
+        for (n,c) in compund.enumerated() {
+            if(c.isASCII && c.isNumber){
+                subs.append(n)
+            }
+        }
+        print(subs)
+        return subs
+    }
+    
 }
 
  
