@@ -55,6 +55,10 @@ class TriviaViewController: UIViewController {
         
     }
     
+    
+    @IBAction func terminarEdicion(_ sender: UITapGestureRecognizer) {
+        view.endEditing(true)
+    }
 
     
     // MARK: - Navigation
