@@ -38,6 +38,7 @@ class TriviaViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         usuario = delegadoPrimeraVista.getUser()
         isCorrect = false
+        tfRespuesta.text = ""
         lbAvance.text = "\(usuario.quiz.currentQuestion+1)/\(usuario.quiz.questions.count)"
         let index = usuario.quiz.currentQuestion
         

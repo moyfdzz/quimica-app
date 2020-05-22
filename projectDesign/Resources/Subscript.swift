@@ -13,6 +13,9 @@ extension UILabel {
                                             .baselineOffset: subscriptOffset],
                                            range: range)
         }
+        self.numberOfLines = 0
         self.attributedText = attributedString
+        self.adjustsFontForContentSizeCategory = true
+        self.lineBreakMode = .byTruncatingTail
     }
 }

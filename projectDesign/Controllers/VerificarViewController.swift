@@ -29,6 +29,12 @@ class VerificarViewController: UIViewController {
         //Styles
         btContinuar.layer.cornerRadius = 10
         btContinuar.clipsToBounds = true
+        
+        if (usuario.quiz.currentQuestion + 1) == usuario.quiz.questions.count{
+            btContinuar.setTitle("Finalizar", for: .normal)
+        } else {
+            btContinuar.setTitle("Continuar", for: .normal)
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
