@@ -15,13 +15,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dua-rA-gPw">
-                                <rect key="frame" x="47" y="723" width="318" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dua-rA-gPw">
+                                <rect key="frame" x="48" y="784" width="318" height="68"/>
                                 <color key="backgroundColor" systemColor="tertiaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="14W-N9-xlG"/>
+                                    <constraint firstAttribute="width" constant="318" id="RUn-1k-YZg"/>
+                                </constraints>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Menu">
+                                        <fragment content="Menú">
                                             <attributes>
                                                 <color key="NSColor" red="1" green="0.99104999999999999" blue="0.96419999999999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <font key="NSFont" size="33" name="HelveticaNeue-Thin"/>
@@ -34,27 +37,36 @@
                                     <segue destination="yAU-eB-ean" kind="unwind" unwindAction="unwindWithUnwindSegue:" id="Xqp-iE-Fsb"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chem Study" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ywy-rB-se1">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chem Study" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ywy-rB-se1">
                                 <rect key="frame" x="47" y="31" width="320" height="259"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="6zw-qb-XH6"/>
+                                    <constraint firstAttribute="height" constant="259" id="fOW-V8-O1d"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="87"/>
                                 <color key="textColor" red="0.45098039220000002" green="0.98039215690000003" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="shadowColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <size key="shadowOffset" width="-3" height="6"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Créditos" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwY-qP-cga">
-                                <rect key="frame" x="120" y="265" width="174" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Créditos" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwY-qP-cga">
+                                <rect key="frame" x="120" y="242" width="174" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="174" id="Kzn-sz-hLY"/>
+                                    <constraint firstAttribute="height" constant="46" id="N99-dE-iAC"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="40"/>
                                 <color key="textColor" red="0.45098039220000002" green="0.98039215690000003" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="shadowColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <size key="shadowOffset" width="-3" height="6"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dz2-6h-gqt">
-                                <rect key="frame" x="86" y="319" width="243" height="185"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dz2-6h-gqt">
+                                <rect key="frame" x="85.5" y="269" width="243" height="185"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="185" id="9K2-CF-Vlk"/>
+                                    <constraint firstAttribute="width" constant="243" id="PFR-Kk-95i"/>
+                                </constraints>
                                 <string key="text">Desarrolladores: Erick González
 Moisés Fernández
 Adrián Mancilla</string>
@@ -62,10 +74,13 @@ Adrián Mancilla</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IX2-qB-Auo">
-                                <rect key="frame" x="66" y="458" width="283" height="213"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Agradecimientos a: Zita Valdes
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IX2-qB-Auo">
+                                <rect key="frame" x="65.5" y="391.5" width="283" height="213"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="283" id="17C-kD-Hx0"/>
+                                    <constraint firstAttribute="height" constant="213" id="tNs-ZM-467"/>
+                                </constraints>
+                                <string key="text">Agradecimientos a: Zita Valdés
 Ing. Yolanda Martínez</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -73,6 +88,18 @@ Ing. Yolanda Martínez</string>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.45490196078431372" green="0.34901960784313724" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Dz2-6h-gqt" firstAttribute="top" secondItem="gwY-qP-cga" secondAttribute="bottom" multiplier="0.9" constant="10" id="ATV-Po-tQ5"/>
+                            <constraint firstItem="IX2-qB-Auo" firstAttribute="top" secondItem="Dz2-6h-gqt" secondAttribute="bottom" multiplier="0.84" constant="10" id="Etd-l0-0pb"/>
+                            <constraint firstItem="gwY-qP-cga" firstAttribute="top" secondItem="ywy-rB-se1" secondAttribute="bottom" multiplier="0.8" constant="10" id="NgC-cF-uXb"/>
+                            <constraint firstItem="Dz2-6h-gqt" firstAttribute="centerX" secondItem="gLl-J8-AtP" secondAttribute="centerX" id="f3F-j9-Hfk"/>
+                            <constraint firstItem="ywy-rB-se1" firstAttribute="centerX" secondItem="gLl-J8-AtP" secondAttribute="centerX" id="fW4-Mo-4xa"/>
+                            <constraint firstItem="Dua-rA-gPw" firstAttribute="centerX" secondItem="gLl-J8-AtP" secondAttribute="centerX" id="iJM-Lz-ehS"/>
+                            <constraint firstItem="IX2-qB-Auo" firstAttribute="centerX" secondItem="gLl-J8-AtP" secondAttribute="centerX" id="pk7-Lz-iw3"/>
+                            <constraint firstItem="ywy-rB-se1" firstAttribute="top" secondItem="gLl-J8-AtP" secondAttribute="top" constant="31" id="rB6-2u-sg1"/>
+                            <constraint firstItem="gwY-qP-cga" firstAttribute="centerX" secondItem="gLl-J8-AtP" secondAttribute="centerX" id="s2u-yw-jf5"/>
+                            <constraint firstItem="WHm-84-Yop" firstAttribute="bottom" secondItem="Dua-rA-gPw" secondAttribute="bottom" constant="10" id="wbJ-LD-HvI"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="WHm-84-Yop"/>
                     </view>
                 </viewController>
@@ -169,9 +196,8 @@ Ing. Yolanda Martínez</string>
                                     <segue destination="Xdx-Fi-D1z" kind="presentation" identifier="estadistica" modalPresentationStyle="fullScreen" id="bfg-J3-rxx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qxI-5M-15M">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qxI-5M-15M">
                                 <rect key="frame" x="31" y="847" width="25" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="LOp-zO-Qjo" kind="presentation" modalPresentationStyle="fullScreen" id="Eoo-Ok-52L"/>
                                 </connections>
@@ -179,8 +205,10 @@ Ing. Yolanda Martínez</string>
                         </subviews>
                         <color key="backgroundColor" red="0.45490196078431372" green="0.34901960784313724" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="qxI-5M-15M" secondAttribute="bottom" constant="25" id="0Im-KS-2so"/>
                             <constraint firstItem="WRV-1q-xCm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2MD-30-QSW"/>
                             <constraint firstItem="fza-eO-t92" firstAttribute="top" secondItem="OrX-3k-tTw" secondAttribute="bottom" constant="42" id="2a3-uK-Mwd"/>
+                            <constraint firstItem="qxI-5M-15M" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="31" id="5Ve-85-M1q"/>
                             <constraint firstItem="YCz-a2-AS7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AfX-wu-arx"/>
                             <constraint firstItem="OrX-3k-tTw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BmQ-fR-0Mi"/>
                             <constraint firstItem="YCz-a2-AS7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" multiplier="1.5" constant="10" id="CKe-TT-sSf"/>
@@ -700,7 +728,7 @@ Ing. Yolanda Martínez</string>
                                 </constraints>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Menu">
+                                        <fragment content="Menú">
                                             <attributes>
                                                 <color key="NSColor" red="1" green="0.99104999999999999" blue="0.96419999999999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <font key="NSFont" size="33" name="HelveticaNeue-Thin"/>
@@ -818,7 +846,7 @@ Ing. Yolanda Martínez</string>
                                     <outlet property="delegate" destination="elT-QD-zFZ" id="waY-G3-XjA"/>
                                 </connections>
                             </pickerView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Volúmen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62q-d2-rJG">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Volumen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62q-d2-rJG">
                                 <rect key="frame" x="151" y="257.5" width="112" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="cQK-IG-Bdu"/>
@@ -857,7 +885,7 @@ Ing. Yolanda Martínez</string>
                                 </constraints>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Menu">
+                                        <fragment content="Menú">
                                             <attributes>
                                                 <color key="NSColor" red="1" green="0.99104999999999999" blue="0.96419999999999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <font key="NSFont" size="33" name="HelveticaNeue-Thin"/>
@@ -887,7 +915,7 @@ Ing. Yolanda Martínez</string>
                                 <color key="shadowColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <size key="shadowOffset" width="-3" height="6"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Musica:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXF-EP-ZVV">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Música:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXF-EP-ZVV">
                                 <rect key="frame" x="18" y="379.5" width="142" height="74"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="142" id="4m8-2J-LLa"/>
