@@ -74,7 +74,7 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
         var questionsArray: [Question]! = []
         
         for i in questions {
-            questionsArray.append(Question(question: i["Nombre"] as! String, answer: i["Formula"] as! String))
+            questionsArray.append(Question(question: i["Nombre"] as! String, answer: i["Fórmula"] as! String))
         }
         
         return questionsArray
