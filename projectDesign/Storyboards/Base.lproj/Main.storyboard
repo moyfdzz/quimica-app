@@ -200,6 +200,7 @@ Adrián Mancilla</string>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qxI-5M-15M">
                                 <rect key="frame" x="31" y="847" width="25" height="24"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <segue destination="LOp-zO-Qjo" kind="presentation" modalPresentationStyle="fullScreen" id="Eoo-Ok-52L"/>
                                 </connections>
