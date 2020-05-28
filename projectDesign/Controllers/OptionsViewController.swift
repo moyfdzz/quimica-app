@@ -22,7 +22,7 @@ class OptionsViewController: UIViewController,UIPickerViewDelegate, UIPickerView
     @IBOutlet weak var pvPickerView: UIPickerView!
     @IBOutlet weak var pvTipo: UIPickerView!
     @IBOutlet weak var btMenu: UIButton!
-    var tiposPreguntas = ["Metales","Ácidos","Compuestos Ionicos","Compuestos Moleculares"]
+    var tiposPreguntas = ["Metales","Ácidos","Ionicos","Moleculares"]
     var usuario : Usuario!
     var delegado : prococoloModificarUsuario!
 

@@ -37,32 +37,46 @@
                                     <segue destination="yAU-eB-ean" kind="unwind" unwindAction="unwindWithUnwindSegue:" id="Xqp-iE-Fsb"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chem Study" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ywy-rB-se1">
-                                <rect key="frame" x="47" y="31" width="320" height="259"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Créditos" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwY-qP-cga">
+                                <rect key="frame" x="70" y="96" width="274" height="105"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="320" id="6zw-qb-XH6"/>
-                                    <constraint firstAttribute="height" constant="259" id="fOW-V8-O1d"/>
+                                    <constraint firstAttribute="width" constant="274" id="Kzn-sz-hLY"/>
+                                    <constraint firstAttribute="height" constant="105" id="N99-dE-iAC"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="87"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="60"/>
                                 <color key="textColor" red="0.45098039220000002" green="0.98039215690000003" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="shadowColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <size key="shadowOffset" width="-3" height="6"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Créditos" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwY-qP-cga">
-                                <rect key="frame" x="120" y="242" width="174" height="46"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IX2-qB-Auo">
+                                <rect key="frame" x="65.5" y="318" width="283" height="213"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="174" id="Kzn-sz-hLY"/>
-                                    <constraint firstAttribute="height" constant="46" id="N99-dE-iAC"/>
+                                    <constraint firstAttribute="width" constant="283" id="17C-kD-Hx0"/>
+                                    <constraint firstAttribute="height" constant="213" id="tNs-ZM-467"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="40"/>
-                                <color key="textColor" red="0.45098039220000002" green="0.98039215690000003" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="shadowColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <size key="shadowOffset" width="-3" height="6"/>
+                                <string key="text">Agradecimientos a: Ing. Zita Valdés
+Ing. Yolanda Martínez</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LP3-OK-z4U">
+                                <rect key="frame" x="65.5" y="462" width="283" height="176"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="283" id="1f9-jj-qUP"/>
+                                    <constraint firstAttribute="height" constant="176" id="Qyu-gg-Xzl"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="283" id="TyG-Yg-7bN"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="129" id="YUe-wz-Sw8"/>
+                                </constraints>
+                                <string key="text">Música:
+www.bensound.com</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dz2-6h-gqt">
-                                <rect key="frame" x="85.5" y="269" width="243" height="185"/>
+                                <rect key="frame" x="85.5" y="169" width="243" height="185"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="185" id="9K2-CF-Vlk"/>
                                     <constraint firstAttribute="width" constant="243" id="PFR-Kk-95i"/>
@@ -74,31 +88,19 @@ Adrián Mancilla</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IX2-qB-Auo">
-                                <rect key="frame" x="65.5" y="391.5" width="283" height="213"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="283" id="17C-kD-Hx0"/>
-                                    <constraint firstAttribute="height" constant="213" id="tNs-ZM-467"/>
-                                </constraints>
-                                <string key="text">Agradecimientos a: Zita Valdés
-Ing. Yolanda Martínez</string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.45490196078431372" green="0.34901960784313724" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Dz2-6h-gqt" firstAttribute="top" secondItem="gwY-qP-cga" secondAttribute="bottom" multiplier="0.9" constant="10" id="ATV-Po-tQ5"/>
-                            <constraint firstItem="IX2-qB-Auo" firstAttribute="top" secondItem="Dz2-6h-gqt" secondAttribute="bottom" multiplier="0.84" constant="10" id="Etd-l0-0pb"/>
-                            <constraint firstItem="gwY-qP-cga" firstAttribute="top" secondItem="ywy-rB-se1" secondAttribute="bottom" multiplier="0.8" constant="10" id="NgC-cF-uXb"/>
+                            <constraint firstItem="LP3-OK-z4U" firstAttribute="centerX" secondItem="gLl-J8-AtP" secondAttribute="centerX" id="3yg-aM-rAe"/>
+                            <constraint firstItem="Dz2-6h-gqt" firstAttribute="top" secondItem="gwY-qP-cga" secondAttribute="bottom" multiplier="0.9" constant="-11.900000000000006" id="ATV-Po-tQ5"/>
+                            <constraint firstItem="IX2-qB-Auo" firstAttribute="top" secondItem="Dz2-6h-gqt" secondAttribute="bottom" multiplier="0.84" constant="20.639999999999986" id="Etd-l0-0pb"/>
                             <constraint firstItem="Dz2-6h-gqt" firstAttribute="centerX" secondItem="gLl-J8-AtP" secondAttribute="centerX" id="f3F-j9-Hfk"/>
-                            <constraint firstItem="ywy-rB-se1" firstAttribute="centerX" secondItem="gLl-J8-AtP" secondAttribute="centerX" id="fW4-Mo-4xa"/>
+                            <constraint firstItem="LP3-OK-z4U" firstAttribute="top" secondItem="IX2-qB-Auo" secondAttribute="bottom" constant="-69" id="gnY-cQ-xuT"/>
                             <constraint firstItem="Dua-rA-gPw" firstAttribute="centerX" secondItem="gLl-J8-AtP" secondAttribute="centerX" id="iJM-Lz-ehS"/>
                             <constraint firstItem="IX2-qB-Auo" firstAttribute="centerX" secondItem="gLl-J8-AtP" secondAttribute="centerX" id="pk7-Lz-iw3"/>
-                            <constraint firstItem="ywy-rB-se1" firstAttribute="top" secondItem="gLl-J8-AtP" secondAttribute="top" constant="31" id="rB6-2u-sg1"/>
                             <constraint firstItem="gwY-qP-cga" firstAttribute="centerX" secondItem="gLl-J8-AtP" secondAttribute="centerX" id="s2u-yw-jf5"/>
                             <constraint firstItem="WHm-84-Yop" firstAttribute="bottom" secondItem="Dua-rA-gPw" secondAttribute="bottom" constant="10" id="wbJ-LD-HvI"/>
+                            <constraint firstItem="gwY-qP-cga" firstAttribute="top" secondItem="WHm-84-Yop" secondAttribute="top" constant="52" id="yYr-sx-Cqi"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="WHm-84-Yop"/>
                     </view>
@@ -514,7 +516,7 @@ Ing. Yolanda Martínez</string>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="shadowOffset" width="-3" height="6"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Avance:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfa-op-OBS">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Avance:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfa-op-OBS">
                                 <rect key="frame" x="36" y="547" width="169" height="51"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="169" id="8Yj-NF-Xpx"/>
@@ -569,7 +571,7 @@ Ing. Yolanda Martínez</string>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="shadowOffset" width="-3" height="6"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Correcto:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agh-jV-Ory">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Correcto:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agh-jV-Ory">
                                 <rect key="frame" x="34" y="627" width="169" height="51"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="51" id="CIk-Nq-ENm"/>
@@ -600,8 +602,10 @@ Ing. Yolanda Martínez</string>
                             <constraint firstItem="dyO-GV-4ql" firstAttribute="trailing" secondItem="vLd-6T-Oj1" secondAttribute="trailing" constant="20" id="EZP-yS-0ji"/>
                             <constraint firstItem="qLp-97-BZR" firstAttribute="top" secondItem="Nbl-MB-VAr" secondAttribute="bottom" multiplier="0.9" constant="10" id="Gs1-jF-STb"/>
                             <constraint firstItem="3Ht-wt-DEP" firstAttribute="centerX" secondItem="lMa-jP-tIJ" secondAttribute="centerX" id="Hiy-a1-xb1"/>
+                            <constraint firstItem="wfa-op-OBS" firstAttribute="leading" secondItem="dyO-GV-4ql" secondAttribute="leading" constant="36" id="MXU-07-U4h"/>
                             <constraint firstItem="JuA-Ig-LiG" firstAttribute="centerY" secondItem="agh-jV-Ory" secondAttribute="centerY" id="Vdi-cf-PR1"/>
                             <constraint firstItem="qLp-97-BZR" firstAttribute="centerX" secondItem="lMa-jP-tIJ" secondAttribute="centerX" id="auH-kH-ifH"/>
+                            <constraint firstItem="agh-jV-Ory" firstAttribute="leading" secondItem="dyO-GV-4ql" secondAttribute="leading" constant="34" id="kVT-O5-BHO"/>
                             <constraint firstItem="vLd-6T-Oj1" firstAttribute="centerY" secondItem="wfa-op-OBS" secondAttribute="centerY" id="kzp-XN-Ok6"/>
                             <constraint firstItem="3Ht-wt-DEP" firstAttribute="top" secondItem="agh-jV-Ory" secondAttribute="bottom" constant="44" id="q3N-ts-Bk5"/>
                             <constraint firstItem="GGJ-YE-ebY" firstAttribute="centerX" secondItem="lMa-jP-tIJ" secondAttribute="centerX" id="uYe-Yc-9Hc"/>
@@ -818,19 +822,19 @@ Ing. Yolanda Martínez</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tipo" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gq7-dY-UcD">
-                                <rect key="frame" x="61" y="602" width="57" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Compuestos" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gq7-dY-UcD">
+                                <rect key="frame" x="18" y="602" width="164" height="36"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="57" id="CHN-vp-G9K"/>
+                                    <constraint firstAttribute="width" constant="164" id="CHN-vp-G9K"/>
                                     <constraint firstAttribute="height" constant="36" id="UP3-eq-xKi"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="28"/>
                                 <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="shadowOffset" width="-3" height="6"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NgV-Iz-mJL">
-                                <rect key="frame" x="280" y="401" width="51" height="31"/>
+                                <rect key="frame" x="280" y="394" width="51" height="31"/>
                                 <connections>
                                     <action selector="switchMusic:" destination="elT-QD-zFZ" eventType="valueChanged" id="13i-F8-SOv"/>
                                 </connections>
@@ -916,7 +920,7 @@ Ing. Yolanda Martínez</string>
                                 <size key="shadowOffset" width="-3" height="6"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Música:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXF-EP-ZVV">
-                                <rect key="frame" x="18" y="379.5" width="142" height="74"/>
+                                <rect key="frame" x="18" y="372.5" width="142" height="74"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="142" id="4m8-2J-LLa"/>
                                     <constraint firstAttribute="height" constant="74" id="xEG-Zq-MU6"/>
@@ -937,12 +941,12 @@ Ing. Yolanda Martínez</string>
                             <constraint firstItem="62q-d2-rJG" firstAttribute="centerX" secondItem="bPw-AF-xMK" secondAttribute="centerX" id="8VS-Iy-g4C"/>
                             <constraint firstItem="GaY-cO-icS" firstAttribute="trailing" secondItem="N7U-i3-RHQ" secondAttribute="trailing" constant="68.5" id="CiZ-ge-UYq"/>
                             <constraint firstItem="GaY-cO-icS" firstAttribute="trailing" secondItem="F7x-GX-U4X" secondAttribute="trailing" constant="20" id="IED-k4-Fin"/>
-                            <constraint firstItem="Gq7-dY-UcD" firstAttribute="leading" secondItem="GaY-cO-icS" secondAttribute="leading" constant="61" id="LgT-ER-hsI"/>
+                            <constraint firstItem="Gq7-dY-UcD" firstAttribute="leading" secondItem="GaY-cO-icS" secondAttribute="leading" constant="18" id="LgT-ER-hsI"/>
                             <constraint firstItem="J9c-h7-2jr" firstAttribute="top" secondItem="GaY-cO-icS" secondAttribute="top" constant="32" id="PtF-we-gjX"/>
                             <constraint firstItem="mvG-h0-waq" firstAttribute="centerX" secondItem="bPw-AF-xMK" secondAttribute="centerX" id="SCw-Gq-K6Q"/>
                             <constraint firstItem="N7U-i3-RHQ" firstAttribute="leading" secondItem="GaY-cO-icS" secondAttribute="leading" constant="68.5" id="TJa-Ac-Z4a"/>
                             <constraint firstItem="4CZ-XC-dJy" firstAttribute="top" secondItem="J9c-h7-2jr" secondAttribute="bottom" multiplier="1.28" constant="20" id="Ted-Bh-T6p"/>
-                            <constraint firstItem="rXF-EP-ZVV" firstAttribute="top" secondItem="N7U-i3-RHQ" secondAttribute="bottom" constant="32" id="Yxw-C7-bMb"/>
+                            <constraint firstItem="rXF-EP-ZVV" firstAttribute="top" secondItem="N7U-i3-RHQ" secondAttribute="bottom" constant="25" id="Yxw-C7-bMb"/>
                             <constraint firstItem="mvG-h0-waq" firstAttribute="top" secondItem="Gq7-dY-UcD" secondAttribute="bottom" multiplier="1.15" constant="10" id="a8k-X8-43c"/>
                             <constraint firstItem="F7x-GX-U4X" firstAttribute="top" secondItem="J9c-h7-2jr" secondAttribute="bottom" multiplier="1.28" constant="20" id="dwP-ff-muJ"/>
                             <constraint firstItem="N7U-i3-RHQ" firstAttribute="top" secondItem="62q-d2-rJG" secondAttribute="bottom" multiplier="1.05" constant="10" id="f2X-yp-CMD"/>

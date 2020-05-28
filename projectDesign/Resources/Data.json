@@ -403,7 +403,7 @@
 		"Fórmula": "H2TiO3"
 		}
 	],
-	"Compuestos Ionicos":[
+	"Ionicos":[
 		{
 		"Nombre": "Bicarbonato de magnesio",
 		"Fórmula": "Mg(HCO3)2"
@@ -605,7 +605,7 @@
 		"Fórmula": "K2Cr2O7"
 		}
 	],
-	"Compuestos Moleculares":[
+	"Moleculares":[
 		{
 		"Nombre": "Monóxido de carbono",
 		"Fórmula": "CO"
