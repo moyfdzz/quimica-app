@@ -59,7 +59,8 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
     var askedQuestions: Set<Question> = []
     var question: Question!
     var numberQuestions: Int!
-
+    
+    //Metodo que regresa una pregunta que no se ha preguntado anteriormente del arreglo de preguntas.
     func getQuestion(questions: [Question]) -> Question {
         repeat {
             question = questions.randomElement()!
@@ -69,7 +70,7 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
         
         return question
     }
-    
+    //Metodo de preprocesamiento que almacena las preguntas obtenidas del JSON a un arreglo.
     func castToArrray(questions: [NSDictionary]) -> [Question] {
         var questionsArray: [Question]! = []
         
@@ -104,6 +105,8 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
             return Question(question: "", answer: "")
         }
     }
+    
+    //Metodo que inicia un cuestionario. Obtiene el tipo de pregunta de las configuraciones del usuario,y extrae la informacion del JSON de acuerdo con ese tipo.
     @IBAction func empezarCuestionario(_ sender: Any) {
         let index = pvPickerView.selectedRow(inComponent: 0)
         numberQuestions = options[index] - 1
@@ -111,6 +114,8 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
         usuario.quiz.correctCount = 0
         usuario.quiz.incorrectCount = 0
         
+        //Formar un quiz dependiendo de si el usuario selecciono la opcion de
+        //"nombre" o "formula"
         if scSegment.titleForSegment(at: scSegment.selectedSegmentIndex) == "Nombre" {
             for _ in 0...numberQuestions {
                 let q : Question! = extractData(category: usuario.tipo)

@@ -62,12 +62,14 @@ class FrontPageViewController: UIViewController,prococoloModificarUsuario,protoc
         return self.usuario
     }
     
+    //metodo para obtener el URL de un archivo de texto llamado Usuario.
     func dataFileUrl()-> URL {
            let url = FileManager().urls(for: .documentDirectory, in: .userDomainMask).first!
            let pathArchivo = url.appendingPathComponent("Usuario.plist")
            return pathArchivo
     }
     
+    //metodo para guardar la informacion en un archivo de texto
     @IBAction func guardarInfo(){
         do {
             let data = try PropertyListEncoder().encode(usuario)
@@ -78,6 +80,8 @@ class FrontPageViewController: UIViewController,prococoloModificarUsuario,protoc
         }
     }
     
+    //almacena en la variable usuario los contenidos del archivo de almacenamiento
+    //o un error si no puede hacerlo.
     func obtenerInfo(){
             do {
                 let data = try Data.init(contentsOf: dataFileUrl())
@@ -88,6 +92,8 @@ class FrontPageViewController: UIViewController,prococoloModificarUsuario,protoc
                 
             }
     }
+    //actualiza las opciones de la aplicacion de acuerdo a las
+    //configuraciones del usuario.
     func actualizaInterfaz() {
         let defaults = UserDefaults.standard
         

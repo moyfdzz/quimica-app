@@ -73,7 +73,7 @@ class TriviaViewController: UIViewController {
         }
         
     }
-    
+    //Metodo que hace las respuestas del usuario sin acentos o con acentos erroneos validas. Esto lo hace al reemplazar todas las instancias de vocales con acentos tanto en la respuesta como en la pregunta con vocales sin acento.
     func accentCheck(answer: String, input : String) -> Bool{
             
         let newAnswer = answer.replacingOccurrences(of: "á", with: "a").replacingOccurrences(of: "é", with: "e").replacingOccurrences(of: "í", with: "i").replacingOccurrences(of: "ó", with: "o").replacingOccurrences(of: "ú", with: "u")
@@ -83,9 +83,12 @@ class TriviaViewController: UIViewController {
         return newAnswer == newInput
     }
     
+    //Metodo que checa si la respuesta del usuario es correcta
     func verify(index: Int, input: String) -> Bool{
         let isCorrect = accentCheck(answer: usuario.quiz.questions[index].answer.lowercased(), input: input.lowercased())
         
+        //si es correcta, se le suma a su total de aciertos.
+        //si no, a su total de preguntas falladas.
         if isCorrect {
             usuario.quiz.correctCount += 1;
             usuario.totalAciertos += 1;
@@ -96,9 +99,10 @@ class TriviaViewController: UIViewController {
         delegadoPrimeraVista.update(user: usuario)
         return isCorrect
     }
-    
+    //metodo de verificacion antes de continuar por el segue del boton de continuar.
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
         
+        //si no hay respuesta, muestra un error.
         if tfRespuesta.text == "" {
             let alert = UIAlertController(title: "Error", message: "Añadir un valor al campo.", preferredStyle: .alert)
             let accion = UIAlertAction(title: "OK", style: .cancel, handler: nil)
@@ -106,6 +110,7 @@ class TriviaViewController: UIViewController {
             present(alert,animated: true,completion: nil)
             return false
         } else{
+            //verifica la respuesta
         isCorrect = verify(index: usuario.quiz.currentQuestion, input: tfRespuesta.text!)
         delegadoPrimeraVista.update(user: usuario)
             return true
