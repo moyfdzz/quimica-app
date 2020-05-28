@@ -73,8 +73,18 @@ class TriviaViewController: UIViewController {
         }
         
     }
+    
+    func accentCheck(answer: String, input : String) -> Bool{
+            
+        let newAnswer = answer.replacingOccurrences(of: "á", with: "a").replacingOccurrences(of: "é", with: "e").replacingOccurrences(of: "í", with: "i").replacingOccurrences(of: "ó", with: "o").replacingOccurrences(of: "ú", with: "u")
+        
+        let newInput = input.replacingOccurrences(of: "á", with: "a").replacingOccurrences(of: "é", with: "e").replacingOccurrences(of: "í", with: "i").replacingOccurrences(of: "ó", with: "o").replacingOccurrences(of: "ú", with: "u")
+     
+        return newAnswer == newInput
+    }
+    
     func verify(index: Int, input: String) -> Bool{
-        let isCorrect = usuario.quiz.questions[index].answer.lowercased() == input.lowercased()
+        let isCorrect = accentCheck(answer: usuario.quiz.questions[index].answer.lowercased(), input: input.lowercased())
         
         if isCorrect {
             usuario.quiz.correctCount += 1;
