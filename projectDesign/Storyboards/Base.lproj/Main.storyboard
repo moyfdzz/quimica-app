@@ -836,9 +836,9 @@ Ing. Yolanda Martínez</string>
                                 </connections>
                             </switch>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xAK-vr-42s">
-                                <rect key="frame" x="195" y="539" width="199" height="162"/>
+                                <rect key="frame" x="164" y="539" width="230" height="162"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="199" id="8tr-Du-a3P"/>
+                                    <constraint firstAttribute="width" constant="230" id="8tr-Du-a3P"/>
                                     <constraint firstAttribute="height" constant="162" id="Ezc-8I-lOh"/>
                                 </constraints>
                                 <connections>

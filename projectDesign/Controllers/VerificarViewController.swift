@@ -62,7 +62,7 @@ class VerificarViewController: UIViewController {
                    lbCorreccion.setAttributedTextWithSubscripts(text: a!, indicesOfSubscripts: subs)
                }
                lbAvance.text = "\(usuario.quiz.currentQuestion+1)/\(usuario.quiz.questions.count)"
-        lbCorrecto.text = String(Float (Double (usuario.quiz.correctCount) / Double ((usuario.quiz.currentQuestion+1))*100)) + "%"
+        lbCorrecto.text = String(format: "%.2f", Float (Double (usuario.quiz.correctCount) / Double ((usuario.quiz.currentQuestion+1))*100)) + "%"
     }
         
     @IBAction func regresarQuiz(_ sender: Any) {
