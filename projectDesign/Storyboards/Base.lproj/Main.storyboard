@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -38,7 +38,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Créditos" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwY-qP-cga">
-                                <rect key="frame" x="70" y="96" width="274" height="105"/>
+                                <rect key="frame" x="70" y="46" width="274" height="105"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="274" id="Kzn-sz-hLY"/>
                                     <constraint firstAttribute="height" constant="105" id="N99-dE-iAC"/>
@@ -49,58 +49,78 @@
                                 <color key="shadowColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <size key="shadowOffset" width="-3" height="6"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IX2-qB-Auo">
-                                <rect key="frame" x="65.5" y="318" width="283" height="213"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agradecimientos a: Ing. Zita Valdés" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IX2-qB-Auo">
+                                <rect key="frame" x="107" y="472" width="200" height="85"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="283" id="17C-kD-Hx0"/>
-                                    <constraint firstAttribute="height" constant="213" id="tNs-ZM-467"/>
+                                    <constraint firstAttribute="height" constant="85" id="L5Y-ib-OeR"/>
+                                    <constraint firstAttribute="width" constant="200" id="gfp-17-fAa"/>
                                 </constraints>
-                                <string key="text">Agradecimientos a: Ing. Zita Valdés
-Ing. Yolanda Martínez</string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dz2-6h-gqt">
+                                <rect key="frame" x="34" y="109" width="346" height="229"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="229" id="8cL-5g-ucL"/>
+                                    <constraint firstAttribute="width" constant="346" id="NA6-IS-m8f"/>
+                                </constraints>
+                                <string key="text">Chem Study ha sido desarrollado por estudiantes del Tecnológico de Monterrey durante el semestre Febrero Junio de 2020, como parte del curso Desarrollo de Aplicaciones para Dispositivos Móviles y asesorados por la maestra Yolanda Martínez Treviño.</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jBK-Vk-4uK">
+                                <rect key="frame" x="108.5" y="287" width="197" height="118"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="197" id="gCd-H9-QsP"/>
+                                    <constraint firstAttribute="height" constant="118" id="hFd-XX-Sbc"/>
+                                </constraints>
+                                <string key="text">Desarrolladores: Erick González
+Moisés Fernández Adrián Mancilla</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chem Study se distribuye como está de manera gratuita y se prohíbe su distribución y uso con fines de lucro." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QwH-2g-EOr">
+                                <rect key="frame" x="34" y="372" width="346" height="131"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="131" id="6TO-Ar-bBP"/>
+                                    <constraint firstAttribute="width" constant="346" id="sFK-Ru-fkM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LP3-OK-z4U">
-                                <rect key="frame" x="65.5" y="462" width="283" height="176"/>
+                                <rect key="frame" x="65.5" y="533" width="283" height="108"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="283" id="1f9-jj-qUP"/>
-                                    <constraint firstAttribute="height" constant="176" id="Qyu-gg-Xzl"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="283" id="TyG-Yg-7bN"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="129" id="YUe-wz-Sw8"/>
+                                    <constraint firstAttribute="height" constant="108" id="dXm-6E-hZD"/>
+                                    <constraint firstAttribute="width" constant="283" id="rGC-49-sP2"/>
                                 </constraints>
                                 <string key="text">Música:
 www.bensound.com</string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dz2-6h-gqt">
-                                <rect key="frame" x="85.5" y="169" width="243" height="185"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="185" id="9K2-CF-Vlk"/>
-                                    <constraint firstAttribute="width" constant="243" id="PFR-Kk-95i"/>
-                                </constraints>
-                                <string key="text">Desarrolladores: Erick González
-Moisés Fernández
-Adrián Mancilla</string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.45490196078431372" green="0.34901960784313724" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="LP3-OK-z4U" firstAttribute="centerX" secondItem="gLl-J8-AtP" secondAttribute="centerX" id="3yg-aM-rAe"/>
-                            <constraint firstItem="Dz2-6h-gqt" firstAttribute="top" secondItem="gwY-qP-cga" secondAttribute="bottom" multiplier="0.9" constant="-11.900000000000006" id="ATV-Po-tQ5"/>
-                            <constraint firstItem="IX2-qB-Auo" firstAttribute="top" secondItem="Dz2-6h-gqt" secondAttribute="bottom" multiplier="0.84" constant="20.639999999999986" id="Etd-l0-0pb"/>
-                            <constraint firstItem="Dz2-6h-gqt" firstAttribute="centerX" secondItem="gLl-J8-AtP" secondAttribute="centerX" id="f3F-j9-Hfk"/>
-                            <constraint firstItem="LP3-OK-z4U" firstAttribute="top" secondItem="IX2-qB-Auo" secondAttribute="bottom" constant="-69" id="gnY-cQ-xuT"/>
+                            <constraint firstItem="Dz2-6h-gqt" firstAttribute="top" secondItem="gwY-qP-cga" secondAttribute="bottom" constant="-42" id="0y7-mZ-nVG"/>
+                            <constraint firstItem="jBK-Vk-4uK" firstAttribute="top" secondItem="Dz2-6h-gqt" secondAttribute="bottom" constant="-51" id="KO5-D0-lDR"/>
+                            <constraint firstItem="QwH-2g-EOr" firstAttribute="top" secondItem="jBK-Vk-4uK" secondAttribute="bottom" constant="-33" id="N8x-o7-Scw"/>
+                            <constraint firstItem="jBK-Vk-4uK" firstAttribute="centerX" secondItem="gLl-J8-AtP" secondAttribute="centerX" id="Pp5-nI-oAl"/>
+                            <constraint firstItem="LP3-OK-z4U" firstAttribute="top" secondItem="IX2-qB-Auo" secondAttribute="bottom" constant="-24" id="XM0-60-nrB"/>
+                            <constraint firstItem="IX2-qB-Auo" firstAttribute="top" secondItem="QwH-2g-EOr" secondAttribute="bottom" constant="-31" id="gZZ-0k-1jg"/>
                             <constraint firstItem="Dua-rA-gPw" firstAttribute="centerX" secondItem="gLl-J8-AtP" secondAttribute="centerX" id="iJM-Lz-ehS"/>
-                            <constraint firstItem="IX2-qB-Auo" firstAttribute="centerX" secondItem="gLl-J8-AtP" secondAttribute="centerX" id="pk7-Lz-iw3"/>
+                            <constraint firstItem="Dz2-6h-gqt" firstAttribute="centerX" secondItem="gLl-J8-AtP" secondAttribute="centerX" id="iQ6-83-6Rk"/>
+                            <constraint firstItem="IX2-qB-Auo" firstAttribute="centerX" secondItem="gLl-J8-AtP" secondAttribute="centerX" id="mEo-Z9-HSi"/>
+                            <constraint firstItem="LP3-OK-z4U" firstAttribute="centerX" secondItem="gLl-J8-AtP" secondAttribute="centerX" id="oR6-X1-6EY"/>
+                            <constraint firstItem="QwH-2g-EOr" firstAttribute="centerX" secondItem="gLl-J8-AtP" secondAttribute="centerX" id="r5h-tO-TZx"/>
                             <constraint firstItem="gwY-qP-cga" firstAttribute="centerX" secondItem="gLl-J8-AtP" secondAttribute="centerX" id="s2u-yw-jf5"/>
+                            <constraint firstItem="gwY-qP-cga" firstAttribute="top" secondItem="WHm-84-Yop" secondAttribute="top" constant="2" id="vug-bK-V7Z"/>
                             <constraint firstItem="WHm-84-Yop" firstAttribute="bottom" secondItem="Dua-rA-gPw" secondAttribute="bottom" constant="10" id="wbJ-LD-HvI"/>
-                            <constraint firstItem="gwY-qP-cga" firstAttribute="top" secondItem="WHm-84-Yop" secondAttribute="top" constant="52" id="yYr-sx-Cqi"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="WHm-84-Yop"/>
                     </view>
