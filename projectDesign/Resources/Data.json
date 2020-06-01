@@ -1,693 +1,486 @@
 {
-	"Metales":[	
-		{
-		"Nombre": "Cloruro de calcio",
-		"Fórmula": "CaCl2"
-		},
-		{
-		"Nombre": "Cloruro de sodio",
-		"Fórmula": "NaCl"
-		},
-		{
-		"Nombre": "Carbonato de calcio",
-		"Fórmula": "CaCO3"
-		},
-		{
-		"Nombre": "Sulfuro de aluminio",
-		"Fórmula": "Al2S3"
-		},
-		{
-		"Nombre": "Nitrato de plata",
-		"Fórmula": "AgNO3"
-		},
-		{
-		"Nombre": "Óxido de aluminio",
-		"Fórmula": "Al2O3"
-		},
-		{
-		"Nombre": "Óxido de magnesio",
-		"Fórmula": "MgO"
-		},
-		{
-		"Nombre": "Sulfato de aluminio",
-		"Fórmula": "Al2(SO4)3"
-		},
-		{
-		"Nombre": "Nitrato de aluminio",
-		"Fórmula": "Al(NO3)3"
-		},
-		{
-		"Nombre": "Cromato de aluminio",
-		"Fórmula": "Al2(CrO4)3"
-		}, 	
-		{
-		"Nombre": "Carbonato de aluminio",
-		"Fórmula": "Al2(CO3)3"
-		},
-		{
-		"Nombre": "Bromuro de aluminio",
-		"Fórmula": "AlBr3"
-		},
-		{
-		"Nombre": "Arsenito de sodio",
-		"Fórmula": "Na3AsO3"
-		},
-		{
-		"Nombre": "Arsenito de magnesio",
-		"Fórmula": "Mg3(AsO3)2"
-		},
-		{
-		"Nombre": "Arsenito de calcio",
-		"Fórmula": "Ca3(AsO3)2"
-		},
-		{
-		"Nombre": "Arsenito de silicio",
-		"Fórmula": "Si3(AsO3)4"
-		},
-		{
-		"Nombre": "Arsenito de zinc",
-		"Fórmula": "Zn(AsO2)2"
-		},
-		{
-		"Nombre": "Fosfato de bario",
-		"Fórmula": "Ba3(PO4)2"
-		},
-		{
-		"Nombre": "Acetato de bario",
-		"Fórmula": "Ba(C2H3O2)2"
-		},
-		{
-		"Nombre": "Clorito de bario",
-		"Fórmula": "Ba(ClO2)2"
-		}, 
-		{
-		"Nombre": "Yodato de bario", 
-		"Fórmula": "Ba(IO3)2"
-		},
-		{
-		"Nombre": "Bromato de bario",
-		"Fórmula": "Ba(BrO3)2"
-		},
-		{
-		"Nombre": "Cianuro de galio (III)",
-		"Fórmula": "Ga(CN)3"
-		},
-		{
-		"Nombre": "Selenuro de galio",
-		"Fórmula": "Ga2Se3"
-		},
-		{
-		"Nombre": "Óxido de galio (II)",
-		"Fórmula": "GaO"
-		},
-		{
-		"Nombre": "Oxalato de galio",
-		"Fórmula": "Ga2(C2O4)3"
-		},
-		{
-		"Nombre": "Nitrito de galio (III)",
-		"Fórmula": "Ga(NO2)3"
-		},
-		{
-		"Nombre": "Fosfato de litio",
-		"Fórmula": "Li3PO4"
-		},
-		{
-		"Nombre": "Cloruro de litio",
-		"Fórmula": "LiCl"
-		},
-		{
-		"Nombre": "Yoduro de litio",
-		"Fórmula": "LiI"
-		}, 
-		{
-		"Nombre": "Tiocianato de litio",
-		"Fórmula": "LiSCN"
-		},
-		{
-		"Nombre": "Fluoruro de litio",
-		"Fórmula": "LiF"
-		},
-		{
-		"Nombre": "Sulfito de cesio",
-		"Fórmula": "Cs2SO3"
-		},
-		{
-		"Nombre": "Óxido de cesio",
-		"Fórmula": "Cs2O"
-		},
-		{
-		"Nombre": "Cloruro de cesio",
-		"Fórmula": "CsCl"
-		},
-		{
-		"Nombre": "Peróxido de cesio",
-		"Fórmula": "Cs2O2"
-		},
-		{
-		"Nombre": "Fosfito de cesio",
-		"Fórmula": "Cs3PO3"
-		},
-		{
-		"Nombre": "Cloruro de hierro (III)",
-		"Fórmula": "FeCl3"
-		},
-		{
-		"Nombre": "Cianuro de hierro (II)",
-		"Fórmula": "Fe (CN) 2"
-		},
-		{
-		"Nombre": "Yodato de hierro (II)", 
-		"Fórmula": "Fe(IO3)2"
-		}, 	
-		{
-		"Nombre": "Fosfato de hierro (II)",
-		"Fórmula": "Fe3(PO4)2"
-		},
-		{
-		"Nombre": "Óxido de hierro (III)",
-		"Fórmula": "Fe2O3"
-		},
-		{
-		"Nombre": "Sulfato de cobalto (III)",
-		"Fórmula": "Co2(SO4)3"
-		},
-		{
-		"Nombre": "Nitrito de cobalto (II)",
-		"Fórmula": "Co(NO2)2"
-		},
-		{
-		"Nombre": "Acetato de cobalto (II)",
-		"Fórmula": "Co(C2H3O2)2"
-		},
-		{
-		"Nombre": "Bromuro de cobalto (III)",
-		"Fórmula": "CoBr3"
-		},
-		{
-		"Nombre": "Nitrito de cobalto (II)",
-		"Fórmula": "Co(NO2)2"
-		},
-		{
-		"Nombre": "Sulfato de radio",
-		"Fórmula": "RaSO4"
-		},
-		{
-		"Nombre": "Polonuro de radio",
-		"Fórmula": "RaPo"
-		},
-		{
-		"Nombre": "Perclorato de radio",
-		"Fórmula": "Ra(ClO4)2"
-		}
-	],
-	"Ácidos":[
-		{
-		"Nombre": "Ácido acético",
-		"Fórmula": "HC2H3O2"
-		},
-		{
-		"Nombre": "Ácido bórico",
-		"Fórmula": "H3BO3"
-		},
-		{
-		"Nombre": "Ácido carbónico",
-		"Fórmula": "CH2O3"
-		},
-		{
-		"Nombre": "Ácido cítrico",
-		"Fórmula": "H3C6H5O7"
-		},
-		{
-		"Nombre": "Ácido clorhídrico",
-		"Fórmula": "HCI"
-		},
-		{
-		"Nombre": "Ácido fluorhídrico",
-		"Fórmula": "HF"
-		},
-		{
-		"Nombre": "Ácido nítrico",
-		"Fórmula": "HNO3"
-		},
-		{
-		"Nombre": "Ácido oxálico",
-		"Fórmula": "H2C2O4"
-		},
-		{
-		"Nombre": "Ácido fosfórico",
-		"Fórmula": "H3PO4"
-		},
-		{
-		"Nombre": "Ácido sulfúrico",
-		"Fórmula": "H2SO4"
-		},	
-		{
-		"Nombre": "Ácido clórico",
-		"Fórmula": "HCIO3"
-		},
-		{
-		"Nombre": "Ácido hidrobromático",
-		"Fórmula": "HBr"
-		},
-		{
-		"Nombre": "Ácido hidroyódico",
-		"Fórmula": "HI"
-		},
-		{
-		"Nombre": "Ácido perclórico",
-		"Fórmula": "HCIO4"
-		},
-		{
-		"Nombre": "Ácido sulfuroso",
-		"Fórmula": "H2SO3"
-		},
-		{
-		"Nombre": "Ácido nitroso",
-		"Fórmula": "HNO2"
-		},
-		{
-		"Nombre": "Ácido metanoico",
-		"Fórmula": "HCO2H"
-		},
-		{
-		"Nombre": "Ácido benzoico",
-		"Fórmula": "C6H5COOH"
-		},
-		{
-		"Nombre": "Ácido acético",
-		"Fórmula": "CH3COOH"
-		},
-		{
-		"Nombre": "Ácido fórmico",
-		"Fórmula": "HCOOH"
-		},	
-		{
-		"Nombre": "Ácido perxénico",
-		"Fórmula": "H4XeO6"
-		},
-		{
-		"Nombre": "Ácido hiposulfuroso",
-		"Fórmula": "H2SO2"
-		},
-		{
-		"Nombre": "Ácido pirosulfúrico",
-		"Fórmula": "H2S2O7"
-		},
-		{
-		"Nombre": "Ácido cloroso",
-		"Fórmula": "HClO2"
-		},
-		{
-		"Nombre": "Ácido carbónico",
-		"Fórmula": "H2CO2"
-		},
-		{
-		"Nombre": "Ácido yodoso",
-		"Fórmula": "HIO2"
-		},
-		{
-		"Nombre": "Ácido periódico",
-		"Fórmula": "HIO4"
-		},
-		{
-		"Nombre": "Ácido fluoroso",
-		"Fórmula": "HFO2"
-		},
-		{
-		"Nombre": "Ácido hipofluoroso",
-		"Fórmula": "HFO"
-		},
-		{
-		"Nombre": "Ácido cromoso",
-		"Fórmula": "H2CrO3"
-		},		
-		{
-		"Nombre": "Ácido selenico",
-		"Fórmula": "H2SeO4"
-		},
-		{
-		"Nombre": "Ácido hidronitric",
-		"Fórmula": "HN3"
-		},
-		{
-		"Nombre": "Ácido hiponitroso",
-		"Fórmula": "HNO"
-		},
-		{
-		"Nombre": "Ácido bromoso",
-		"Fórmula": "HBrO2"
-		},
-		{
-		"Nombre": "Ácido hipobromoso",
-		"Fórmula": "HBrO"
-		},
-		{
-		"Nombre": "Ácido bromico",
-		"Fórmula": "HBrO3"
-		},
-		{
-		"Nombre": "Ácido ódico",
-		"Fórmula": "HIO3"
-		},
-		{
-		"Nombre": "Ácido fluorico",
-		"Fórmula": "HFO3"
-		},
-		{
-		"Nombre": "Ácido perfluorico",
-		"Fórmula": "HFO4"
-		},
-		{
-		"Nombre": "Ácido crómico",
-		"Fórmula": "H2CrO4"
-		},	
-		{
-		"Nombre": "Ácido hidroselenico",
-		"Fórmula": "H2Se"
-		},
-		{
-		"Nombre": "Ácido selenoso",
-		"Fórmula": "H2SeO3"
-		},
-		{
-		"Nombre": "Ácido bórico",
-		"Fórmula": "H3BO3"
-		},
-		{
-		"Nombre": "Ácido gálico",
-		"Fórmula": "HC7H5O5"
-		},
-		{
-		"Nombre": "Ácido arsénico",
-		"Fórmula": "H3AsO4"
-		},
-		{
-		"Nombre": "Ácido hidroarsénico",
-		"Fórmula": "H3As"
-		},
-		{
-		"Nombre": "Ácido cianico",
-		"Fórmula": "HCNO"
-		},
-		{
-		"Nombre": "Ácido fósforo",
-		"Fórmula": "H3PO3"
-		},
-		{
-		"Nombre": "Ácido telúrico",
-		"Fórmula": "H6TeO6"
-		},
-		{
-		"Nombre": "Ácido titánico",
-		"Fórmula": "H2TiO3"
-		}
-	],
-	"Ionicos":[
-		{
-		"Nombre": "Bicarbonato de magnesio",
-		"Fórmula": "Mg(HCO3)2"
-		},
-		{
-		"Nombre": "Sulfito de manganeso (II)",
-		"Fórmula": "MnSO3"
-		},
-		{
-		"Nombre": "Sulfato de manganeso (II)",
-		"Fórmula": "MnSO4"
-		},
-		{
-		"Nombre": "Fosfito de manganeso (II)",
-		"Fórmula": "Mn3(PO3)2"
-		},
-		{
-		"Nombre": "Fosfato de manganeso (II)",
-		"Fórmula": "Mn3(PO4)2"
-		},
-		{
-		"Nombre": "Nitruro de níquel (II)",
-		"Fórmula": "Ni3N2"
-		},
-		{
-		"Nombre": "Fosfuro de níquel (II)",
-		"Fórmula": "Ni3P2"
-		},
-		{
-		"Nombre": "Óxido de níquel (II)",
-		"Fórmula": "NiO"
-		},
-		{
-		"Nombre": "Sulfuro de níquel (II)",
-		"Fórmula": "NiS"
-		},
-		{
-		"Nombre": "Fluoruro de níquel (II)",
-		"Fórmula": "NiF2"
-		},
-		{
-		"Nombre": "Nitruro de zinc",
-		"Fórmula": "Zn3N2"
-		},
-		{
-		"Nombre": "Fosfuro de zinc",
-		"Fórmula": "Zn3P2"
-		},
-		{
-		"Nombre": "Óxido de zinc",
-		"Fórmula": "ZnO"
-		},
-		{
-		"Nombre": "Sulfuro de zinc",
-		"Fórmula": "ZnS"
-		},
-		{
-		"Nombre": "Percromato de zinc",
-		"Fórmula": "ZnCr2O7"
-		},
-		{
-		"Nombre": "Nitruro de estaño (IV)",
-		"Fórmula": "holaaaaa"
-		},
-		{
-		"Nombre": "Bromuro de estaño (IV)",
-		"Fórmula": "SnBr4"
-		},
-		{
-		"Nombre": "Ioduro de estaño (IV)",
-		"Fórmula": "SnI4"
-		},
-		{
-		"Nombre": "Hidróxido de estaño (IV)",
-		"Fórmula": "Sn(OH)4"
-		},
-		{
-		"Nombre": "Cloruro de plomo (IV)",
-		"Fórmula": "PbCl4"
-		},
-		{
-		"Nombre": "Ioduro de plomo (IV)",
-		"Fórmula": "PbI4"
-		},
-		{
-		"Nombre": "Bromuro de plomo (IV)",
-		"Fórmula": "PbBr4"
-		},
-		{
-		"Nombre": "Hipoclorito de plomo (IV)",
-		"Fórmula": "Pb(ClO)4"
-		},
-		{
-		"Nombre": "Clorito de plomo (IV)",
-		"Fórmula": "Pb(ClO2)4"
-		},
-		{
-		"Nombre": "Clorato de plomo (IV)",
-		"Fórmula": "Pb(ClO3)4"
-		},
-		{
-		"Nombre": "Cloruro de cromo (II)",
-		"Fórmula": "CrCl3"
-		},
-		{
-		"Nombre": "Nitrato de cromo (III)",
-		"Fórmula": "Cr(NO3)3"
-		},
-		{
-		"Nombre": "Nitruro de cromo (III)",
-		"Fórmula": "CrN"
-		},
-		{
-		"Nombre": "Fosfuro de cromo (III)",
-		"Fórmula": "CrP"
-		},
-		{
-		"Nombre": "Óxido de cromo (III)",
-		"Fórmula": "Cr2O3"
-		},
-		{
-		"Nombre": "Carbonato de cromo (III)",
-		"Fórmula": "Cr2(CO3)3"
-		},
-		{
-		"Nombre": "Fosfuro de fierro (III)",
-		"Fórmula": "FeP"
-		},
-		{
-		"Nombre": "Óxido de fierro (III)",
-		"Fórmula": "Fe2O3"
-		},
-		{
-		"Nombre": "Sulfuro de fierro (III)",
-		"Fórmula": "Fe2S3"
-		},
-		{
-		"Nombre": "Hidróxido de fierro (III)",
-		"Fórmula": "Fe(OH)3"
-		},
-		{
-		"Nombre": "Sulfito de fierro (III)",
-		"Fórmula": "Fe2(SO3)3"
-		},
-		{
-		"Nombre": "Sulfato de fierro (III)",
-		"Fórmula": "Fe2(SO4)3"
-		},
-		{
-		"Nombre": "Permanganato de fierro (III)",
-		"Fórmula": "Fe(MnO4)3"
-		},
-		{
-		"Nombre": "Bromuro de oro (III)",
-		"Fórmula": "AuBr3"
-		},
-		{
-		"Nombre": "Ioduro de oro (III)",
-		"Fórmula": "AuI3"
-		},
-		{
-		"Nombre": "Hidróxido de oro (III)",
-		"Fórmula": "Au(OH)3"
-		},
-		{
-		"Nombre": "Hipoclorito de oro (III)",
-		"Fórmula": "Au(ClO)3"
-		},
-		{
-		"Nombre": "Perclorato de oro (III)",
-		"Fórmula": "Au(ClO4)3"
-		},
-		{
-		"Nombre": "Nitruro de cobre (I)",
-		"Fórmula": "Cu3N"
-		},
-		{
-		"Nombre": "Nitrato de cobre (I)",
-		"Fórmula": "CuNO3"
-		},
-		{
-		"Nombre": "Nitrito de cobre (I)",
-		"Fórmula": "CuNO2"
-		},
-		{
-		"Nombre": "Carbonato de cobre (I)",
-		"Fórmula": "Cu2CO3"
-		},
-		{
-		"Nombre": "Fluoruro de potasio",
-		"Fórmula": "KF"
-		},
-		{
-		"Nombre": "Cloruro de potasio",
-		"Fórmula": "KCl"
-		},
-		{
-		"Nombre": "Percromato de potasio",
-		"Fórmula": "K2Cr2O7"
-		}
-	],
-	"Moleculares":[
-		{
-		"Nombre": "Monóxido de carbono",
-		"Fórmula": "CO"
-		},
-		{
-		"Nombre": "Dióxido de carbono",
-		"Fórmula": "CO2"
-		},
-		{
-		"Nombre": "Dióxido de azufre",
-		"Fórmula": "SO2"
-		},
-		{
-		"Nombre": "Trióxido de azufre",
-		"Fórmula": "SO3"
-		},
-		{
-		"Nombre": "Hexafluoruro de azufre",
-		"Fórmula": "SF6"
-		},
-		{
-		"Nombre": "Disulfuro de carbono",
-		"Fórmula": "CS2"
-		},
-		{
-		"Nombre": "Tetracloruro de carbono",
-		"Fórmula": "CCl4"
-		},
-		{
-		"Nombre": "Tricloruro de nitrógeno",
-		"Fórmula": "NCl3"
-		},
-		{
-		"Nombre": "Pentabromuro de fósforo",
-		"Fórmula": "PBr5"
-		},
-		{
-		"Nombre": "Tricloruro de nitrógeno",
-		"Fórmula": "NCl3"
-		},
-		{
-		"Nombre": "Tetróxido de dinitrógeno",
-		"Fórmula": "N2O4"
-		},
-		{
-		"Nombre": "Pentóxido de dinitrógeno",
-		"Fórmula": "N2O5"
-		},
-		{
-		"Nombre": "Heptafluoruro de yodo",
-		"Fórmula": "IF7"
-		},
-		{
-		"Nombre": "Pentafluoruro de fósforo",
-		"Fórmula": "PF5"
-		},
-		{
-		"Nombre": "Tricloruro de boro",
-		"Fórmula": "BCl3"
-		},
-		{
-		"Nombre": "Decaóxido de tetrafósforo",
-		"Fórmula": "P4O10"
-		},
-		{
-		"Nombre": "Metano",
-		"Fórmula": "CH4"
-		},
-		{
-		"Nombre": "Etano",
-		"Fórmula": "C2H6"
-		},
-		{
-		"Nombre": "Propano",
-		"Fórmula": "C3H8"
-		},
-		{
-		"Nombre": "Butano",
-		"Fórmula": "C4H10"
-		}
-	]
+    "Metales":[
+        {
+        "Nombre": "Cloruro de calcio",
+        "Fórmula": "CaCl2"
+        },
+        {
+        "Nombre": "Cloruro de sodio",
+        "Fórmula": "NaCl"
+        },
+        {
+        "Nombre": "Carbonato de calcio",
+        "Fórmula": "CaCO3"
+        },
+        {
+        "Nombre": "Sulfuro de aluminio",
+        "Fórmula": "Al2S3"
+        },
+        {
+        "Nombre": "Nitrato de plata",
+        "Fórmula": "AgNO3"
+        },
+        {
+        "Nombre": "Óxido de aluminio",
+        "Fórmula": "Al2O3"
+        },
+        {
+        "Nombre": "Óxido de magnesio",
+        "Fórmula": "MgO"
+        },
+        {
+        "Nombre": "Sulfato de aluminio",
+        "Fórmula": "Al2(SO4)3"
+        },
+        {
+        "Nombre": "Nitrato de aluminio",
+        "Fórmula": "Al(NO3)3"
+        },
+        {
+        "Nombre": "Cromato de aluminio",
+        "Fórmula": "Al2(CrO4)3"
+        },
+        {
+        "Nombre": "Carbonato de aluminio",
+        "Fórmula": "Al2(CO3)3"
+        },
+        {
+        "Nombre": "Bromuro de aluminio",
+        "Fórmula": "AlBr3"
+        },
+        {
+        "Nombre": "Fosfato de bario",
+        "Fórmula": "Ba3(PO4)2"
+        },
+        {
+        "Nombre": "Acetato de bario",
+        "Fórmula": "Ba(C2H3O2)2"
+        },
+        {
+        "Nombre": "Clorito de bario",
+        "Fórmula": "Ba(ClO2)2"
+        },
+        {
+        "Nombre": "Yodato de bario",
+        "Fórmula": "Ba(IO3)2"
+        },
+        {
+        "Nombre": "Bromato de bario",
+        "Fórmula": "Ba(BrO3)2"
+        },
+        {
+        "Nombre": "Fosfato de litio",
+        "Fórmula": "Li3PO4"
+        },
+        {
+        "Nombre": "Cloruro de litio",
+        "Fórmula": "LiCl"
+        },
+        {
+        "Nombre": "Yoduro de litio",
+        "Fórmula": "LiI"
+        },
+        {
+        "Nombre": "Fluoruro de litio",
+        "Fórmula": "LiF"
+        },
+        {
+        "Nombre": "Sulfito de cesio",
+        "Fórmula": "Cs2SO3"
+        },
+        {
+        "Nombre": "Óxido de cesio",
+        "Fórmula": "Cs2O"
+        },
+        {
+        "Nombre": "Cloruro de cesio",
+        "Fórmula": "CsCl"
+        },
+        {
+        "Nombre": "Peróxido de cesio",
+        "Fórmula": "Cs2O2"
+        },
+        {
+        "Nombre": "Fosfito de cesio",
+        "Fórmula": "Cs3PO3"
+        },
+        {
+        "Nombre": "Cloruro de hierro (III)",
+        "Fórmula": "FeCl3"
+        },
+        {
+        "Nombre": "Cianuro de hierro (II)",
+        "Fórmula": "Fe (CN) 2"
+        },
+        {
+        "Nombre": "Fosfato de hierro (II)",
+        "Fórmula": "Fe3(PO4)2"
+        },
+        {
+        "Nombre": "Óxido de hierro (III)",
+        "Fórmula": "Fe2O3"
+        },
+        {
+        "Nombre": "Sulfato de cobalto (III)",
+        "Fórmula": "Co2(SO4)3"
+        },
+        {
+        "Nombre": "Nitrito de cobalto (II)",
+        "Fórmula": "Co(NO2)2"
+        },
+        {
+        "Nombre": "Acetato de cobalto (II)",
+        "Fórmula": "Co(C2H3O2)2"
+        },
+        {
+        "Nombre": "Bromuro de cobalto (III)",
+        "Fórmula": "CoBr3"
+        },
+        {
+        "Nombre": "Nitrito de cobalto (II)",
+        "Fórmula": "Co(NO2)2"
+        },
+        {
+        "Nombre": "Sulfato de radio",
+        "Fórmula": "RaSO4"
+        }
+    ],
+    "Acidos":[
+        {
+        "Nombre": "Ácido acético",
+        "Fórmula": "HC2H3O2"
+        },
+        {
+        "Nombre": "Ácido carbónico",
+        "Fórmula": "H2CO3"
+        },
+        {
+        "Nombre": "Ácido clorhídrico",
+        "Fórmula": "HCI"
+        },
+        {
+        "Nombre": "Ácido fluorhídrico",
+        "Fórmula": "HF"
+        },
+        {
+        "Nombre": "Ácido nítrico",
+        "Fórmula": "HNO3"
+        },
+        {
+        "Nombre": "Ácido oxálico",
+        "Fórmula": "H2C2O4"
+        },
+        {
+        "Nombre": "Ácido fosfórico",
+        "Fórmula": "H3PO4"
+        },
+        {
+        "Nombre": "Ácido sulfúrico",
+        "Fórmula": "H2SO4"
+        },
+        {
+        "Nombre": "Ácido clórico",
+        "Fórmula": "HCIO3"
+        },
+        {
+        "Nombre": "Ácido bromhídrico",
+        "Fórmula": "HBr"
+        },
+        {
+        "Nombre": "Ácido yodhídrico",
+        "Fórmula": "HI"
+        },
+        {
+        "Nombre": "Ácido perclórico",
+        "Fórmula": "HCIO4"
+        },
+        {
+        "Nombre": "Ácido sulfuroso",
+        "Fórmula": "H2SO3"
+        },
+        {
+        "Nombre": "Ácido nitroso",
+        "Fórmula": "HNO2"
+        },
+        {
+        "Nombre": "Ácido crómico",
+        "Fórmula": "H2CrO4"
+        },
+        {
+        "Nombre": "Ácido fosforoso",
+        "Fórmula": "H3PO3"
+        }
+    ],
+    "Compuestos Ionicos":[
+        {
+        "Nombre": "bicarbonato de magnesio",
+        "Fórmula": "Mg(HCO3)2"
+        },
+        {
+        "Nombre": "sulfito de manganeso (II)",
+        "Fórmula": "MnSO3"
+        },
+        {
+        "Nombre": "sulfato de manganeso (II)",
+        "Fórmula": "MnSO4"
+        },
+        {
+        "Nombre": "fosfito de manganeso (II)",
+        "Fórmula": "Mn3(PO3)2"
+        },
+        {
+        "Nombre": "fosfato de manganeso (II)",
+        "Fórmula": "Mn3(PO4)2"
+        },
+        {
+        "Nombre": "nitruro de níquel (II)",
+        "Fórmula": "Ni3N2"
+        },
+        {
+        "Nombre": "fosfuro de níquel (II)",
+        "Fórmula": "Ni3P2"
+        },
+        {
+        "Nombre": "óxido de níquel (II)",
+        "Fórmula": "NiO"
+        },
+        {
+        "Nombre": "sulfuro de níquel (II)",
+        "Fórmula": "NiS"
+        },
+        {
+        "Nombre": "fluoruro de níquel (II)",
+        "Fórmula": "NiF2"
+        },
+        {
+        "Nombre": "nitruro de zinc",
+        "Fórmula": "Zn3N2"
+        },
+        {
+        "Nombre": "fosfuro de zinc",
+        "Fórmula": "Zn3P2"
+        },
+        {
+        "Nombre": "óxido de zinc",
+        "Fórmula": "ZnO"
+        },
+        {
+        "Nombre": "sulfuro de zinc",
+        "Fórmula": "ZnS"
+        },
+        {
+        "Nombre": "percromato de zinc",
+        "Fórmula": "ZnCr2O7"
+        },
+        {
+        "Nombre": "nitruro de estaño (IV)",
+        "Fórmula": "holaaaaa"
+        },
+        {
+        "Nombre": "bromuro de estaño (IV)",
+        "Fórmula": "SnBr4"
+        },
+        {
+        "Nombre": "ioduro de estaño (IV)",
+        "Fórmula": "SnI4"
+        },
+        {
+        "Nombre": "hidróxido de estaño (IV)",
+        "Fórmula": "Sn(OH)4"
+        },
+        {
+        "Nombre": "cloruro de plomo (IV)",
+        "Fórmula": "PbCl4"
+        },
+        {
+        "Nombre": "ioduro de plomo (IV)",
+        "Fórmula": "PbI4"
+        },
+        {
+        "Nombre": "bromuro de plomo (IV)",
+        "Fórmula": "PbBr4"
+        },
+        {
+        "Nombre": "hipoclorito de plomo (IV)",
+        "Fórmula": "Pb(ClO)4"
+        },
+        {
+        "Nombre": "clorito de plomo (IV)",
+        "Fórmula": "Pb(ClO2)4"
+        },
+        {
+        "Nombre": "clorato de plomo (IV)",
+        "Fórmula": "Pb(ClO3)4"
+        },
+        {
+        "Nombre": "cloruro de cromo (II)",
+        "Fórmula": "CrCl3"
+        },
+        {
+        "Nombre": "nitrato de cromo (III)",
+        "Fórmula": "Cr(NO3)3"
+        },
+        {
+        "Nombre": "nitruro de cromo (III)",
+        "Fórmula": "CrN"
+        },
+        {
+        "Nombre": "fosfuro de cromo (III)",
+        "Fórmula": "CrP"
+        },
+        {
+        "Nombre": "óxido de cromo (III)",
+        "Fórmula": "Cr2O3"
+        },
+        {
+        "Nombre": "carbonato de cromo (III)",
+        "Fórmula": "Cr2(CO3)3"
+        },
+        {
+        "Nombre": "fosfuro de fierro (III)",
+        "Fórmula": "FeP"
+        },
+        {
+        "Nombre": "óxido de fierro (III)",
+        "Fórmula": "Fe2O3"
+        },
+        {
+        "Nombre": "sulfuro de fierro (III)",
+        "Fórmula": "Fe2S3"
+        },
+        {
+        "Nombre": "hidróxido de fierro (III)",
+        "Fórmula": "Fe(OH)3"
+        },
+        {
+        "Nombre": "sulfito de fierro (III)",
+        "Fórmula": "Fe2(SO3)3"
+        },
+        {
+        "Nombre": "sulfato de fierro (III)",
+        "Fórmula": "Fe2(SO4)3"
+        },
+        {
+        "Nombre": "permanganato de fierro (III)",
+        "Fórmula": "Fe(MnO4)3"
+        },
+        {
+        "Nombre": "bromuro de oro (III)",
+        "Fórmula": "AuBr3"
+        },
+        {
+        "Nombre": "ioduro de oro (III)",
+        "Fórmula": "AuI3"
+        },
+        {
+        "Nombre": "hidróxido de oro (III)",
+        "Fórmula": "Au(OH)3"
+        },
+        {
+        "Nombre": "hipoclorito de oro (III)",
+        "Fórmula": "Au(ClO)3"
+        },
+        {
+        "Nombre": "perclorato de oro (III)",
+        "Fórmula": "Au(ClO4)3"
+        },
+        {
+        "Nombre": "nitruro de cobre (I)",
+        "Fórmula": "Cu3N"
+        },
+        {
+        "Nombre": "nitrato de cobre (I)",
+        "Fórmula": "CuNO3"
+        },
+        {
+        "Nombre": "nitrito de cobre (I)",
+        "Fórmula": "CuNO2"
+        },
+        {
+        "Nombre": "carbonato de cobre (I)",
+        "Fórmula": "Cu2CO3"
+        },
+        {
+        "Nombre": "fluoruro de potasio",
+        "Fórmula": "KF"
+        },
+        {
+        "Nombre": "cloruro de potasio",
+        "Fórmula": "KCl"
+        },
+        {
+        "Nombre": "percromato de potasio",
+        "Fórmula": "K2Cr2O7"
+        }
+    ],
+    "Compuestos Moleculares":[
+        {
+        "Nombre": "monóxido de carbono",
+        "Fórmula": "CO"
+        },
+        {
+        "Nombre": "dióxido de carbono",
+        "Fórmula": "CO2"
+        },
+        {
+        "Nombre": "dióxido de azufre",
+        "Fórmula": "SO2"
+        },
+        {
+        "Nombre": "trióxido de azufre",
+        "Fórmula": "SO3"
+        },
+        {
+        "Nombre": "hexafluoruro de azufre",
+        "Fórmula": "SF6"
+        },
+        {
+        "Nombre": "disulfuro de carbono",
+        "Fórmula": "CS2"
+        },
+        {
+        "Nombre": "tetracloruro de carbono",
+        "Fórmula": "CCl4"
+        },
+        {
+        "Nombre": "tricloruro de nitrógeno",
+        "Fórmula": "NCl3"
+        },
+        {
+        "Nombre": "pentabromuro de fósforo",
+        "Fórmula": "PBr5"
+        },
+        {
+        "Nombre": "tricloruro de nitrógeno",
+        "Fórmula": "NCl3"
+        },
+        {
+        "Nombre": "tetróxido de dinitrógeno",
+        "Fórmula": "N2O4"
+        },
+        {
+        "Nombre": "pentóxido de dinitrógeno",
+        "Fórmula": "N2O5"
+        },
+        {
+        "Nombre": "heptafluoruro de yodo",
+        "Fórmula": "IF7"
+        },
+        {
+        "Nombre": "pentafluoruro de fósforo",
+        "Fórmula": "PF5"
+        },
+        {
+        "Nombre": "tricloruro de boro",
+        "Fórmula": "BCl3"
+        },
+        {
+        "Nombre": "decaóxido de tetrafósforo",
+        "Fórmula": "P4O10"
+        }
+    ]
 
 
 }
+
 

@@ -27,7 +27,12 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
         // Do any additional setup after loading the view.
         btEmpezar.layer.cornerRadius = 10
         btEmpezar.clipsToBounds = true
-        options = Array(1...20)
+        if(usuario.tipo == "Ácidos" || usuario.tipo == "Moleculares"){
+            options = Array(1...16)
+        }else {
+            options = Array(1...20)
+        }
+        
         numberQuestions = 0
     }
 
