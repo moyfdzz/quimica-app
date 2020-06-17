@@ -1,486 +1,3056 @@
 {
-    "Metales":[
+    "Iónicos": [
         {
-        "Nombre": "Cloruro de calcio",
-        "Fórmula": "CaCl2"
+            "Compuesto": "Li3N",
+            "Nombre": "nitruro de litio"
         },
         {
-        "Nombre": "Cloruro de sodio",
-        "Fórmula": "NaCl"
+            "Compuesto": "Li3P",
+            "Nombre": "fosfuro de litio"
         },
         {
-        "Nombre": "Carbonato de calcio",
-        "Fórmula": "CaCO3"
+            "Compuesto": "Li2O",
+            "Nombre": "óxido de litio"
         },
         {
-        "Nombre": "Sulfuro de aluminio",
-        "Fórmula": "Al2S3"
+            "Compuesto": "Li2S",
+            "Nombre": "sulfuro de litio"
         },
         {
-        "Nombre": "Nitrato de plata",
-        "Fórmula": "AgNO3"
+            "Compuesto": "LiF",
+            "Nombre": "fluoruro de litio"
         },
         {
-        "Nombre": "Óxido de aluminio",
-        "Fórmula": "Al2O3"
+            "Compuesto": "LiCl",
+            "Nombre": "cloruro de litio"
         },
         {
-        "Nombre": "Óxido de magnesio",
-        "Fórmula": "MgO"
+            "Compuesto": "LiBr",
+            "Nombre": "bromuro de litio"
         },
         {
-        "Nombre": "Sulfato de aluminio",
-        "Fórmula": "Al2(SO4)3"
+            "Compuesto": "LiI",
+            "Nombre": "ioduro de litio"
         },
         {
-        "Nombre": "Nitrato de aluminio",
-        "Fórmula": "Al(NO3)3"
+            "Compuesto": "LiOH",
+            "Nombre": "hidróxido de litio"
         },
         {
-        "Nombre": "Cromato de aluminio",
-        "Fórmula": "Al2(CrO4)3"
+            "Compuesto": "LiClO",
+            "Nombre": "hipoclorito de litio"
         },
         {
-        "Nombre": "Carbonato de aluminio",
-        "Fórmula": "Al2(CO3)3"
+            "Compuesto": "LiClO2",
+            "Nombre": "clorito de litio"
         },
         {
-        "Nombre": "Bromuro de aluminio",
-        "Fórmula": "AlBr3"
+            "Compuesto": "LiClO3",
+            "Nombre": "clorato de litio"
         },
         {
-        "Nombre": "Fosfato de bario",
-        "Fórmula": "Ba3(PO4)2"
+            "Compuesto": "LiClO4",
+            "Nombre": "perclorato de litio"
         },
         {
-        "Nombre": "Acetato de bario",
-        "Fórmula": "Ba(C2H3O2)2"
+            "Compuesto": "LiNO3",
+            "Nombre": "nitrato de litio"
         },
         {
-        "Nombre": "Clorito de bario",
-        "Fórmula": "Ba(ClO2)2"
+            "Compuesto": "LiNO2",
+            "Nombre": "nitrito de litio"
         },
         {
-        "Nombre": "Yodato de bario",
-        "Fórmula": "Ba(IO3)2"
+            "Compuesto": "Li2CO3",
+            "Nombre": "carbonato de litio"
         },
         {
-        "Nombre": "Bromato de bario",
-        "Fórmula": "Ba(BrO3)2"
+            "Compuesto": "LiHCO3",
+            "Nombre": "bicarbonato de litio"
         },
         {
-        "Nombre": "Fosfato de litio",
-        "Fórmula": "Li3PO4"
+            "Compuesto": "Li2SO3",
+            "Nombre": "sulfito de litio"
         },
         {
-        "Nombre": "Cloruro de litio",
-        "Fórmula": "LiCl"
+            "Compuesto": "Li2SO4",
+            "Nombre": "sulfato de litio"
         },
         {
-        "Nombre": "Yoduro de litio",
-        "Fórmula": "LiI"
+            "Compuesto": "Li3PO3",
+            "Nombre": "fosfito de litio"
         },
         {
-        "Nombre": "Fluoruro de litio",
-        "Fórmula": "LiF"
+            "Compuesto": "Li3PO4",
+            "Nombre": "fosfato de litio"
         },
         {
-        "Nombre": "Sulfito de cesio",
-        "Fórmula": "Cs2SO3"
+            "Compuesto": "Li2CrO4",
+            "Nombre": "cromato de litio"
         },
         {
-        "Nombre": "Óxido de cesio",
-        "Fórmula": "Cs2O"
+            "Compuesto": "Li2Cr2O7",
+            "Nombre": "percromato de litio"
         },
         {
-        "Nombre": "Cloruro de cesio",
-        "Fórmula": "CsCl"
+            "Compuesto": "LiMnO4",
+            "Nombre": "permanganato de litio"
         },
         {
-        "Nombre": "Peróxido de cesio",
-        "Fórmula": "Cs2O2"
+            "Compuesto": "Na3N",
+            "Nombre": "nitruro de sodio"
         },
         {
-        "Nombre": "Fosfito de cesio",
-        "Fórmula": "Cs3PO3"
+            "Compuesto": "Na3P",
+            "Nombre": "fosfuro de sodio"
         },
         {
-        "Nombre": "Cloruro de hierro (III)",
-        "Fórmula": "FeCl3"
+            "Compuesto": "Na2O",
+            "Nombre": "óxido de sodio"
         },
         {
-        "Nombre": "Cianuro de hierro (II)",
-        "Fórmula": "Fe (CN) 2"
+            "Compuesto": "Na2S",
+            "Nombre": "sulfuro de sodio"
         },
         {
-        "Nombre": "Fosfato de hierro (II)",
-        "Fórmula": "Fe3(PO4)2"
+            "Compuesto": "NaF",
+            "Nombre": "fluoruro de sodio"
         },
         {
-        "Nombre": "Óxido de hierro (III)",
-        "Fórmula": "Fe2O3"
+            "Compuesto": "NaCl",
+            "Nombre": "cloruro de sodio"
         },
         {
-        "Nombre": "Sulfato de cobalto (III)",
-        "Fórmula": "Co2(SO4)3"
+            "Compuesto": "NaBr",
+            "Nombre": "bromuro de sodio"
         },
         {
-        "Nombre": "Nitrito de cobalto (II)",
-        "Fórmula": "Co(NO2)2"
+            "Compuesto": "NaI",
+            "Nombre": "ioduro de sodio"
         },
         {
-        "Nombre": "Acetato de cobalto (II)",
-        "Fórmula": "Co(C2H3O2)2"
+            "Compuesto": "NaOH",
+            "Nombre": "hidróxido de sodio"
         },
         {
-        "Nombre": "Bromuro de cobalto (III)",
-        "Fórmula": "CoBr3"
+            "Compuesto": "NaClO",
+            "Nombre": "hipoclorito de sodio"
         },
         {
-        "Nombre": "Nitrito de cobalto (II)",
-        "Fórmula": "Co(NO2)2"
+            "Compuesto": "NaClO2",
+            "Nombre": "clorito de sodio"
         },
         {
-        "Nombre": "Sulfato de radio",
-        "Fórmula": "RaSO4"
+            "Compuesto": "NaClO3",
+            "Nombre": "clorato de sodio"
+        },
+        {
+            "Compuesto": "NaClO4",
+            "Nombre": "perclorato de sodio"
+        },
+        {
+            "Compuesto": "NaNO3",
+            "Nombre": "nitrato de sodio"
+        },
+        {
+            "Compuesto": "NaNO2",
+            "Nombre": "nitrito de sodio"
+        },
+        {
+            "Compuesto": "Na2CO3",
+            "Nombre": "carbonato de sodio"
+        },
+        {
+            "Compuesto": "NaHCO3",
+            "Nombre": "bicarbonato de sodio"
+        },
+        {
+            "Compuesto": "Na2SO3",
+            "Nombre": "sulfito de sodio"
+        },
+        {
+            "Compuesto": "Na2SO4",
+            "Nombre": "sulfato de sodio"
+        },
+        {
+            "Compuesto": "Na3PO3",
+            "Nombre": "fosfito de sodio"
+        },
+        {
+            "Compuesto": "Na3PO4",
+            "Nombre": "fosfato de sodio"
+        },
+        {
+            "Compuesto": "Na2CrO4",
+            "Nombre": "cromato de sodio"
+        },
+        {
+            "Compuesto": "Na2Cr2O7",
+            "Nombre": "percromato de sodio"
+        },
+        {
+            "Compuesto": "NaMnO4",
+            "Nombre": "permanganato de sodio"
+        },
+        {
+            "Compuesto": "K3N",
+            "Nombre": "nitruro de potasio"
+        },
+        {
+            "Compuesto": "K3P",
+            "Nombre": "fosfuro de potasio"
+        },
+        {
+            "Compuesto": "K2O",
+            "Nombre": "óxido de potasio"
+        },
+        {
+            "Compuesto": "K2S",
+            "Nombre": "sulfuro de potasio"
+        },
+        {
+            "Compuesto": "KF",
+            "Nombre": "fluoruro de potasio"
+        },
+        {
+            "Compuesto": "KCl",
+            "Nombre": "cloruro de potasio"
+        },
+        {
+            "Compuesto": "KBr",
+            "Nombre": "bromuro de potasio"
+        },
+        {
+            "Compuesto": "KI",
+            "Nombre": "ioduro de potasio"
+        },
+        {
+            "Compuesto": "KOH",
+            "Nombre": "hidróxido de potasio"
+        },
+        {
+            "Compuesto": "KClO",
+            "Nombre": "hipoclorito de potasio"
+        },
+        {
+            "Compuesto": "KClO2",
+            "Nombre": "clorito de potasio"
+        },
+        {
+            "Compuesto": "KClO3",
+            "Nombre": "clorato de potasio"
+        },
+        {
+            "Compuesto": "KClO4",
+            "Nombre": "perclorato de potasio"
+        },
+        {
+            "Compuesto": "KNO3",
+            "Nombre": "nitrato de potasio"
+        },
+        {
+            "Compuesto": "KNO2",
+            "Nombre": "nitrito de potasio"
+        },
+        {
+            "Compuesto": "K2CO3",
+            "Nombre": "carbonato de potasio"
+        },
+        {
+            "Compuesto": "KHCO3",
+            "Nombre": "bicarbonato de potasio"
+        },
+        {
+            "Compuesto": "K2SO3",
+            "Nombre": "sulfito de potasio"
+        },
+        {
+            "Compuesto": "K2SO4",
+            "Nombre": "sulfato de potasio"
+        },
+        {
+            "Compuesto": "K3PO3",
+            "Nombre": "fosfito de potasio"
+        },
+        {
+            "Compuesto": "K3PO4",
+            "Nombre": "fosfato de potasio"
+        },
+        {
+            "Compuesto": "K2CrO4",
+            "Nombre": "cromato de potasio"
+        },
+        {
+            "Compuesto": "K2Cr2O7",
+            "Nombre": "percromato de potasio"
+        },
+        {
+            "Compuesto": "KMnO4",
+            "Nombre": "permanganato de potasio"
+        },
+        {
+            "Compuesto": "Rb3N",
+            "Nombre": "nitruro de rubidio"
+        },
+        {
+            "Compuesto": "Rb3P",
+            "Nombre": "fosfuro de rubidio"
+        },
+        {
+            "Compuesto": "Rb2O",
+            "Nombre": "óxido de rubidio"
+        },
+        {
+            "Compuesto": "Rb2S",
+            "Nombre": "sulfuro de rubidio"
+        },
+        {
+            "Compuesto": "RbF",
+            "Nombre": "fluoruro de rubidio"
+        },
+        {
+            "Compuesto": "RbCl",
+            "Nombre": "cloruro de rubidio"
+        },
+        {
+            "Compuesto": "RbBr",
+            "Nombre": "bromuro de rubidio"
+        },
+        {
+            "Compuesto": "RbI",
+            "Nombre": "ioduro de rubidio"
+        },
+        {
+            "Compuesto": "RbOH",
+            "Nombre": "hidróxido de rubidio"
+        },
+        {
+            "Compuesto": "RbClO",
+            "Nombre": "hipoclorito de rubidio"
+        },
+        {
+            "Compuesto": "RbClO2",
+            "Nombre": "clorito de rubidio"
+        },
+        {
+            "Compuesto": "RbClO3",
+            "Nombre": "clorato de rubidio"
+        },
+        {
+            "Compuesto": "RbClO4",
+            "Nombre": "perclorato de rubidio"
+        },
+        {
+            "Compuesto": "RbNO3",
+            "Nombre": "nitrato de rubidio"
+        },
+        {
+            "Compuesto": "RbNO2",
+            "Nombre": "nitrito de rubidio"
+        },
+        {
+            "Compuesto": "Rb2CO3",
+            "Nombre": "carbonato de rubidio"
+        },
+        {
+            "Compuesto": "RbHCO3",
+            "Nombre": "bicarbonato de rubidio"
+        },
+        {
+            "Compuesto": "Rb2SO3",
+            "Nombre": "sulfito de rubidio"
+        },
+        {
+            "Compuesto": "Rb2SO4",
+            "Nombre": "sulfato de rubidio"
+        },
+        {
+            "Compuesto": "Rb3PO3",
+            "Nombre": "fosfito de rubidio"
+        },
+        {
+            "Compuesto": "Rb3PO4",
+            "Nombre": "fosfato de rubidio"
+        },
+        {
+            "Compuesto": "Rb2CrO4",
+            "Nombre": "cromato de rubidio"
+        },
+        {
+            "Compuesto": "Rb2Cr2O7",
+            "Nombre": "percromato de rubidio"
+        },
+        {
+            "Compuesto": "RbMnO4",
+            "Nombre": "permanganato de rubidio"
+        },
+        {
+            "Compuesto": "Ag3N",
+            "Nombre": "nitruro de plata"
+        },
+        {
+            "Compuesto": "Ag3P",
+            "Nombre": "fosfuro de plata"
+        },
+        {
+            "Compuesto": "Ag2O",
+            "Nombre": "óxido de plata"
+        },
+        {
+            "Compuesto": "Ag2S",
+            "Nombre": "sulfuro de plata"
+        },
+        {
+            "Compuesto": "AgF",
+            "Nombre": "fluoruro de plata"
+        },
+        {
+            "Compuesto": "AgCl",
+            "Nombre": "cloruro de plata"
+        },
+        {
+            "Compuesto": "AgBr",
+            "Nombre": "bromuro de plata"
+        },
+        {
+            "Compuesto": "AgI",
+            "Nombre": "ioduro de plata"
+        },
+        {
+            "Compuesto": "AgOH",
+            "Nombre": "hidróxido de plata"
+        },
+        {
+            "Compuesto": "AgClO",
+            "Nombre": "hipoclorito de plata"
+        },
+        {
+            "Compuesto": "AgClO2",
+            "Nombre": "clorito de plata"
+        },
+        {
+            "Compuesto": "AgClO3",
+            "Nombre": "clorato de plata"
+        },
+        {
+            "Compuesto": "AgClO4",
+            "Nombre": "perclorato de plata"
+        },
+        {
+            "Compuesto": "AgNO3",
+            "Nombre": "nitrato de plata"
+        },
+        {
+            "Compuesto": "AgNO2",
+            "Nombre": "nitrito de plata"
+        },
+        {
+            "Compuesto": "Ag2CO3",
+            "Nombre": "carbonato de plata"
+        },
+        {
+            "Compuesto": "AgHCO3",
+            "Nombre": "bicarbonato de plata"
+        },
+        {
+            "Compuesto": "Ag2SO3",
+            "Nombre": "sulfito de plata"
+        },
+        {
+            "Compuesto": "Ag2SO4",
+            "Nombre": "sulfato de plata"
+        },
+        {
+            "Compuesto": "Ag3PO3",
+            "Nombre": "fosfito de plata"
+        },
+        {
+            "Compuesto": "Ag3PO4",
+            "Nombre": "fosfato de plata"
+        },
+        {
+            "Compuesto": "Ag2CrO4",
+            "Nombre": "cromato de plata"
+        },
+        {
+            "Compuesto": "Ag2Cr2O7",
+            "Nombre": "percromato de plata"
+        },
+        {
+            "Compuesto": "AgMnO4",
+            "Nombre": "permanganato de plata"
+        },
+        {
+            "Compuesto": "Au3N",
+            "Nombre": "nitruro de oro (I)"
+        },
+        {
+            "Compuesto": "Au3P",
+            "Nombre": "fosfuro de oro (I)"
+        },
+        {
+            "Compuesto": "Au2O",
+            "Nombre": "óxido de oro (I)"
+        },
+        {
+            "Compuesto": "Au2S",
+            "Nombre": "sulfuro de oro (I)"
+        },
+        {
+            "Compuesto": "AuF",
+            "Nombre": "fluoruro de oro (I)"
+        },
+        {
+            "Compuesto": "AuCl",
+            "Nombre": "cloruro de oro (I)"
+        },
+        {
+            "Compuesto": "AuBr",
+            "Nombre": "bromuro de oro (I)"
+        },
+        {
+            "Compuesto": "AuI",
+            "Nombre": "ioduro de oro (I)"
+        },
+        {
+            "Compuesto": "AuOH",
+            "Nombre": "hidróxido de oro (I)"
+        },
+        {
+            "Compuesto": "AuClO",
+            "Nombre": "hipoclorito de oro (I)"
+        },
+        {
+            "Compuesto": "AuClO2",
+            "Nombre": "clorito de oro (I)"
+        },
+        {
+            "Compuesto": "AuClO3",
+            "Nombre": "clorato de oro (I)"
+        },
+        {
+            "Compuesto": "AuClO4",
+            "Nombre": "perclorato de oro (I)"
+        },
+        {
+            "Compuesto": "AuNO3",
+            "Nombre": "nitrato de oro (I)"
+        },
+        {
+            "Compuesto": "AuNO2",
+            "Nombre": "nitrito de oro (I)"
+        },
+        {
+            "Compuesto": "Au2CO3",
+            "Nombre": "carbonato de oro (I)"
+        },
+        {
+            "Compuesto": "AuHCO3",
+            "Nombre": "bicarbonato de oro (I)"
+        },
+        {
+            "Compuesto": "Au2SO3",
+            "Nombre": "sulfito de oro (I)"
+        },
+        {
+            "Compuesto": "Au2SO4",
+            "Nombre": "sulfato de oro (I)"
+        },
+        {
+            "Compuesto": "Au3PO3",
+            "Nombre": "fosfito de oro (I)"
+        },
+        {
+            "Compuesto": "Au3PO4",
+            "Nombre": "fosfato de oro (I)"
+        },
+        {
+            "Compuesto": "Au2CrO4",
+            "Nombre": "cromato de oro (I)"
+        },
+        {
+            "Compuesto": "Au2Cr2O7",
+            "Nombre": "percromato de oro (I)"
+        },
+        {
+            "Compuesto": "AuMnO4",
+            "Nombre": "permanganato de oro (I)"
+        },
+        {
+            "Compuesto": "Cu3N",
+            "Nombre": "nitruro de cobre (I)"
+        },
+        {
+            "Compuesto": "Cu3P",
+            "Nombre": "fosfuro de cobre (I)"
+        },
+        {
+            "Compuesto": "Cu2O",
+            "Nombre": "óxido de cobre (I)"
+        },
+        {
+            "Compuesto": "Cu2S",
+            "Nombre": "sulfuro de cobre (I)"
+        },
+        {
+            "Compuesto": "CuF",
+            "Nombre": "fluoruro de cobre (I)"
+        },
+        {
+            "Compuesto": "CuCl",
+            "Nombre": "cloruro de cobre (I)"
+        },
+        {
+            "Compuesto": "CuBr",
+            "Nombre": "bromuro de cobre (I)"
+        },
+        {
+            "Compuesto": "CuI",
+            "Nombre": "ioduro de cobre (I)"
+        },
+        {
+            "Compuesto": "CuOH",
+            "Nombre": "hidróxido de cobre (I)"
+        },
+        {
+            "Compuesto": "CuClO",
+            "Nombre": "hipoclorito de cobre (I)"
+        },
+        {
+            "Compuesto": "CuClO2",
+            "Nombre": "clorito de cobre (I)"
+        },
+        {
+            "Compuesto": "CuClO3",
+            "Nombre": "clorato de cobre (I)"
+        },
+        {
+            "Compuesto": "CuClO4",
+            "Nombre": "perclorato de cobre (I)"
+        },
+        {
+            "Compuesto": "CuNO3",
+            "Nombre": "nitrato de cobre (I)"
+        },
+        {
+            "Compuesto": "CuNO2",
+            "Nombre": "nitrito de cobre (I)"
+        },
+        {
+            "Compuesto": "Cu2CO3",
+            "Nombre": "carbonato de cobre (I)"
+        },
+        {
+            "Compuesto": "CuHCO3",
+            "Nombre": "bicarbonato de cobre (I)"
+        },
+        {
+            "Compuesto": "Cu2SO3",
+            "Nombre": "sulfito de cobre (I)"
+        },
+        {
+            "Compuesto": "Cu2SO4",
+            "Nombre": "sulfato de cobre (I)"
+        },
+        {
+            "Compuesto": "Cu3PO3",
+            "Nombre": "fosfito de cobre (I)"
+        },
+        {
+            "Compuesto": "Cu3PO4",
+            "Nombre": "fosfato de cobre (I)"
+        },
+        {
+            "Compuesto": "Cu2CrO4",
+            "Nombre": "cromato de cobre (I)"
+        },
+        {
+            "Compuesto": "Cu2Cr2O7",
+            "Nombre": "percromato de cobre (I)"
+        },
+        {
+            "Compuesto": "CuMnO4",
+            "Nombre": "permanganato de cobre (I)"
+        },
+        {
+            "Compuesto": "(NH4)3N",
+            "Nombre": "nitruro de amonio"
+        },
+        {
+            "Compuesto": "(NH4)3P",
+            "Nombre": "fosfuro de amonio"
+        },
+        {
+            "Compuesto": "(NH4)2O",
+            "Nombre": "óxido de amonio"
+        },
+        {
+            "Compuesto": "(NH4)2S",
+            "Nombre": "sulfuro de amonio"
+        },
+        {
+            "Compuesto": "NH4F",
+            "Nombre": "fluoruro de amonio"
+        },
+        {
+            "Compuesto": "NH4Cl",
+            "Nombre": "cloruro de amonio"
+        },
+        {
+            "Compuesto": "NH4Br",
+            "Nombre": "bromuro de amonio"
+        },
+        {
+            "Compuesto": "NH4I",
+            "Nombre": "ioduro de amonio"
+        },
+        {
+            "Compuesto": "NH4OH",
+            "Nombre": "hidróxido de amonio"
+        },
+        {
+            "Compuesto": "NH4ClO",
+            "Nombre": "hipoclorito de amonio"
+        },
+        {
+            "Compuesto": "NH4ClO2",
+            "Nombre": "clorito de amonio"
+        },
+        {
+            "Compuesto": "NH4ClO3",
+            "Nombre": "clorato de amonio"
+        },
+        {
+            "Compuesto": "NH4ClO4",
+            "Nombre": "perclorato de amonio"
+        },
+        {
+            "Compuesto": "NH4NO3",
+            "Nombre": "nitrato de amonio"
+        },
+        {
+            "Compuesto": "NH4NO2",
+            "Nombre": "nitrito de amonio"
+        },
+        {
+            "Compuesto": "(NH4)2CO3",
+            "Nombre": "carbonato de amonio"
+        },
+        {
+            "Compuesto": "NH4HCO3",
+            "Nombre": "bicarbonato de amonio"
+        },
+        {
+            "Compuesto": "(NH4)2SO3",
+            "Nombre": "sulfito de amonio"
+        },
+        {
+            "Compuesto": "(NH4)2SO4",
+            "Nombre": "sulfato de amonio"
+        },
+        {
+            "Compuesto": "(NH4)3PO3",
+            "Nombre": "fosfito de amonio"
+        },
+        {
+            "Compuesto": "(NH4)3PO4",
+            "Nombre": "fosfato de amonio"
+        },
+        {
+            "Compuesto": "(NH4)2CrO4",
+            "Nombre": "cromato de amonio"
+        },
+        {
+            "Compuesto": "(NH4)2Cr2O7",
+            "Nombre": "percromato de amonio"
+        },
+        {
+            "Compuesto": "NH4MnO4",
+            "Nombre": "permanganato de amonio"
+        },
+        {
+            "Compuesto": "AlN",
+            "Nombre": "nitruro de aluminio"
+        },
+        {
+            "Compuesto": "AlP",
+            "Nombre": "fosfuro de aluminio"
+        },
+        {
+            "Compuesto": "Al2O3",
+            "Nombre": "óxido de aluminio"
+        },
+        {
+            "Compuesto": "Al2S3",
+            "Nombre": "sulfuro de aluminio"
+        },
+        {
+            "Compuesto": "AlF3",
+            "Nombre": "fluoruro de aluminio"
+        },
+        {
+            "Compuesto": "AlCl3",
+            "Nombre": "cloruro de aluminio"
+        },
+        {
+            "Compuesto": "AlBr3",
+            "Nombre": "bromuro de aluminio"
+        },
+        {
+            "Compuesto": "AlI3",
+            "Nombre": "ioduro de aluminio"
+        },
+        {
+            "Compuesto": "Al(OH)3",
+            "Nombre": "hidróxido de aluminio"
+        },
+        {
+            "Compuesto": "Al(ClO)3",
+            "Nombre": "hipoclorito de aluminio"
+        },
+        {
+            "Compuesto": "Al(ClO2)3",
+            "Nombre": "clorito de aluminio"
+        },
+        {
+            "Compuesto": "Al(ClO3)3",
+            "Nombre": "clorato de aluminio"
+        },
+        {
+            "Compuesto": "Al(ClO4)3",
+            "Nombre": "perclorato de aluminio"
+        },
+        {
+            "Compuesto": "Al(NO3)3",
+            "Nombre": "nitrato de aluminio"
+        },
+        {
+            "Compuesto": "Al(NO2)3",
+            "Nombre": "nitrito de aluminio"
+        },
+        {
+            "Compuesto": "Al2(CO3)3",
+            "Nombre": "carbonato de aluminio"
+        },
+        {
+            "Compuesto": "Al(HCO3)3",
+            "Nombre": "bicarbonato de aluminio"
+        },
+        {
+            "Compuesto": "Al2(SO3)3",
+            "Nombre": "sulfito de aluminio"
+        },
+        {
+            "Compuesto": "Al2(SO4)3",
+            "Nombre": "sulfato de aluminio"
+        },
+        {
+            "Compuesto": "AlPO3",
+            "Nombre": "fosfito de aluminio"
+        },
+        {
+            "Compuesto": "AlPO4",
+            "Nombre": "fosfato de aluminio"
+        },
+        {
+            "Compuesto": "Al2(CrO4)3",
+            "Nombre": "cromato de aluminio"
+        },
+        {
+            "Compuesto": "Al2(Cr2O7)3",
+            "Nombre": "percromato de aluminio"
+        },
+        {
+            "Compuesto": "Al(MnO4)3",
+            "Nombre": "permanganato de aluminio"
+        },
+        {
+            "Compuesto": "AuN",
+            "Nombre": "nitruro de oro (III)"
+        },
+        {
+            "Compuesto": "AuP",
+            "Nombre": "fosfuro de oro (III)"
+        },
+        {
+            "Compuesto": "Au2O3",
+            "Nombre": "óxido de oro (III)"
+        },
+        {
+            "Compuesto": "Au2S3",
+            "Nombre": "sulfuro de oro (III)"
+        },
+        {
+            "Compuesto": "AuF3",
+            "Nombre": "fluoruro de oro (III)"
+        },
+        {
+            "Compuesto": "AuCl3",
+            "Nombre": "cloruro de oro (III)"
+        },
+        {
+            "Compuesto": "AuBr3",
+            "Nombre": "bromuro de oro (III)"
+        },
+        {
+            "Compuesto": "AuI3",
+            "Nombre": "ioduro de oro (III)"
+        },
+        {
+            "Compuesto": "Au(OH)3",
+            "Nombre": "hidróxido de oro (III)"
+        },
+        {
+            "Compuesto": "Au(ClO)3",
+            "Nombre": "hipoclorito de oro (III)"
+        },
+        {
+            "Compuesto": "Au(ClO2)3",
+            "Nombre": "clorito de oro (III)"
+        },
+        {
+            "Compuesto": "Au(ClO3)3",
+            "Nombre": "clorato de oro (III)"
+        },
+        {
+            "Compuesto": "Au(ClO4)3",
+            "Nombre": "perclorato de oro (III)"
+        },
+        {
+            "Compuesto": "Au(NO3)3",
+            "Nombre": "nitrato de oro (III)"
+        },
+        {
+            "Compuesto": "Au(NO2)3",
+            "Nombre": "nitrito de oro (III)"
+        },
+        {
+            "Compuesto": "Au2(CO3)3",
+            "Nombre": "carbonato de oro (III)"
+        },
+        {
+            "Compuesto": "Au(HCO3)3",
+            "Nombre": "bicarbonato de oro (III)"
+        },
+        {
+            "Compuesto": "Au2(SO3)3",
+            "Nombre": "sulfito de oro (III)"
+        },
+        {
+            "Compuesto": "Au2(SO4)3",
+            "Nombre": "sulfato de oro (III)"
+        },
+        {
+            "Compuesto": "AuPO3",
+            "Nombre": "fosfito de oro (III)"
+        },
+        {
+            "Compuesto": "AuPO4",
+            "Nombre": "fosfato de oro (III)"
+        },
+        {
+            "Compuesto": "Au2(CrO4)3",
+            "Nombre": "cromato de oro (III)"
+        },
+        {
+            "Compuesto": "Au2(Cr2O7)3",
+            "Nombre": "percromato de oro (III)"
+        },
+        {
+            "Compuesto": "Au(MnO4)3",
+            "Nombre": "permanganato de oro (III)"
+        },
+        {
+            "Compuesto": "CrN",
+            "Nombre": "nitruro de cromo (III)"
+        },
+        {
+            "Compuesto": "CrP",
+            "Nombre": "fosfuro de cromo (III)"
+        },
+        {
+            "Compuesto": "Cr2O3",
+            "Nombre": "óxido de cromo (III)"
+        },
+        {
+            "Compuesto": "Cr2S3",
+            "Nombre": "sulfuro de cromo (III)"
+        },
+        {
+            "Compuesto": "CrF3",
+            "Nombre": "fluoruro de cromo (III)"
+        },
+        {
+            "Compuesto": "CrCl3",
+            "Nombre": "cloruro de cromo (III)"
+        },
+        {
+            "Compuesto": "CrBr3",
+            "Nombre": "bromuro de cromo (III)"
+        },
+        {
+            "Compuesto": "CrI3",
+            "Nombre": "ioduro de cromo (III)"
+        },
+        {
+            "Compuesto": "Cr(OH)3",
+            "Nombre": "hidróxido de cromo (III)"
+        },
+        {
+            "Compuesto": "Cr(ClO)3",
+            "Nombre": "hipoclorito de cromo (III)"
+        },
+        {
+            "Compuesto": "Cr(ClO2)3",
+            "Nombre": "clorito de cromo (III)"
+        },
+        {
+            "Compuesto": "Cr(ClO3)3",
+            "Nombre": "clorato de cromo (III)"
+        },
+        {
+            "Compuesto": "Cr(ClO4)3",
+            "Nombre": "perclorato de cromo (III)"
+        },
+        {
+            "Compuesto": "Cr(NO3)3",
+            "Nombre": "nitrato de cromo (III)"
+        },
+        {
+            "Compuesto": "Cr(NO2)3",
+            "Nombre": "nitrito de cromo (III)"
+        },
+        {
+            "Compuesto": "Cr2(CO3)3",
+            "Nombre": "carbonato de cromo (III)"
+        },
+        {
+            "Compuesto": "Cr(HCO3)3",
+            "Nombre": "bicarbonato de cromo (III)"
+        },
+        {
+            "Compuesto": "Cr2(SO3)3",
+            "Nombre": "sulfito de cromo (III)"
+        },
+        {
+            "Compuesto": "Cr2(SO4)3",
+            "Nombre": "sulfato de cromo (III)"
+        },
+        {
+            "Compuesto": "CrPO3",
+            "Nombre": "fosfito de cromo (III)"
+        },
+        {
+            "Compuesto": "CrPO4",
+            "Nombre": "fosfato de cromo (III)"
+        },
+        {
+            "Compuesto": "Cr2(CrO4)3",
+            "Nombre": "cromato de cromo (III)"
+        },
+        {
+            "Compuesto": "Cr2(Cr2O7)3",
+            "Nombre": "percromato de cromo (III)"
+        },
+        {
+            "Compuesto": "Cr(MnO4)3",
+            "Nombre": "permanganato de cromo (III)"
+        },
+        {
+            "Compuesto": "FeN",
+            "Nombre": "nitruro de fierro (III)"
+        },
+        {
+            "Compuesto": "FeP",
+            "Nombre": "fosfuro de fierro (III)"
+        },
+        {
+            "Compuesto": "Fe2O3",
+            "Nombre": "óxido de fierro (III)"
+        },
+        {
+            "Compuesto": "Fe2S3",
+            "Nombre": "sulfuro de fierro (III)"
+        },
+        {
+            "Compuesto": "FeF3",
+            "Nombre": "fluoruro de fierro (III)"
+        },
+        {
+            "Compuesto": "FeCl3",
+            "Nombre": "cloruro de fierro (III)"
+        },
+        {
+            "Compuesto": "FeBr3",
+            "Nombre": "bromuro de fierro (III)"
+        },
+        {
+            "Compuesto": "FeI3",
+            "Nombre": "ioduro de fierro (III)"
+        },
+        {
+            "Compuesto": "Fe(OH)3",
+            "Nombre": "hidróxido de fierro (III)"
+        },
+        {
+            "Compuesto": "Fe(ClO)3",
+            "Nombre": "hipoclorito de fierro (III)"
+        },
+        {
+            "Compuesto": "Fe(ClO2)3",
+            "Nombre": "clorito de fierro (III)"
+        },
+        {
+            "Compuesto": "Fe(ClO3)3",
+            "Nombre": "clorato de fierro (III)"
+        },
+        {
+            "Compuesto": "Fe(ClO4)3",
+            "Nombre": "perclorato de fierro (III)"
+        },
+        {
+            "Compuesto": "Fe(NO3)3",
+            "Nombre": "nitrato de fierro (III)"
+        },
+        {
+            "Compuesto": "Fe(NO2)3",
+            "Nombre": "nitrito de fierro (III)"
+        },
+        {
+            "Compuesto": "Fe2(CO3)3",
+            "Nombre": "carbonato de fierro (III)"
+        },
+        {
+            "Compuesto": "Fe(HCO3)3",
+            "Nombre": "bicarbonato de fierro (III)"
+        },
+        {
+            "Compuesto": "Fe2(SO3)3",
+            "Nombre": "sulfito de fierro (III)"
+        },
+        {
+            "Compuesto": "Fe2(SO4)3",
+            "Nombre": "sulfato de fierro (III)"
+        },
+        {
+            "Compuesto": "FePO3",
+            "Nombre": "fosfito de fierro (III)"
+        },
+        {
+            "Compuesto": "FePO4",
+            "Nombre": "fosfato de fierro (III)"
+        },
+        {
+            "Compuesto": "Fe2(CrO4)3",
+            "Nombre": "cromato de fierro (III)"
+        },
+        {
+            "Compuesto": "Fe2(Cr2O7)3",
+            "Nombre": "percromato de fierro (III)"
+        },
+        {
+            "Compuesto": "Fe(MnO4)3",
+            "Nombre": "permanganato de fierro (III)"
+        },
+        {
+            "Compuesto": "MnN",
+            "Nombre": "nitruro de manganeso (III)"
+        },
+        {
+            "Compuesto": "MnP",
+            "Nombre": "fosfuro de manganeso (III)"
+        },
+        {
+            "Compuesto": "Mn2O3",
+            "Nombre": "óxido de manganeso (III)"
+        },
+        {
+            "Compuesto": "Mn2S3",
+            "Nombre": "sulfuro de manganeso (III)"
+        },
+        {
+            "Compuesto": "MnF3",
+            "Nombre": "fluoruro de manganeso (III)"
+        },
+        {
+            "Compuesto": "MnCl3",
+            "Nombre": "cloruro de manganeso (III)"
+        },
+        {
+            "Compuesto": "MnBr3",
+            "Nombre": "bromuro de manganeso (III)"
+        },
+        {
+            "Compuesto": "MnI3",
+            "Nombre": "ioduro de manganeso (III)"
+        },
+        {
+            "Compuesto": "Mn(OH)3",
+            "Nombre": "hidróxido de manganeso (III)"
+        },
+        {
+            "Compuesto": "Mn(ClO)3",
+            "Nombre": "hipoclorito de manganeso (III)"
+        },
+        {
+            "Compuesto": "Mn(ClO2)3",
+            "Nombre": "clorito de manganeso (III)"
+        },
+        {
+            "Compuesto": "Mn(ClO3)3",
+            "Nombre": "clorato de manganeso (III)"
+        },
+        {
+            "Compuesto": "Mn(ClO4)3",
+            "Nombre": "perclorato de manganeso (III)"
+        },
+        {
+            "Compuesto": "Mn(NO3)3",
+            "Nombre": "nitrato de manganeso (III)"
+        },
+        {
+            "Compuesto": "Mn(NO2)3",
+            "Nombre": "nitrito de manganeso (III)"
+        },
+        {
+            "Compuesto": "Mn2(CO3)3",
+            "Nombre": "carbonato de manganeso (III)"
+        },
+        {
+            "Compuesto": "Mn(HCO3)3",
+            "Nombre": "bicarbonato de manganeso (III)"
+        },
+        {
+            "Compuesto": "Mn2(SO3)3",
+            "Nombre": "sulfito de manganeso (III)"
+        },
+        {
+            "Compuesto": "Mn2(SO4)3",
+            "Nombre": "sulfato de manganeso (III)"
+        },
+        {
+            "Compuesto": "MnPO3",
+            "Nombre": "fosfito de manganeso (III)"
+        },
+        {
+            "Compuesto": "MnPO4",
+            "Nombre": "fosfato de manganeso (III)"
+        },
+        {
+            "Compuesto": "Mn2(CrO4)3",
+            "Nombre": "cromato de manganeso (III)"
+        },
+        {
+            "Compuesto": "Mn2(Cr2O7)3",
+            "Nombre": "percromato de manganeso (III)"
+        },
+        {
+            "Compuesto": "Mn(MnO4)3",
+            "Nombre": "permanganato de manganeso (III)"
+        },
+        {
+            "Compuesto": "NiN",
+            "Nombre": "nitruro de níquel (III)"
+        },
+        {
+            "Compuesto": "NiP",
+            "Nombre": "fosfuro de níquel (III)"
+        },
+        {
+            "Compuesto": "Ni2O3",
+            "Nombre": "óxido de níquel (III)"
+        },
+        {
+            "Compuesto": "Ni2S3",
+            "Nombre": "sulfuro de níquel (III)"
+        },
+        {
+            "Compuesto": "NiF3",
+            "Nombre": "fluoruro de níquel (III)"
+        },
+        {
+            "Compuesto": "NiCl3",
+            "Nombre": "cloruro de níquel (III)"
+        },
+        {
+            "Compuesto": "NiBr3",
+            "Nombre": "bromuro de níquel (III)"
+        },
+        {
+            "Compuesto": "NiI3",
+            "Nombre": "ioduro de níquel (III)"
+        },
+        {
+            "Compuesto": "Ni(OH)3",
+            "Nombre": "hidróxido de níquel (III)"
+        },
+        {
+            "Compuesto": "Ni(ClO)3",
+            "Nombre": "hipoclorito de níquel (III)"
+        },
+        {
+            "Compuesto": "Ni(ClO2)3",
+            "Nombre": "clorito de níquel (III)"
+        },
+        {
+            "Compuesto": "Ni(ClO3)3",
+            "Nombre": "clorato de níquel (III)"
+        },
+        {
+            "Compuesto": "Ni(ClO4)3",
+            "Nombre": "perclorato de níquel (III)"
+        },
+        {
+            "Compuesto": "Ni(NO3)3",
+            "Nombre": "nitrato de níquel (III)"
+        },
+        {
+            "Compuesto": "Ni(NO2)3",
+            "Nombre": "nitrito de níquel (III)"
+        },
+        {
+            "Compuesto": "Ni2(CO3)3",
+            "Nombre": "carbonato de níquel (III)"
+        },
+        {
+            "Compuesto": "Ni(HCO3)3",
+            "Nombre": "bicarbonato de níquel (III)"
+        },
+        {
+            "Compuesto": "Ni2(SO3)3",
+            "Nombre": "sulfito de níquel (III)"
+        },
+        {
+            "Compuesto": "Ni2(SO4)3",
+            "Nombre": "sulfato de níquel (III)"
+        },
+        {
+            "Compuesto": "NiPO3",
+            "Nombre": "fosfito de níquel (III)"
+        },
+        {
+            "Compuesto": "NiPO4",
+            "Nombre": "fosfato de níquel (III)"
+        },
+        {
+            "Compuesto": "Ni2(CrO4)3",
+            "Nombre": "cromato de níquel (III)"
+        },
+        {
+            "Compuesto": "Ni2(Cr2O7)3",
+            "Nombre": "percromato de níquel (III)"
+        },
+        {
+            "Compuesto": "Ni(MnO4)3",
+            "Nombre": "permanganato de níquel (III)"
+        },
+        {
+            "Compuesto": "Mg3N2",
+            "Nombre": "nitruro de magnesio"
+        },
+        {
+            "Compuesto": "Mg3P2",
+            "Nombre": "fosfuro de magnesio"
+        },
+        {
+            "Compuesto": "MgO",
+            "Nombre": "óxido de magnesio"
+        },
+        {
+            "Compuesto": "MgS",
+            "Nombre": "sulfuro de magnesio"
+        },
+        {
+            "Compuesto": "MgF2",
+            "Nombre": "fluoruro de magnesio"
+        },
+        {
+            "Compuesto": "MgCl2",
+            "Nombre": "cloruro de magnesio"
+        },
+        {
+            "Compuesto": "MgBr2",
+            "Nombre": "bromuro de magnesio"
+        },
+        {
+            "Compuesto": "MgI2",
+            "Nombre": "ioduro de magnesio"
+        },
+        {
+            "Compuesto": "Mg(OH)2",
+            "Nombre": "hidróxido de magnesio"
+        },
+        {
+            "Compuesto": "Mg(ClO)2",
+            "Nombre": "hipoclorito de magnesio"
+        },
+        {
+            "Compuesto": "Mg(ClO2)2",
+            "Nombre": "clorito de magnesio"
+        },
+        {
+            "Compuesto": "Mg(ClO3)2",
+            "Nombre": "clorato de magnesio"
+        },
+        {
+            "Compuesto": "Mg(ClO4)2",
+            "Nombre": "perclorato de magnesio"
+        },
+        {
+            "Compuesto": "Mg(NO3)2",
+            "Nombre": "nitrato de magnesio"
+        },
+        {
+            "Compuesto": "Mg(NO2)2",
+            "Nombre": "nitrito de magnesio"
+        },
+        {
+            "Compuesto": "MgCO3",
+            "Nombre": "carbonato de magnesio"
+        },
+        {
+            "Compuesto": "Mg(HCO3)2",
+            "Nombre": "bicarbonato de magnesio"
+        },
+        {
+            "Compuesto": "MgSO3",
+            "Nombre": "sulfito de magnesio"
+        },
+        {
+            "Compuesto": "MgSO4",
+            "Nombre": "sulfato de magnesio"
+        },
+        {
+            "Compuesto": "Mg3(PO3)2",
+            "Nombre": "fosfito de magnesio"
+        },
+        {
+            "Compuesto": "Mg3(PO4)2",
+            "Nombre": "fosfato de magnesio"
+        },
+        {
+            "Compuesto": "MgCrO4",
+            "Nombre": "cromato de magnesio"
+        },
+        {
+            "Compuesto": "MgCr2O7",
+            "Nombre": "percromato de magnesio"
+        },
+        {
+            "Compuesto": "Mg(MnO4)2",
+            "Nombre": "permanganato de magnesio"
+        },
+        {
+            "Compuesto": "Ca3N2",
+            "Nombre": "nitruro de calcio"
+        },
+        {
+            "Compuesto": "Ca3P2",
+            "Nombre": "fosfuro de calcio"
+        },
+        {
+            "Compuesto": "CaO",
+            "Nombre": "óxido de calcio"
+        },
+        {
+            "Compuesto": "CaS",
+            "Nombre": "sulfuro de calcio"
+        },
+        {
+            "Compuesto": "CaF2",
+            "Nombre": "fluoruro de calcio"
+        },
+        {
+            "Compuesto": "CaCl2",
+            "Nombre": "cloruro de calcio"
+        },
+        {
+            "Compuesto": "CaBr2",
+            "Nombre": "bromuro de calcio"
+        },
+        {
+            "Compuesto": "CaI2",
+            "Nombre": "ioduro de calcio"
+        },
+        {
+            "Compuesto": "Ca(OH)2",
+            "Nombre": "hidróxido de calcio"
+        },
+        {
+            "Compuesto": "Ca(ClO)2",
+            "Nombre": "hipoclorito de calcio"
+        },
+        {
+            "Compuesto": "Ca(ClO2)2",
+            "Nombre": "clorito de calcio"
+        },
+        {
+            "Compuesto": "Ca(ClO3)2",
+            "Nombre": "clorato de calcio"
+        },
+        {
+            "Compuesto": "Ca(ClO4)2",
+            "Nombre": "perclorato de calcio"
+        },
+        {
+            "Compuesto": "Ca(NO3)2",
+            "Nombre": "nitrato de calcio"
+        },
+        {
+            "Compuesto": "Ca(NO2)2",
+            "Nombre": "nitrito de calcio"
+        },
+        {
+            "Compuesto": "CaCO3",
+            "Nombre": "carbonato de calcio"
+        },
+        {
+            "Compuesto": "Ca(HCO3)2",
+            "Nombre": "bicarbonato de calcio"
+        },
+        {
+            "Compuesto": "CaSO3",
+            "Nombre": "sulfito de calcio"
+        },
+        {
+            "Compuesto": "CaSO4",
+            "Nombre": "sulfato de calcio"
+        },
+        {
+            "Compuesto": "Ca3(PO3)2",
+            "Nombre": "fosfito de calcio"
+        },
+        {
+            "Compuesto": "Ca3(PO4)2",
+            "Nombre": "fosfato de calcio"
+        },
+        {
+            "Compuesto": "CaCrO4",
+            "Nombre": "cromato de calcio"
+        },
+        {
+            "Compuesto": "CaCr2O7",
+            "Nombre": "percromato de calcio"
+        },
+        {
+            "Compuesto": "Ca(MnO4)2",
+            "Nombre": "permanganato de calcio"
+        },
+        {
+            "Compuesto": "Sr3N2",
+            "Nombre": "nitruro de estroncio"
+        },
+        {
+            "Compuesto": "Sr3P2",
+            "Nombre": "fosfuro de estroncio"
+        },
+        {
+            "Compuesto": "SrO",
+            "Nombre": "óxido de estroncio"
+        },
+        {
+            "Compuesto": "SrS",
+            "Nombre": "sulfuro de estroncio"
+        },
+        {
+            "Compuesto": "SrF2",
+            "Nombre": "fluoruro de estroncio"
+        },
+        {
+            "Compuesto": "SrCl2",
+            "Nombre": "cloruro de estroncio"
+        },
+        {
+            "Compuesto": "SrBr2",
+            "Nombre": "bromuro de estroncio"
+        },
+        {
+            "Compuesto": "SrI2",
+            "Nombre": "ioduro de estroncio"
+        },
+        {
+            "Compuesto": "Sr(OH)2",
+            "Nombre": "hidróxido de estroncio"
+        },
+        {
+            "Compuesto": "Sr(ClO)2",
+            "Nombre": "hipoclorito de estroncio"
+        },
+        {
+            "Compuesto": "Sr(ClO2)2",
+            "Nombre": "clorito de estroncio"
+        },
+        {
+            "Compuesto": "Sr(ClO3)2",
+            "Nombre": "clorato de estroncio"
+        },
+        {
+            "Compuesto": "Sr(ClO4)2",
+            "Nombre": "perclorato de estroncio"
+        },
+        {
+            "Compuesto": "Sr(NO3)2",
+            "Nombre": "nitrato de estroncio"
+        },
+        {
+            "Compuesto": "Sr(NO2)2",
+            "Nombre": "nitrito de estroncio"
+        },
+        {
+            "Compuesto": "SrCO3",
+            "Nombre": "carbonato de estroncio"
+        },
+        {
+            "Compuesto": "Sr(HCO3)2",
+            "Nombre": "bicarbonato de estroncio"
+        },
+        {
+            "Compuesto": "SrSO3",
+            "Nombre": "sulfito de estroncio"
+        },
+        {
+            "Compuesto": "SrSO4",
+            "Nombre": "sulfato de estroncio"
+        },
+        {
+            "Compuesto": "Sr3(PO3)2",
+            "Nombre": "fosfito de estroncio"
+        },
+        {
+            "Compuesto": "Sr3(PO4)2",
+            "Nombre": "fosfato de estroncio"
+        },
+        {
+            "Compuesto": "SrCrO4",
+            "Nombre": "cromato de estroncio"
+        },
+        {
+            "Compuesto": "SrCr2O7",
+            "Nombre": "percromato de estroncio"
+        },
+        {
+            "Compuesto": "Sr(MnO4)2",
+            "Nombre": "permanganato de estroncio"
+        },
+        {
+            "Compuesto": "Ba3N2",
+            "Nombre": "nitruro de bario"
+        },
+        {
+            "Compuesto": "Ba3P2",
+            "Nombre": "fosfuro de bario"
+        },
+        {
+            "Compuesto": "BaO",
+            "Nombre": "óxido de bario"
+        },
+        {
+            "Compuesto": "BaS",
+            "Nombre": "sulfuro de bario"
+        },
+        {
+            "Compuesto": "BaF2",
+            "Nombre": "fluoruro de bario"
+        },
+        {
+            "Compuesto": "BaCl2",
+            "Nombre": "cloruro de bario"
+        },
+        {
+            "Compuesto": "BaBr2",
+            "Nombre": "bromuro de bario"
+        },
+        {
+            "Compuesto": "BaI2",
+            "Nombre": "ioduro de bario"
+        },
+        {
+            "Compuesto": "Ba(OH)2",
+            "Nombre": "hidróxido de bario"
+        },
+        {
+            "Compuesto": "Ba(ClO)2",
+            "Nombre": "hipoclorito de bario"
+        },
+        {
+            "Compuesto": "Ba(ClO2)2",
+            "Nombre": "clorito de bario"
+        },
+        {
+            "Compuesto": "Ba(ClO3)2",
+            "Nombre": "clorato de bario"
+        },
+        {
+            "Compuesto": "Ba(ClO4)2",
+            "Nombre": "perclorato de bario"
+        },
+        {
+            "Compuesto": "Ba(NO3)2",
+            "Nombre": "nitrato de bario"
+        },
+        {
+            "Compuesto": "Ba(NO2)2",
+            "Nombre": "nitrito de bario"
+        },
+        {
+            "Compuesto": "BaCO3",
+            "Nombre": "carbonato de bario"
+        },
+        {
+            "Compuesto": "Ba(HCO3)2",
+            "Nombre": "bicarbonato de bario"
+        },
+        {
+            "Compuesto": "BaSO3",
+            "Nombre": "sulfito de bario"
+        },
+        {
+            "Compuesto": "BaSO4",
+            "Nombre": "sulfato de bario"
+        },
+        {
+            "Compuesto": "Ba3(PO3)2",
+            "Nombre": "fosfito de bario"
+        },
+        {
+            "Compuesto": "Ba3(PO4)2",
+            "Nombre": "fosfato de bario"
+        },
+        {
+            "Compuesto": "BaCrO4",
+            "Nombre": "cromato de bario"
+        },
+        {
+            "Compuesto": "BaCr2O7",
+            "Nombre": "percromato de bario"
+        },
+        {
+            "Compuesto": "Ba(MnO4)2",
+            "Nombre": "permanganato de bario"
+        },
+        {
+            "Compuesto": "Sn3N2",
+            "Nombre": "nitruro de estaño (II)"
+        },
+        {
+            "Compuesto": "Sn3P2",
+            "Nombre": "fosfuro de estaño (II)"
+        },
+        {
+            "Compuesto": "SnO",
+            "Nombre": "óxido de estaño (II)"
+        },
+        {
+            "Compuesto": "SnS",
+            "Nombre": "sulfuro de estaño (II)"
+        },
+        {
+            "Compuesto": "SnF2",
+            "Nombre": "fluoruro de estaño (II)"
+        },
+        {
+            "Compuesto": "SnCl2",
+            "Nombre": "cloruro de estaño (II)"
+        },
+        {
+            "Compuesto": "SnBr2",
+            "Nombre": "bromuro de estaño (II)"
+        },
+        {
+            "Compuesto": "SnI2",
+            "Nombre": "ioduro de estaño (II)"
+        },
+        {
+            "Compuesto": "Sn(OH)2",
+            "Nombre": "hidróxido de estaño (II)"
+        },
+        {
+            "Compuesto": "Sn(ClO)2",
+            "Nombre": "hipoclorito de estaño (II)"
+        },
+        {
+            "Compuesto": "Sn(ClO2)2",
+            "Nombre": "clorito de estaño (II)"
+        },
+        {
+            "Compuesto": "Sn(ClO3)2",
+            "Nombre": "clorato de estaño (II)"
+        },
+        {
+            "Compuesto": "Sn(ClO4)2",
+            "Nombre": "perclorato de estaño (II)"
+        },
+        {
+            "Compuesto": "Sn(NO3)2",
+            "Nombre": "nitrato de estaño (II)"
+        },
+        {
+            "Compuesto": "Sn(NO2)2",
+            "Nombre": "nitrito de estaño (II)"
+        },
+        {
+            "Compuesto": "SnCO3",
+            "Nombre": "carbonato de estaño (II)"
+        },
+        {
+            "Compuesto": "Sn(HCO3)2",
+            "Nombre": "bicarbonato de estaño (II)"
+        },
+        {
+            "Compuesto": "SnSO3",
+            "Nombre": "sulfito de estaño (II)"
+        },
+        {
+            "Compuesto": "SnSO4",
+            "Nombre": "sulfato de estaño (II)"
+        },
+        {
+            "Compuesto": "Sn3(PO3)2",
+            "Nombre": "fosfito de estaño (II)"
+        },
+        {
+            "Compuesto": "Sn3(PO4)2",
+            "Nombre": "fosfato de estaño (II)"
+        },
+        {
+            "Compuesto": "SnCrO4",
+            "Nombre": "cromato de estaño (II)"
+        },
+        {
+            "Compuesto": "SnCr2O7",
+            "Nombre": "percromato de estaño (II)"
+        },
+        {
+            "Compuesto": "Sn(MnO4)2",
+            "Nombre": "permanganato de estaño (II)"
+        },
+        {
+            "Compuesto": "Pb3N2",
+            "Nombre": "nitruro de plomo (II)"
+        },
+        {
+            "Compuesto": "Pb3P2",
+            "Nombre": "fosfuro de plomo (II)"
+        },
+        {
+            "Compuesto": "PbO",
+            "Nombre": "óxido de plomo (II)"
+        },
+        {
+            "Compuesto": "PbS",
+            "Nombre": "sulfuro de plomo (II)"
+        },
+        {
+            "Compuesto": "PbF2",
+            "Nombre": "fluoruro de plomo (II)"
+        },
+        {
+            "Compuesto": "PbCl2",
+            "Nombre": "cloruro de plomo (II)"
+        },
+        {
+            "Compuesto": "PbBr2",
+            "Nombre": "bromuro de plomo (II)"
+        },
+        {
+            "Compuesto": "PbI2",
+            "Nombre": "ioduro de plomo (II)"
+        },
+        {
+            "Compuesto": "Pb(OH)2",
+            "Nombre": "hidróxido de plomo (II)"
+        },
+        {
+            "Compuesto": "Pb(ClO)2",
+            "Nombre": "hipoclorito de plomo (II)"
+        },
+        {
+            "Compuesto": "Pb(ClO2)2",
+            "Nombre": "clorito de plomo (II)"
+        },
+        {
+            "Compuesto": "Pb(ClO3)2",
+            "Nombre": "clorato de plomo (II)"
+        },
+        {
+            "Compuesto": "Pb(ClO4)2",
+            "Nombre": "perclorato de plomo (II)"
+        },
+        {
+            "Compuesto": "Pb(NO3)2",
+            "Nombre": "nitrato de plomo (II)"
+        },
+        {
+            "Compuesto": "Pb(NO2)2",
+            "Nombre": "nitrito de plomo (II)"
+        },
+        {
+            "Compuesto": "PbCO3",
+            "Nombre": "carbonato de plomo (II)"
+        },
+        {
+            "Compuesto": "Pb(HCO3)2",
+            "Nombre": "bicarbonato de plomo (II)"
+        },
+        {
+            "Compuesto": "PbSO3",
+            "Nombre": "sulfito de plomo (II)"
+        },
+        {
+            "Compuesto": "PbSO4",
+            "Nombre": "sulfato de plomo (II)"
+        },
+        {
+            "Compuesto": "Pb3(PO3)2",
+            "Nombre": "fosfito de plomo (II)"
+        },
+        {
+            "Compuesto": "Pb3(PO4)2",
+            "Nombre": "fosfato de plomo (II)"
+        },
+        {
+            "Compuesto": "PbCrO4",
+            "Nombre": "cromato de plomo (II)"
+        },
+        {
+            "Compuesto": "PbCr2O7",
+            "Nombre": "percromato de plomo (II)"
+        },
+        {
+            "Compuesto": "Pb(MnO4)2",
+            "Nombre": "permanganato de plomo (II)"
+        },
+        {
+            "Compuesto": "Cd3N2",
+            "Nombre": "nitruro de cadmio"
+        },
+        {
+            "Compuesto": "Cd3P2",
+            "Nombre": "fosfuro de cadmio"
+        },
+        {
+            "Compuesto": "CdO",
+            "Nombre": "óxido de cadmio"
+        },
+        {
+            "Compuesto": "CdS",
+            "Nombre": "sulfuro de cadmio"
+        },
+        {
+            "Compuesto": "CdF2",
+            "Nombre": "fluoruro de cadmio"
+        },
+        {
+            "Compuesto": "CdCl2",
+            "Nombre": "cloruro de cadmio"
+        },
+        {
+            "Compuesto": "CdBr2",
+            "Nombre": "bromuro de cadmio"
+        },
+        {
+            "Compuesto": "CdI2",
+            "Nombre": "ioduro de cadmio"
+        },
+        {
+            "Compuesto": "Cd(OH)2",
+            "Nombre": "hidróxido de cadmio"
+        },
+        {
+            "Compuesto": "Cd(ClO)2",
+            "Nombre": "hipoclorito de cadmio"
+        },
+        {
+            "Compuesto": "Cd(ClO2)2",
+            "Nombre": "clorito de cadmio"
+        },
+        {
+            "Compuesto": "Cd(ClO3)2",
+            "Nombre": "clorato de cadmio"
+        },
+        {
+            "Compuesto": "Cd(ClO4)2",
+            "Nombre": "perclorato de cadmio"
+        },
+        {
+            "Compuesto": "Cd(NO3)2",
+            "Nombre": "nitrato de cadmio"
+        },
+        {
+            "Compuesto": "Cd(NO2)2",
+            "Nombre": "nitrito de cadmio"
+        },
+        {
+            "Compuesto": "CdCO3",
+            "Nombre": "carbonato de cadmio"
+        },
+        {
+            "Compuesto": "Cd(HCO3)2",
+            "Nombre": "bicarbonato de cadmio"
+        },
+        {
+            "Compuesto": "CdSO3",
+            "Nombre": "sulfito de cadmio"
+        },
+        {
+            "Compuesto": "CdSO4",
+            "Nombre": "sulfato de cadmio"
+        },
+        {
+            "Compuesto": "Cd3(PO3)2",
+            "Nombre": "fosfito de cadmio"
+        },
+        {
+            "Compuesto": "Cd3(PO4)2",
+            "Nombre": "fosfato de cadmio"
+        },
+        {
+            "Compuesto": "CdCrO4",
+            "Nombre": "cromato de cadmio"
+        },
+        {
+            "Compuesto": "CdCr2O7",
+            "Nombre": "percromato de cadmio"
+        },
+        {
+            "Compuesto": "Cd(MnO4)2",
+            "Nombre": "permanganato de cadmio"
+        },
+        {
+            "Compuesto": "Cr3N2",
+            "Nombre": "nitruro de cromo (II)"
+        },
+        {
+            "Compuesto": "Cr3P2",
+            "Nombre": "fosfuro de cromo (II)"
+        },
+        {
+            "Compuesto": "CrO",
+            "Nombre": "óxido de cromo (II)"
+        },
+        {
+            "Compuesto": "CrS",
+            "Nombre": "sulfuro de cromo (II)"
+        },
+        {
+            "Compuesto": "CrF2",
+            "Nombre": "fluoruro de cromo (II)"
+        },
+        {
+            "Compuesto": "CrCl2",
+            "Nombre": "cloruro de cromo (II)"
+        },
+        {
+            "Compuesto": "CrBr2",
+            "Nombre": "bromuro de cromo (II)"
+        },
+        {
+            "Compuesto": "CrI2",
+            "Nombre": "ioduro de cromo (II)"
+        },
+        {
+            "Compuesto": "Cr(OH)2",
+            "Nombre": "hidróxido de cromo (II)"
+        },
+        {
+            "Compuesto": "Cr(ClO)2",
+            "Nombre": "hipoclorito de cromo (II)"
+        },
+        {
+            "Compuesto": "Cr(ClO2)2",
+            "Nombre": "clorito de cromo (II)"
+        },
+        {
+            "Compuesto": "Cr(ClO3)2",
+            "Nombre": "clorato de cromo (II)"
+        },
+        {
+            "Compuesto": "Cr(ClO4)2",
+            "Nombre": "perclorato de cromo (II)"
+        },
+        {
+            "Compuesto": "Cr(NO3)2",
+            "Nombre": "nitrato de cromo (II)"
+        },
+        {
+            "Compuesto": "Cr(NO2)2",
+            "Nombre": "nitrito de cromo (II)"
+        },
+        {
+            "Compuesto": "CrCO3",
+            "Nombre": "carbonato de cromo (II)"
+        },
+        {
+            "Compuesto": "Cr(HCO3)2",
+            "Nombre": "bicarbonato de cromo (II)"
+        },
+        {
+            "Compuesto": "CrSO3",
+            "Nombre": "sulfito de cromo (II)"
+        },
+        {
+            "Compuesto": "CrSO4",
+            "Nombre": "sulfato de cromo (II)"
+        },
+        {
+            "Compuesto": "Cr3(PO3)2",
+            "Nombre": "fosfito de cromo (II)"
+        },
+        {
+            "Compuesto": "Cr3(PO4)2",
+            "Nombre": "fosfato de cromo (II)"
+        },
+        {
+            "Compuesto": "CrCrO4",
+            "Nombre": "cromato de cromo (II)"
+        },
+        {
+            "Compuesto": "CrCr2O7",
+            "Nombre": "percromato de cromo (II)"
+        },
+        {
+            "Compuesto": "Cr(MnO4)2",
+            "Nombre": "permanganato de cromo (II)"
+        },
+        {
+            "Compuesto": "Cu3N2",
+            "Nombre": "nitruro de cobre (II)"
+        },
+        {
+            "Compuesto": "Cu3P2",
+            "Nombre": "fosfuro de cobre (II)"
+        },
+        {
+            "Compuesto": "CuO",
+            "Nombre": "óxido de cobre (II)"
+        },
+        {
+            "Compuesto": "CuS",
+            "Nombre": "sulfuro de cobre (II)"
+        },
+        {
+            "Compuesto": "CuF2",
+            "Nombre": "fluoruro de cobre (II)"
+        },
+        {
+            "Compuesto": "CuCl2",
+            "Nombre": "cloruro de cobre (II)"
+        },
+        {
+            "Compuesto": "CuBr2",
+            "Nombre": "bromuro de cobre (II)"
+        },
+        {
+            "Compuesto": "CuI2",
+            "Nombre": "ioduro de cobre (II)"
+        },
+        {
+            "Compuesto": "Cu(OH)2",
+            "Nombre": "hidróxido de cobre (II)"
+        },
+        {
+            "Compuesto": "Cu(ClO)2",
+            "Nombre": "hipoclorito de cobre (II)"
+        },
+        {
+            "Compuesto": "Cu(ClO2)2",
+            "Nombre": "clorito de cobre (II)"
+        },
+        {
+            "Compuesto": "Cu(ClO3)2",
+            "Nombre": "clorato de cobre (II)"
+        },
+        {
+            "Compuesto": "Cu(ClO4)2",
+            "Nombre": "perclorato de cobre (II)"
+        },
+        {
+            "Compuesto": "Cu(NO3)2",
+            "Nombre": "nitrato de cobre (II)"
+        },
+        {
+            "Compuesto": "Cu(NO2)2",
+            "Nombre": "nitrito de cobre (II)"
+        },
+        {
+            "Compuesto": "CuCO3",
+            "Nombre": "carbonato de cobre (II)"
+        },
+        {
+            "Compuesto": "Cu(HCO3)2",
+            "Nombre": "bicarbonato de cobre (II)"
+        },
+        {
+            "Compuesto": "CuSO3",
+            "Nombre": "sulfito de cobre (II)"
+        },
+        {
+            "Compuesto": "CuSO4",
+            "Nombre": "sulfato de cobre (II)"
+        },
+        {
+            "Compuesto": "Cu3(PO3)2",
+            "Nombre": "fosfito de cobre (II)"
+        },
+        {
+            "Compuesto": "Cu3(PO4)2",
+            "Nombre": "fosfato de cobre (II)"
+        },
+        {
+            "Compuesto": "CuCrO4",
+            "Nombre": "cromato de cobre (II)"
+        },
+        {
+            "Compuesto": "CuCr2O7",
+            "Nombre": "percromato de cobre (II)"
+        },
+        {
+            "Compuesto": "Cu(MnO4)2",
+            "Nombre": "permanganato de cobre (II)"
+        },
+        {
+            "Compuesto": "Fe3N2",
+            "Nombre": "nitruro de fierro (II)"
+        },
+        {
+            "Compuesto": "Fe3P2",
+            "Nombre": "fosfuro de fierro (II)"
+        },
+        {
+            "Compuesto": "FeO",
+            "Nombre": "óxido de fierro (II)"
+        },
+        {
+            "Compuesto": "FeS",
+            "Nombre": "sulfuro de fierro (II)"
+        },
+        {
+            "Compuesto": "FeF2",
+            "Nombre": "fluoruro de fierro (II)"
+        },
+        {
+            "Compuesto": "FeCl2",
+            "Nombre": "cloruro de fierro (II)"
+        },
+        {
+            "Compuesto": "FeBr2",
+            "Nombre": "bromuro de fierro (II)"
+        },
+        {
+            "Compuesto": "FeI2",
+            "Nombre": "ioduro de fierro (II)"
+        },
+        {
+            "Compuesto": "Fe(OH)2",
+            "Nombre": "hidróxido de fierro (II)"
+        },
+        {
+            "Compuesto": "Fe(ClO)2",
+            "Nombre": "hipoclorito de fierro (II)"
+        },
+        {
+            "Compuesto": "Fe(ClO2)2",
+            "Nombre": "clorito de fierro (II)"
+        },
+        {
+            "Compuesto": "Fe(ClO3)2",
+            "Nombre": "clorato de fierro (II)"
+        },
+        {
+            "Compuesto": "Fe(ClO4)2",
+            "Nombre": "perclorato de fierro (II)"
+        },
+        {
+            "Compuesto": "Fe(NO3)2",
+            "Nombre": "nitrato de fierro (II)"
+        },
+        {
+            "Compuesto": "Fe(NO2)2",
+            "Nombre": "nitrito de fierro (II)"
+        },
+        {
+            "Compuesto": "FeCO3",
+            "Nombre": "carbonato de fierro (II)"
+        },
+        {
+            "Compuesto": "Fe(HCO3)2",
+            "Nombre": "bicarbonato de fierro (II)"
+        },
+        {
+            "Compuesto": "FeSO3",
+            "Nombre": "sulfito de fierro (II)"
+        },
+        {
+            "Compuesto": "FeSO4",
+            "Nombre": "sulfato de fierro (II)"
+        },
+        {
+            "Compuesto": "Fe3(PO3)2",
+            "Nombre": "fosfito de fierro (II)"
+        },
+        {
+            "Compuesto": "Fe3(PO4)2",
+            "Nombre": "fosfato de fierro (II)"
+        },
+        {
+            "Compuesto": "FeCrO4",
+            "Nombre": "cromato de fierro (II)"
+        },
+        {
+            "Compuesto": "FeCr2O7",
+            "Nombre": "percromato de fierro (II)"
+        },
+        {
+            "Compuesto": "Fe(MnO4)2",
+            "Nombre": "permanganato de fierro (II)"
+        },
+        {
+            "Compuesto": "Mn3N2",
+            "Nombre": "nitruro de manganeso (II)"
+        },
+        {
+            "Compuesto": "Mn3P2",
+            "Nombre": "fosfuro de manganeso (II)"
+        },
+        {
+            "Compuesto": "MnO",
+            "Nombre": "óxido de manganeso (II)"
+        },
+        {
+            "Compuesto": "MnS",
+            "Nombre": "sulfuro de manganeso (II)"
+        },
+        {
+            "Compuesto": "MnF2",
+            "Nombre": "fluoruro de manganeso (II)"
+        },
+        {
+            "Compuesto": "MnCl2",
+            "Nombre": "cloruro de manganeso (II)"
+        },
+        {
+            "Compuesto": "MnBr2",
+            "Nombre": "bromuro de manganeso (II)"
+        },
+        {
+            "Compuesto": "MnI2",
+            "Nombre": "ioduro de manganeso (II)"
+        },
+        {
+            "Compuesto": "Mn(OH)2",
+            "Nombre": "hidróxido de manganeso (II)"
+        },
+        {
+            "Compuesto": "Mn(ClO)2",
+            "Nombre": "hipoclorito de manganeso (II)"
+        },
+        {
+            "Compuesto": "Mn(ClO2)2",
+            "Nombre": "clorito de manganeso (II)"
+        },
+        {
+            "Compuesto": "Mn(ClO3)2",
+            "Nombre": "clorato de manganeso (II)"
+        },
+        {
+            "Compuesto": "Mn(ClO4)2",
+            "Nombre": "perclorato de manganeso (II)"
+        },
+        {
+            "Compuesto": "Mn(NO3)2",
+            "Nombre": "nitrato de manganeso (II)"
+        },
+        {
+            "Compuesto": "Mn(NO2)2",
+            "Nombre": "nitrito de manganeso (II)"
+        },
+        {
+            "Compuesto": "MnCO3",
+            "Nombre": "carbonato de manganeso (II)"
+        },
+        {
+            "Compuesto": "Mn(HCO3)2",
+            "Nombre": "bicarbonato de manganeso (II)"
+        },
+        {
+            "Compuesto": "MnSO3",
+            "Nombre": "sulfito de manganeso (II)"
+        },
+        {
+            "Compuesto": "MnSO4",
+            "Nombre": "sulfato de manganeso (II)"
+        },
+        {
+            "Compuesto": "Mn3(PO3)2",
+            "Nombre": "fosfito de manganeso (II)"
+        },
+        {
+            "Compuesto": "Mn3(PO4)2",
+            "Nombre": "fosfato de manganeso (II)"
+        },
+        {
+            "Compuesto": "MnCrO4",
+            "Nombre": "cromato de manganeso (II)"
+        },
+        {
+            "Compuesto": "MnCr2O7",
+            "Nombre": "percromato de manganeso (II)"
+        },
+        {
+            "Compuesto": "Mn(MnO4)2",
+            "Nombre": "permanganato de manganeso (II)"
+        },
+        {
+            "Compuesto": "Ni3N2",
+            "Nombre": "nitruro de níquel (II)"
+        },
+        {
+            "Compuesto": "Ni3P2",
+            "Nombre": "fosfuro de níquel (II)"
+        },
+        {
+            "Compuesto": "NiO",
+            "Nombre": "óxido de níquel (II)"
+        },
+        {
+            "Compuesto": "NiS",
+            "Nombre": "sulfuro de níquel (II)"
+        },
+        {
+            "Compuesto": "NiF2",
+            "Nombre": "fluoruro de níquel (II)"
+        },
+        {
+            "Compuesto": "NiCl2",
+            "Nombre": "cloruro de níquel (II)"
+        },
+        {
+            "Compuesto": "NiBr2",
+            "Nombre": "bromuro de níquel (II)"
+        },
+        {
+            "Compuesto": "NiI2",
+            "Nombre": "ioduro de níquel (II)"
+        },
+        {
+            "Compuesto": "Ni(OH)2",
+            "Nombre": "hidróxido de níquel (II)"
+        },
+        {
+            "Compuesto": "Ni(ClO)2",
+            "Nombre": "hipoclorito de níquel (II)"
+        },
+        {
+            "Compuesto": "Ni(ClO2)2",
+            "Nombre": "clorito de níquel (II)"
+        },
+        {
+            "Compuesto": "Ni(ClO3)2",
+            "Nombre": "clorato de níquel (II)"
+        },
+        {
+            "Compuesto": "Ni(ClO4)2",
+            "Nombre": "perclorato de níquel (II)"
+        },
+        {
+            "Compuesto": "Ni(NO3)2",
+            "Nombre": "nitrato de níquel (II)"
+        },
+        {
+            "Compuesto": "Ni(NO2)2",
+            "Nombre": "nitrito de níquel (II)"
+        },
+        {
+            "Compuesto": "NiCO3",
+            "Nombre": "carbonato de níquel (II)"
+        },
+        {
+            "Compuesto": "Ni(HCO3)2",
+            "Nombre": "bicarbonato de níquel (II)"
+        },
+        {
+            "Compuesto": "NiSO3",
+            "Nombre": "sulfito de níquel (II)"
+        },
+        {
+            "Compuesto": "NiSO4",
+            "Nombre": "sulfato de níquel (II)"
+        },
+        {
+            "Compuesto": "Ni3(PO3)2",
+            "Nombre": "fosfito de níquel (II)"
+        },
+        {
+            "Compuesto": "Ni3(PO4)2",
+            "Nombre": "fosfato de níquel (II)"
+        },
+        {
+            "Compuesto": "NiCrO4",
+            "Nombre": "cromato de níquel (II)"
+        },
+        {
+            "Compuesto": "NiCr2O7",
+            "Nombre": "percromato de níquel (II)"
+        },
+        {
+            "Compuesto": "Ni(MnO4)2",
+            "Nombre": "permanganato de níquel (II)"
+        },
+        {
+            "Compuesto": "Zn3N2",
+            "Nombre": "nitruro de zinc"
+        },
+        {
+            "Compuesto": "Zn3P2",
+            "Nombre": "fosfuro de zinc"
+        },
+        {
+            "Compuesto": "ZnO",
+            "Nombre": "óxido de zinc"
+        },
+        {
+            "Compuesto": "ZnS",
+            "Nombre": "sulfuro de zinc"
+        },
+        {
+            "Compuesto": "ZnF2",
+            "Nombre": "fluoruro de zinc"
+        },
+        {
+            "Compuesto": "ZnCl2",
+            "Nombre": "cloruro de zinc"
+        },
+        {
+            "Compuesto": "ZnBr2",
+            "Nombre": "bromuro de zinc"
+        },
+        {
+            "Compuesto": "ZnI2",
+            "Nombre": "ioduro de zinc"
+        },
+        {
+            "Compuesto": "Zn(OH)2",
+            "Nombre": "hidróxido de zinc"
+        },
+        {
+            "Compuesto": "Zn(ClO)2",
+            "Nombre": "hipoclorito de zinc"
+        },
+        {
+            "Compuesto": "Zn(ClO2)2",
+            "Nombre": "clorito de zinc"
+        },
+        {
+            "Compuesto": "Zn(ClO3)2",
+            "Nombre": "clorato de zinc"
+        },
+        {
+            "Compuesto": "Zn(ClO4)2",
+            "Nombre": "perclorato de zinc"
+        },
+        {
+            "Compuesto": "Zn(NO3)2",
+            "Nombre": "nitrato de zinc"
+        },
+        {
+            "Compuesto": "Zn(NO2)2",
+            "Nombre": "nitrito de zinc"
+        },
+        {
+            "Compuesto": "ZnCO3",
+            "Nombre": "carbonato de zinc"
+        },
+        {
+            "Compuesto": "Zn(HCO3)2",
+            "Nombre": "bicarbonato de zinc"
+        },
+        {
+            "Compuesto": "ZnSO3",
+            "Nombre": "sulfito de zinc"
+        },
+        {
+            "Compuesto": "ZnSO4",
+            "Nombre": "sulfato de zinc"
+        },
+        {
+            "Compuesto": "Zn3(PO3)2",
+            "Nombre": "fosfito de zinc"
+        },
+        {
+            "Compuesto": "Zn3(PO4)2",
+            "Nombre": "fosfato de zinc"
+        },
+        {
+            "Compuesto": "ZnCrO4",
+            "Nombre": "cromato de zinc"
+        },
+        {
+            "Compuesto": "ZnCr2O7",
+            "Nombre": "percromato de zinc"
+        },
+        {
+            "Compuesto": "Zn(MnO4)2",
+            "Nombre": "permanganato de zinc"
+        },
+        {
+            "Compuesto": "Sn3N4",
+            "Nombre": "nitruro de estaño (IV)"
+        },
+        {
+            "Compuesto": "Sn3P4",
+            "Nombre": "fosfuro de estaño (IV)"
+        },
+        {
+            "Compuesto": "SnO2",
+            "Nombre": "óxido de estaño (IV)"
+        },
+        {
+            "Compuesto": "SnS2",
+            "Nombre": "sulfuro de estaño (IV)"
+        },
+        {
+            "Compuesto": "SnF4",
+            "Nombre": "fluoruro de estaño (IV)"
+        },
+        {
+            "Compuesto": "SnCl4",
+            "Nombre": "cloruro de estaño (IV)"
+        },
+        {
+            "Compuesto": "SnBr4",
+            "Nombre": "bromuro de estaño (IV)"
+        },
+        {
+            "Compuesto": "SnI4",
+            "Nombre": "ioduro de estaño (IV)"
+        },
+        {
+            "Compuesto": "Sn(OH)4",
+            "Nombre": "hidróxido de estaño (IV)"
+        },
+        {
+            "Compuesto": "Sn(ClO)4",
+            "Nombre": "hipoclorito de estaño (IV)"
+        },
+        {
+            "Compuesto": "Sn(ClO2)4",
+            "Nombre": "clorito de estaño (IV)"
+        },
+        {
+            "Compuesto": "Sn(ClO3)4",
+            "Nombre": "clorato de estaño (IV)"
+        },
+        {
+            "Compuesto": "Sn(ClO4)4",
+            "Nombre": "perclorato de estaño (IV)"
+        },
+        {
+            "Compuesto": "Sn(NO3)4",
+            "Nombre": "nitrato de estaño (IV)"
+        },
+        {
+            "Compuesto": "Sn(NO2)4",
+            "Nombre": "nitrito de estaño (IV)"
+        },
+        {
+            "Compuesto": "Sn(CO3)2",
+            "Nombre": "carbonato de estaño (IV)"
+        },
+        {
+            "Compuesto": "Sn(HCO3)4",
+            "Nombre": "bicarbonato de estaño (IV)"
+        },
+        {
+            "Compuesto": "Sn(SO3)2",
+            "Nombre": "sulfito de estaño (IV)"
+        },
+        {
+            "Compuesto": "Sn(SO4)2",
+            "Nombre": "sulfato de estaño (IV)"
+        },
+        {
+            "Compuesto": "Sn3(PO3)4",
+            "Nombre": "fosfito de estaño (IV)"
+        },
+        {
+            "Compuesto": "Sn3(PO4)4",
+            "Nombre": "fosfato de estaño (IV)"
+        },
+        {
+            "Compuesto": "Sn(CrO4)2",
+            "Nombre": "cromato de estaño (IV)"
+        },
+        {
+            "Compuesto": "Sn(Cr2O7)2",
+            "Nombre": "percromato de estaño (IV)"
+        },
+        {
+            "Compuesto": "Sn(MnO4)4",
+            "Nombre": "permanganato de estaño (IV)"
+        },
+        {
+            "Compuesto": "Pb3N4",
+            "Nombre": "nitruro de plomo (IV)"
+        },
+        {
+            "Compuesto": "Pb3P4",
+            "Nombre": "fosfuro de plomo (IV)"
+        },
+        {
+            "Compuesto": "PbO2",
+            "Nombre": "óxido de plomo (IV)"
+        },
+        {
+            "Compuesto": "PbS2",
+            "Nombre": "sulfuro de plomo (IV)"
+        },
+        {
+            "Compuesto": "PbF4",
+            "Nombre": "fluoruro de plomo (IV)"
+        },
+        {
+            "Compuesto": "PbCl4",
+            "Nombre": "cloruro de plomo (IV)"
+        },
+        {
+            "Compuesto": "PbBr4",
+            "Nombre": "bromuro de plomo (IV)"
+        },
+        {
+            "Compuesto": "PbI4",
+            "Nombre": "ioduro de plomo (IV)"
+        },
+        {
+            "Compuesto": "Pb(OH)4",
+            "Nombre": "hidróxido de plomo (IV)"
+        },
+        {
+            "Compuesto": "Pb(ClO)4",
+            "Nombre": "hipoclorito de plomo (IV)"
+        },
+        {
+            "Compuesto": "Pb(ClO2)4",
+            "Nombre": "clorito de plomo (IV)"
+        },
+        {
+            "Compuesto": "Pb(ClO3)4",
+            "Nombre": "clorato de plomo (IV)"
+        },
+        {
+            "Compuesto": "Pb(ClO4)4",
+            "Nombre": "perclorato de plomo (IV)"
+        },
+        {
+            "Compuesto": "Pb(NO3)4",
+            "Nombre": "nitrato de plomo (IV)"
+        },
+        {
+            "Compuesto": "Pb(NO2)4",
+            "Nombre": "nitrito de plomo (IV)"
+        },
+        {
+            "Compuesto": "Pb(CO3)2",
+            "Nombre": "carbonato de plomo (IV)"
+        },
+        {
+            "Compuesto": "Pb(HCO3)4",
+            "Nombre": "bicarbonato de plomo (IV)"
+        },
+        {
+            "Compuesto": "Pb(SO3)2",
+            "Nombre": "sulfito de plomo (IV)"
+        },
+        {
+            "Compuesto": "Pb(SO4)2",
+            "Nombre": "sulfato de plomo (IV)"
+        },
+        {
+            "Compuesto": "Pb3(PO3)4",
+            "Nombre": "fosfito de plomo (IV)"
+        },
+        {
+            "Compuesto": "Pb3(PO4)4",
+            "Nombre": "fosfato de plomo (IV)"
+        },
+        {
+            "Compuesto": "Pb(CrO4)2",
+            "Nombre": "cromato de plomo (IV)"
+        },
+        {
+            "Compuesto": "Pb(Cr2O7)2",
+            "Nombre": "percromato de plomo (IV)"
+        },
+        {
+            "Compuesto": "Pb(MnO4)4",
+            "Nombre": "permanganato de plomo (IV)"
         }
     ],
-    "Acidos":[
+    "Ácidos": [
         {
-        "Nombre": "Ácido acético",
-        "Fórmula": "HC2H3O2"
+            "Compuesto": "H3P",
+            "Nombre": "ácido fosfhídrico"
         },
         {
-        "Nombre": "Ácido carbónico",
-        "Fórmula": "H2CO3"
+            "Compuesto": "H2S",
+            "Nombre": "ácido sulfhídrico"
         },
         {
-        "Nombre": "Ácido clorhídrico",
-        "Fórmula": "HCI"
+            "Compuesto": "HF",
+            "Nombre": "ácido fluorhídrico"
         },
         {
-        "Nombre": "Ácido fluorhídrico",
-        "Fórmula": "HF"
+            "Compuesto": "HCl",
+            "Nombre": "ácido clorhídrico"
         },
         {
-        "Nombre": "Ácido nítrico",
-        "Fórmula": "HNO3"
+            "Compuesto": "HBr",
+            "Nombre": "ácido bromhídrico"
         },
         {
-        "Nombre": "Ácido oxálico",
-        "Fórmula": "H2C2O4"
+            "Compuesto": "HI",
+            "Nombre": "ácido yodhídrico"
         },
         {
-        "Nombre": "Ácido fosfórico",
-        "Fórmula": "H3PO4"
+            "Compuesto": "HClO",
+            "Nombre": "ácido hipocloroso"
         },
         {
-        "Nombre": "Ácido sulfúrico",
-        "Fórmula": "H2SO4"
+            "Compuesto": "HClO2",
+            "Nombre": "ácido cloroso"
         },
         {
-        "Nombre": "Ácido clórico",
-        "Fórmula": "HCIO3"
+            "Compuesto": "HClO3",
+            "Nombre": "ácido clórico"
         },
         {
-        "Nombre": "Ácido bromhídrico",
-        "Fórmula": "HBr"
+            "Compuesto": "HClO4",
+            "Nombre": "ácido perclórico"
         },
         {
-        "Nombre": "Ácido yodhídrico",
-        "Fórmula": "HI"
+            "Compuesto": "HNO3",
+            "Nombre": "ácido nítrico"
         },
         {
-        "Nombre": "Ácido perclórico",
-        "Fórmula": "HCIO4"
+            "Compuesto": "HNO2",
+            "Nombre": "ácido nitroso"
         },
         {
-        "Nombre": "Ácido sulfuroso",
-        "Fórmula": "H2SO3"
+            "Compuesto": "H2CO3",
+            "Nombre": "ácido carbónico"
         },
         {
-        "Nombre": "Ácido nitroso",
-        "Fórmula": "HNO2"
+            "Compuesto": "H2SO3",
+            "Nombre": "ácido sulfuroso"
         },
         {
-        "Nombre": "Ácido crómico",
-        "Fórmula": "H2CrO4"
+            "Compuesto": "H2SO4",
+            "Nombre": "ácido sulfúrico"
         },
         {
-        "Nombre": "Ácido fosforoso",
-        "Fórmula": "H3PO3"
+            "Compuesto": "H3PO3",
+            "Nombre": "ácido fosforoso"
+        },
+        {
+            "Compuesto": "H3PO4",
+            "Nombre": "ácido fosfórico"
+        },
+        {
+            "Compuesto": "H2CrO4",
+            "Nombre": "ácido crómico"
+        },
+        {
+            "Compuesto": "H2Cr2O7",
+            "Nombre": "ácido percrómico"
+        },
+        {
+            "Compuesto": "HMnO4",
+            "Nombre": "ácido permangánico"
         }
     ],
-    "Compuestos Ionicos":[
+    "Moleculares": [
         {
-        "Nombre": "bicarbonato de magnesio",
-        "Fórmula": "Mg(HCO3)2"
+            "Compuesto": "CO",
+            "Nombre": "monóxido de carbono"
         },
         {
-        "Nombre": "sulfito de manganeso (II)",
-        "Fórmula": "MnSO3"
+            "Compuesto": "CO2",
+            "Nombre": "dióxido de carbono"
         },
         {
-        "Nombre": "sulfato de manganeso (II)",
-        "Fórmula": "MnSO4"
+            "Compuesto": "SO2",
+            "Nombre": "dióxido de azufre"
         },
         {
-        "Nombre": "fosfito de manganeso (II)",
-        "Fórmula": "Mn3(PO3)2"
+            "Compuesto": "SO3",
+            "Nombre": "trióxido de azufre"
         },
         {
-        "Nombre": "fosfato de manganeso (II)",
-        "Fórmula": "Mn3(PO4)2"
+            "Compuesto": "SF6",
+            "Nombre": "hexafluoruro de azufre"
         },
         {
-        "Nombre": "nitruro de níquel (II)",
-        "Fórmula": "Ni3N2"
+            "Compuesto": "CS2",
+            "Nombre": "disulfuro de carbono"
         },
         {
-        "Nombre": "fosfuro de níquel (II)",
-        "Fórmula": "Ni3P2"
+            "Compuesto": "CCl4",
+            "Nombre": "tetracloruro de carbono"
         },
         {
-        "Nombre": "óxido de níquel (II)",
-        "Fórmula": "NiO"
+            "Compuesto": "NCl3",
+            "Nombre": "tricloruro de nitrógeno"
         },
         {
-        "Nombre": "sulfuro de níquel (II)",
-        "Fórmula": "NiS"
+            "Compuesto": "PBr5",
+            "Nombre": "pentabromuro de fósforo"
         },
         {
-        "Nombre": "fluoruro de níquel (II)",
-        "Fórmula": "NiF2"
+            "Compuesto": "NCl3",
+            "Nombre": "tricloruro de nitrógeno"
         },
         {
-        "Nombre": "nitruro de zinc",
-        "Fórmula": "Zn3N2"
+            "Compuesto": "N2O4",
+            "Nombre": "tetróxido de dinitrógeno"
         },
         {
-        "Nombre": "fosfuro de zinc",
-        "Fórmula": "Zn3P2"
+            "Compuesto": "N2O5",
+            "Nombre": "pentóxido de dinitrógeno"
         },
         {
-        "Nombre": "óxido de zinc",
-        "Fórmula": "ZnO"
+            "Compuesto": "IF7",
+            "Nombre": "heptafluoruro de yodo"
         },
         {
-        "Nombre": "sulfuro de zinc",
-        "Fórmula": "ZnS"
+            "Compuesto": "PF5",
+            "Nombre": "pentafluoruro de fósforo"
         },
         {
-        "Nombre": "percromato de zinc",
-        "Fórmula": "ZnCr2O7"
+            "Compuesto": "BCl3",
+            "Nombre": "tricloruro de boro"
         },
         {
-        "Nombre": "nitruro de estaño (IV)",
-        "Fórmula": "holaaaaa"
+            "Compuesto": "P4O10",
+            "Nombre": "decaóxido de tetrafósforo"
         },
         {
-        "Nombre": "bromuro de estaño (IV)",
-        "Fórmula": "SnBr4"
+            "Compuesto": "NF3",
+            "Nombre": "Trifluoruro de nitrógeno "
         },
         {
-        "Nombre": "ioduro de estaño (IV)",
-        "Fórmula": "SnI4"
+            "Compuesto": "ClI3",
+            "Nombre": "Triyoduro de cloro "
         },
         {
-        "Nombre": "hidróxido de estaño (IV)",
-        "Fórmula": "Sn(OH)4"
+            "Compuesto": "SF6",
+            "Nombre": "Hexafluoruro de azufre"
         },
         {
-        "Nombre": "cloruro de plomo (IV)",
-        "Fórmula": "PbCl4"
+            "Compuesto": "ClBr",
+            "Nombre": "Monobromuro de cloro"
         },
         {
-        "Nombre": "ioduro de plomo (IV)",
-        "Fórmula": "PbI4"
+            "Compuesto": "P4O6",
+            "Nombre": "Hexaóxido de tetrafósforo"
         },
         {
-        "Nombre": "bromuro de plomo (IV)",
-        "Fórmula": "PbBr4"
+            "Compuesto": "PI3",
+            "Nombre": "Triyoduro de fósforo"
         },
         {
-        "Nombre": "hipoclorito de plomo (IV)",
-        "Fórmula": "Pb(ClO)4"
+            "Compuesto": "S2Br2",
+            "Nombre": "Dibromuro de diazufre"
         },
         {
-        "Nombre": "clorito de plomo (IV)",
-        "Fórmula": "Pb(ClO2)4"
+            "Compuesto": "ClI5",
+            "Nombre": "Pentayoduro de cloro"
         },
         {
-        "Nombre": "clorato de plomo (IV)",
-        "Fórmula": "Pb(ClO3)4"
+            "Compuesto": "BrF",
+            "Nombre": "Monofluoruro de bromo"
         },
         {
-        "Nombre": "cloruro de cromo (II)",
-        "Fórmula": "CrCl3"
+            "Compuesto": "Cl2O6",
+            "Nombre": "Hexaóxido de dicloro"
         },
         {
-        "Nombre": "nitrato de cromo (III)",
-        "Fórmula": "Cr(NO3)3"
+            "Compuesto": "NI3",
+            "Nombre": "Triyoduro de nitrógeno"
         },
         {
-        "Nombre": "nitruro de cromo (III)",
-        "Fórmula": "CrN"
+            "Compuesto": "PBr3",
+            "Nombre": "Tribromuro de fósforo"
         },
         {
-        "Nombre": "fosfuro de cromo (III)",
-        "Fórmula": "CrP"
+            "Compuesto": "CO",
+            "Nombre": "Monóxido de carbono"
         },
         {
-        "Nombre": "óxido de cromo (III)",
-        "Fórmula": "Cr2O3"
+            "Compuesto": "S2F4",
+            "Nombre": "Tetrafluoruro de diazufre"
         },
         {
-        "Nombre": "carbonato de cromo (III)",
-        "Fórmula": "Cr2(CO3)3"
+            "Compuesto": "PF5",
+            "Nombre": "Pentafluoruro de fósforo"
         },
         {
-        "Nombre": "fosfuro de fierro (III)",
-        "Fórmula": "FeP"
+            "Compuesto": "SiI4",
+            "Nombre": "Tetrayoduro de silicio"
         },
         {
-        "Nombre": "óxido de fierro (III)",
-        "Fórmula": "Fe2O3"
+            "Compuesto": "N2O5",
+            "Nombre": "Pentóxido de dinitrógeno, "
         },
         {
-        "Nombre": "sulfuro de fierro (III)",
-        "Fórmula": "Fe2S3"
+            "Compuesto": "S3Cl2",
+            "Nombre": "Dicloruro de triazufre"
         },
         {
-        "Nombre": "hidróxido de fierro (III)",
-        "Fórmula": "Fe(OH)3"
+            "Compuesto": "PI5",
+            "Nombre": "Pentayoduro de fósforo"
         },
         {
-        "Nombre": "sulfito de fierro (III)",
-        "Fórmula": "Fe2(SO3)3"
+            "Compuesto": "SiCl4",
+            "Nombre": "Tetracloruro de silicio"
         },
         {
-        "Nombre": "sulfato de fierro (III)",
-        "Fórmula": "Fe2(SO4)3"
+            "Compuesto": "SCl4",
+            "Nombre": "Tetracloruro de azufre"
         },
         {
-        "Nombre": "permanganato de fierro (III)",
-        "Fórmula": "Fe(MnO4)3"
+            "Compuesto": "ClF3",
+            "Nombre": "Trifluoruro de cloro"
         },
         {
-        "Nombre": "bromuro de oro (III)",
-        "Fórmula": "AuBr3"
+            "Compuesto": "Cl2O6",
+            "Nombre": "Hexaóxido de dicloro"
         },
         {
-        "Nombre": "ioduro de oro (III)",
-        "Fórmula": "AuI3"
+            "Compuesto": "NCl3",
+            "Nombre": "Tricloruro de nitrógeno"
         },
         {
-        "Nombre": "hidróxido de oro (III)",
-        "Fórmula": "Au(OH)3"
+            "Compuesto": "P2Cl4",
+            "Nombre": "Tetracloruro de difósforo"
         },
         {
-        "Nombre": "hipoclorito de oro (III)",
-        "Fórmula": "Au(ClO)3"
+            "Compuesto": "P2Br4",
+            "Nombre": "Tetrabromuro de difósforo"
         },
         {
-        "Nombre": "perclorato de oro (III)",
-        "Fórmula": "Au(ClO4)3"
+            "Compuesto": "SF2",
+            "Nombre": "Difluoruro de azufre"
         },
         {
-        "Nombre": "nitruro de cobre (I)",
-        "Fórmula": "Cu3N"
+            "Compuesto": "N2O3",
+            "Nombre": "Trióxido de dinitrógeno"
         },
         {
-        "Nombre": "nitrato de cobre (I)",
-        "Fórmula": "CuNO3"
+            "Compuesto": "Cl2O7",
+            "Nombre": "Heptaóxido de dicloro"
         },
         {
-        "Nombre": "nitrito de cobre (I)",
-        "Fórmula": "CuNO2"
-        },
-        {
-        "Nombre": "carbonato de cobre (I)",
-        "Fórmula": "Cu2CO3"
-        },
-        {
-        "Nombre": "fluoruro de potasio",
-        "Fórmula": "KF"
-        },
-        {
-        "Nombre": "cloruro de potasio",
-        "Fórmula": "KCl"
-        },
-        {
-        "Nombre": "percromato de potasio",
-        "Fórmula": "K2Cr2O7"
-        }
-    ],
-    "Compuestos Moleculares":[
-        {
-        "Nombre": "monóxido de carbono",
-        "Fórmula": "CO"
-        },
-        {
-        "Nombre": "dióxido de carbono",
-        "Fórmula": "CO2"
-        },
-        {
-        "Nombre": "dióxido de azufre",
-        "Fórmula": "SO2"
-        },
-        {
-        "Nombre": "trióxido de azufre",
-        "Fórmula": "SO3"
-        },
-        {
-        "Nombre": "hexafluoruro de azufre",
-        "Fórmula": "SF6"
-        },
-        {
-        "Nombre": "disulfuro de carbono",
-        "Fórmula": "CS2"
-        },
-        {
-        "Nombre": "tetracloruro de carbono",
-        "Fórmula": "CCl4"
-        },
-        {
-        "Nombre": "tricloruro de nitrógeno",
-        "Fórmula": "NCl3"
-        },
-        {
-        "Nombre": "pentabromuro de fósforo",
-        "Fórmula": "PBr5"
-        },
-        {
-        "Nombre": "tricloruro de nitrógeno",
-        "Fórmula": "NCl3"
-        },
-        {
-        "Nombre": "tetróxido de dinitrógeno",
-        "Fórmula": "N2O4"
-        },
-        {
-        "Nombre": "pentóxido de dinitrógeno",
-        "Fórmula": "N2O5"
-        },
-        {
-        "Nombre": "heptafluoruro de yodo",
-        "Fórmula": "IF7"
-        },
-        {
-        "Nombre": "pentafluoruro de fósforo",
-        "Fórmula": "PF5"
-        },
-        {
-        "Nombre": "tricloruro de boro",
-        "Fórmula": "BCl3"
-        },
-        {
-        "Nombre": "decaóxido de tetrafósforo",
-        "Fórmula": "P4O10"
+            "Compuesto": "ClF",
+            "Nombre": "Monofluoruro de cloro"
         }
     ]
-
-
 }
-
-

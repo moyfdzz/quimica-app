@@ -27,11 +27,7 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
         // Do any additional setup after loading the view.
         btEmpezar.layer.cornerRadius = 10
         btEmpezar.clipsToBounds = true
-        if(usuario.tipo == "Ácidos" || usuario.tipo == "Moleculares"){
-            options = Array(1...16)
-        }else {
-            options = Array(1...20)
-        }
+        options = Array(1...20)
         
         numberQuestions = 0
     }
@@ -80,7 +76,7 @@ class SetupViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
         var questionsArray: [Question]! = []
         
         for i in questions {
-            questionsArray.append(Question(question: i["Nombre"] as! String, answer: i["Fórmula"] as! String))
+            questionsArray.append(Question(question: i["Compuesto"] as! String, answer: i["Nombre"] as! String))
         }
         
         return questionsArray
